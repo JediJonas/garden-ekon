@@ -1,0 +1,167 @@
+[
+  {
+    "id": "exempel-granskogsleden",
+    "name": "EXEMPEL: Granskogsleden",
+    "category": [
+      "natur"
+    ],
+    "description": {
+      "sv": "Påhittad exempelplats. En slinga genom granskog med rastplats vid en bäck.",
+      "en": "Made-up example place. A loop trail through spruce forest with a picnic spot by a stream.",
+      "de": "Erfundener Beispielort. Ein Rundweg durch Fichtenwald mit Rastplatz an einem Bach."
+    },
+    "lat": 57.718,
+    "lng": 14.452,
+    "distance": {
+      "sv": "10 min med bil",
+      "en": "10 min by car",
+      "de": "10 Min. mit dem Auto"
+    },
+    "season": {
+      "sv": "hela året",
+      "en": "all year",
+      "de": "ganzjährig"
+    },
+    "link": "",
+    "lastVerified": null,
+    "exempel": true
+  },
+  {
+    "id": "exempel-lillsjobadet",
+    "name": "EXEMPEL: Lillsjöbadet",
+    "category": [
+      "bad",
+      "barnfamiljer"
+    ],
+    "description": {
+      "sv": "Påhittad exempelplats. En liten badplats med sandstrand och grunt vatten.",
+      "en": "Made-up example place. A small swimming spot with a sandy beach and shallow water.",
+      "de": "Erfundener Beispielort. Eine kleine Badestelle mit Sandstrand und flachem Wasser."
+    },
+    "lat": 57.688,
+    "lng": 14.505,
+    "distance": {
+      "sv": "15 min med cykel",
+      "en": "15 min by bike",
+      "de": "15 Min. mit dem Fahrrad"
+    },
+    "season": {
+      "sv": "juni–augusti",
+      "en": "June–August",
+      "de": "Juni–August"
+    },
+    "link": "",
+    "lastVerified": null,
+    "exempel": true
+  },
+  {
+    "id": "exempel-lilla-djurgarden",
+    "name": "EXEMPEL: Lilla djurgården",
+    "category": [
+      "barnfamiljer"
+    ],
+    "description": {
+      "sv": "Påhittad exempelplats. En gård där barn kan klappa får och kaniner.",
+      "en": "Made-up example place. A farm where children can pet sheep and rabbits.",
+      "de": "Erfundener Beispielort. Ein Hof, auf dem Kinder Schafe und Kaninchen streicheln können."
+    },
+    "lat": 57.672,
+    "lng": 14.438,
+    "distance": {
+      "sv": "12 min med bil",
+      "en": "12 min by car",
+      "de": "12 Min. mit dem Auto"
+    },
+    "season": {
+      "sv": "maj–september",
+      "en": "May–September",
+      "de": "Mai–September"
+    },
+    "link": "",
+    "lastVerified": null,
+    "exempel": true
+  },
+  {
+    "id": "exempel-byns-kafe",
+    "name": "EXEMPEL: Byns kafé",
+    "category": [
+      "mat-och-fika"
+    ],
+    "description": {
+      "sv": "Påhittad exempelplats. Ett kafé med hembakat bröd och kanelbullar.",
+      "en": "Made-up example place. A café with home-baked bread and cinnamon buns.",
+      "de": "Erfundener Beispielort. Ein Café mit selbstgebackenem Brot und Zimtschnecken."
+    },
+    "lat": 57.703,
+    "lng": 14.482,
+    "distance": {
+      "sv": "5 min med bil",
+      "en": "5 min by car",
+      "de": "5 Min. mit dem Auto"
+    },
+    "season": {
+      "sv": "hela året",
+      "en": "all year",
+      "de": "ganzjährig"
+    },
+    "link": "",
+    "lastVerified": null,
+    "exempel": true
+  },
+  {
+    "id": "exempel-gamla-kyrkan",
+    "name": "EXEMPEL: Gamla kyrkan",
+    "category": [
+      "kultur"
+    ],
+    "description": {
+      "sv": "Påhittad exempelplats. En gammal kyrka med målningar i taket.",
+      "en": "Made-up example place. An old church with paintings on the ceiling.",
+      "de": "Erfundener Beispielort. Eine alte Kirche mit Deckenmalereien."
+    },
+    "lat": 57.725,
+    "lng": 14.498,
+    "distance": {
+      "sv": "15 min med bil",
+      "en": "15 min by car",
+      "de": "15 Min. mit dem Auto"
+    },
+    "season": {
+      "sv": "juni–augusti",
+      "en": "June–August",
+      "de": "Juni–August"
+    },
+    "link": "",
+    "lastVerified": null,
+    "exempel": true
+  },
+  {
+    "id": "exempel-hantverksmuseet",
+    "name": "EXEMPEL: Hantverksmuseet",
+    "category": [
+      "kultur",
+      "regnvader",
+      "barnfamiljer"
+    ],
+    "description": {
+      "sv": "Påhittad exempelplats. Ett litet museum om gamla hantverk, bra en regnig dag.",
+      "en": "Made-up example place. A small museum about traditional crafts, good on a rainy day.",
+      "de": "Erfundener Beispielort. Ein kleines Museum über altes Handwerk, gut für einen Regentag."
+    },
+    "lat": 57.681,
+    "lng": 14.472,
+    "distance": {
+      "sv": "8 min med bil",
+      "en": "8 min by car",
+      "de": "8 Min. mit dem Auto"
+    },
+    "season": {
+      "sv": "hela året",
+      "en": "all year",
+      "de": "ganzjährig"
+    },
+    "link": "",
+    "lastVerified": null,
+    "exempel": true
+  }
+]
