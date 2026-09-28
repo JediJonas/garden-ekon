@@ -1,24 +1,51 @@
 /* Gården Ekön – gemensam stil. Mobilen först: grundstilen gäller små skärmar,
-   @media-reglerna längst ner anpassar för större skärmar. */
+   @media-reglerna längst ner anpassar för större skärmar och mörkt läge. */
 
 :root {
-  --bakgrund: #f6f2e9;
-  --yta: #fffdf8;
-  --text: #2a2f2a;
-  --text-svag: #5d655d;
-  --skog: #2f5140;
-  --skog-mork: #223b2e;
+  --bakgrund: #f7f6f2;
+  --yta: #ffffff;
+  --yta-tonad: #e9f1ec;
+  --text: #1f2622;
+  --text-svag: #5b655e;
+  --skog: #2f5a45;
+  --skog-mork: #234536;
   --sjo: #3d6b80;
   --boka: #b4532a;
   --boka-mork: #93401e;
-  --kant: #ddd5c4;
+  --kant: #e4e1d8;
   --platshallare: #fff3cf;
   --platshallare-kant: #c9a43a;
-  --radie: 14px;
-  --skugga: 0 1px 3px rgba(40, 45, 40, 0.12);
-  --nav-hojd: 64px;
-  --rubrik-font: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
-  --text-font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --platshallare-text: #5c4708;
+  --radie: 16px;
+  --radie-liten: 10px;
+  --skugga: 0 4px 16px rgba(31, 38, 34, 0.08);
+  --huvud-hojd: 60px;
+  --nav-hojd: 68px;
+  --text-font: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --granrad: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 25' fill='none' stroke='%232f5a45' stroke-width='1.1' stroke-linecap='round' stroke-linejoin='round' opacity='.4'%3E%3Cpath d='M8.0 9.0L5.6 14.7L6.7 14.7L4.3 19.5L5.6 19.5L3.3 24.0L12.7 24.0L10.4 19.5L11.7 19.5L9.3 14.7L10.4 14.7ZM19.0 4.0L15.8 11.6L17.3 11.6L14.0 18.0L15.8 18.0L12.8 24.0L25.2 24.0L22.2 18.0L24.0 18.0L20.7 11.6L22.2 11.6ZM30.0 11.0L27.9 15.9L28.9 15.9L26.8 20.1L27.9 20.1L26.0 24.0L34.0 24.0L32.1 20.1L33.2 20.1L31.1 15.9L32.1 15.9ZM42.0 6.0L39.1 12.8L40.4 12.8L37.5 18.6L39.1 18.6L36.4 24.0L47.6 24.0L44.9 18.6L46.5 18.6L43.6 12.8L44.9 12.8ZM53.0 2.0L49.5 10.4L51.1 10.4L47.5 17.4L49.5 17.4L46.2 24.0L59.8 24.0L56.5 17.4L58.5 17.4L54.9 10.4L56.5 10.4ZM64.0 10.0L61.7 15.3L62.8 15.3L60.5 19.8L61.7 19.8L59.7 24.0L68.3 24.0L66.3 19.8L67.5 19.8L65.2 15.3L66.3 15.3ZM75.0 5.0L71.9 12.2L73.4 12.2L70.3 18.3L71.9 18.3L69.1 24.0L80.9 24.0L78.1 18.3L79.7 18.3L76.6 12.2L78.1 12.2ZM87.0 8.0L84.4 14.1L85.6 14.1L83.0 19.2L84.4 19.2L82.0 24.0L92.0 24.0L89.6 19.2L91.0 19.2L88.4 14.1L89.6 14.1ZM0 24H96'/%3E%3C/svg%3E");
+  color-scheme: light dark;
+}
+
+/* Mörkt läge följer mobilens inställning automatiskt */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bakgrund: #121614;
+    --yta: #1b211e;
+    --yta-tonad: #1f2d26;
+    --text: #e6ebe8;
+    --text-svag: #a2aca6;
+    --skog: #7fbf9c;
+    --skog-mork: #a8d8bd;
+    --sjo: #8cc0d6;
+    --boka: #c9602f;
+    --boka-mork: #b4532a;
+    --kant: #2c3430;
+    --platshallare: #3a3219;
+    --platshallare-kant: #9b8230;
+    --platshallare-text: #f2dfa6;
+    --skugga: 0 4px 16px rgba(0, 0, 0, 0.4);
+    --granrad: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 25' fill='none' stroke='%237fbf9c' stroke-width='1.1' stroke-linecap='round' stroke-linejoin='round' opacity='.4'%3E%3Cpath d='M8.0 9.0L5.6 14.7L6.7 14.7L4.3 19.5L5.6 19.5L3.3 24.0L12.7 24.0L10.4 19.5L11.7 19.5L9.3 14.7L10.4 14.7ZM19.0 4.0L15.8 11.6L17.3 11.6L14.0 18.0L15.8 18.0L12.8 24.0L25.2 24.0L22.2 18.0L24.0 18.0L20.7 11.6L22.2 11.6ZM30.0 11.0L27.9 15.9L28.9 15.9L26.8 20.1L27.9 20.1L26.0 24.0L34.0 24.0L32.1 20.1L33.2 20.1L31.1 15.9L32.1 15.9ZM42.0 6.0L39.1 12.8L40.4 12.8L37.5 18.6L39.1 18.6L36.4 24.0L47.6 24.0L44.9 18.6L46.5 18.6L43.6 12.8L44.9 12.8ZM53.0 2.0L49.5 10.4L51.1 10.4L47.5 17.4L49.5 17.4L46.2 24.0L59.8 24.0L56.5 17.4L58.5 17.4L54.9 10.4L56.5 10.4ZM64.0 10.0L61.7 15.3L62.8 15.3L60.5 19.8L61.7 19.8L59.7 24.0L68.3 24.0L66.3 19.8L67.5 19.8L65.2 15.3L66.3 15.3ZM75.0 5.0L71.9 12.2L73.4 12.2L70.3 18.3L71.9 18.3L69.1 24.0L80.9 24.0L78.1 18.3L79.7 18.3L76.6 12.2L78.1 12.2ZM87.0 8.0L84.4 14.1L85.6 14.1L83.0 19.2L84.4 19.2L82.0 24.0L92.0 24.0L89.6 19.2L91.0 19.2L88.4 14.1L89.6 14.1ZM0 24H96'/%3E%3C/svg%3E");
+  }
 }
 
 * { box-sizing: border-box; }
@@ -27,70 +54,94 @@ html { -webkit-text-size-adjust: 100%; }
 
 body {
   margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   background: var(--bakgrund);
   color: var(--text);
   font-family: var(--text-font);
   font-size: 17px;
-  line-height: 1.55;
+  line-height: 1.6;
   /* plats för bottenmenyn i mobilen */
   padding-bottom: calc(var(--nav-hojd) + env(safe-area-inset-bottom));
 }
 
 h1, h2, h3 {
-  font-family: var(--rubrik-font);
-  font-weight: normal;
+  font-weight: 700;
   line-height: 1.2;
-  color: var(--skog-mork);
+  letter-spacing: -0.015em;
+  color: var(--text);
 }
-h1 { font-size: 2rem; margin: 0.2em 0 0.4em; }
-h2 { font-size: 1.4rem; margin: 1.6em 0 0.5em; }
-h3 { font-size: 1.15rem; margin: 1.2em 0 0.3em; }
+h1 { font-size: clamp(1.9rem, 7vw, 2.8rem); margin: 0.1em 0 0.4em; }
+h2 { font-size: 1.3rem; margin: 1.8em 0 0.5em; }
+h3 { font-size: 1.1rem; margin: 1.2em 0 0.3em; }
 
 a { color: var(--sjo); }
 
 img { max-width: 100%; height: auto; }
 
-/* ---------- Sidhuvud ---------- */
+.ikon {
+  width: 24px;
+  height: 24px;
+  flex: 0 0 auto;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* ---------- Sidhuvud (följer med när man skrollar) ---------- */
 
 .sidhuvud {
+  position: sticky;
+  top: 0;
+  z-index: 1001;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  padding: 10px 16px;
-  background: var(--skog);
-  color: #fff;
+  height: var(--huvud-hojd);
+  padding: 0 16px;
+  background: var(--yta);
+  border-bottom: 1px solid var(--kant);
 }
 
 .logga {
-  color: #fff;
+  color: var(--skog);
   text-decoration: none;
-  font-family: var(--rubrik-font);
-  font-size: 1.25rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
 }
 
 .sprakvaxlare {
   display: flex;
-  gap: 4px;
+  padding: 3px;
+  border-radius: 999px;
+  background: var(--bakgrund);
+  border: 1px solid var(--kant);
 }
 .sprakvaxlare button {
   min-width: 44px;
-  min-height: 44px;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  border-radius: 10px;
+  min-height: 38px;
+  border: 0;
+  border-radius: 999px;
   background: transparent;
-  color: #fff;
+  color: var(--text-svag);
   font: inherit;
-  font-size: 0.9rem;
-  font-weight: 600;
+  font-size: 0.85rem;
+  font-weight: 700;
   cursor: pointer;
 }
 .sprakvaxlare button[aria-pressed="true"] {
-  background: #fff;
-  color: var(--skog-mork);
+  background: var(--yta-tonad);
+  color: var(--skog);
+  box-shadow: 0 1px 4px rgba(31, 38, 34, 0.15);
 }
 
-/* ---------- Meny: botten i mobilen, i sidhuvudet på stor skärm ---------- */
+/* ---------- Meny: flikrad längst ner i mobilen, i sidhuvudet på stor skärm ---------- */
 
 .huvudmeny {
   position: fixed;
@@ -100,61 +151,79 @@ img { max-width: 100%; height: auto; }
   z-index: 1000;
   background: var(--yta);
   border-top: 1px solid var(--kant);
+  box-shadow: 0 -2px 12px rgba(31, 38, 34, 0.06);
   padding-bottom: env(safe-area-inset-bottom);
 }
 .huvudmeny ul {
   display: flex;
   margin: 0;
-  padding: 0;
+  padding: 0 4px;
   list-style: none;
 }
-.huvudmeny li { flex: 1; }
+.huvudmeny li { flex: 1; min-width: 0; }
 .huvudmeny a {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 3px;
   height: var(--nav-hojd);
   padding: 0 2px;
   text-align: center;
-  font-size: 0.8rem;
-  line-height: 1.2;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.15;
   color: var(--text-svag);
   text-decoration: none;
 }
-.huvudmeny a[aria-current="page"] {
-  color: var(--skog);
-  font-weight: 700;
-  box-shadow: inset 0 3px 0 var(--skog);
+.huvudmeny a .ikon {
+  width: 56px;
+  height: 30px;
+  padding: 4px 16px;
+  border-radius: 999px;
+  transition: background 0.15s;
 }
+.huvudmeny a[aria-current="page"] { color: var(--skog); }
+.huvudmeny a[aria-current="page"] .ikon { background: var(--yta-tonad); }
 
 /* ---------- Innehåll ---------- */
 
 main {
+  flex: 1;
+  width: 100%;
   max-width: 760px;
   margin: 0 auto;
-  padding: 16px;
+  padding: 24px 16px 32px;
+  animation: tona-in 0.3s ease;
+}
+
+@keyframes tona-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: none; }
 }
 
 .ingress {
-  font-size: 1.1rem;
+  font-size: 1.12rem;
   color: var(--text-svag);
+  max-width: 60ch;
 }
 
 .kort {
   background: var(--yta);
   border: 1px solid var(--kant);
   border-radius: var(--radie);
-  padding: 16px;
-  margin: 12px 0;
+  padding: 20px;
+  margin: 14px 0;
   box-shadow: var(--skugga);
 }
 
 /* Platshållare: text som Jonas ska byta ut. Syns tydligt med flit. */
 .platshallare {
   background: var(--platshallare);
+  color: var(--platshallare-text);
   border: 1px dashed var(--platshallare-kant);
-  border-radius: 8px;
-  padding: 10px 12px;
+  border-radius: var(--radie-liten);
+  padding: 10px 14px;
   font-style: italic;
 }
 
@@ -166,7 +235,7 @@ main {
   background: var(--platshallare);
   border: 1px dashed var(--platshallare-kant);
   border-radius: var(--radie);
-  color: var(--text-svag);
+  color: var(--platshallare-text);
   font-style: italic;
   text-align: center;
   padding: 12px;
@@ -188,21 +257,24 @@ main {
   border-radius: 12px;
   border: 0;
   background: var(--skog);
-  color: #fff;
+  color: var(--yta);
   font: inherit;
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
 }
 .knapp:hover { background: var(--skog-mork); }
+.knapp:active { transform: scale(0.98); }
 
 .knapp-boka {
   display: flex;
   width: 100%;
-  min-height: 60px;
-  font-size: 1.2rem;
+  min-height: 58px;
+  font-size: 1.15rem;
   background: var(--boka);
-  box-shadow: 0 3px 10px rgba(180, 83, 42, 0.3);
+  color: #fff;
+  box-shadow: 0 6px 18px rgba(180, 83, 42, 0.3);
 }
 .knapp-boka:hover { background: var(--boka-mork); }
 
@@ -211,7 +283,7 @@ main {
   color: var(--skog);
   border: 2px solid var(--skog);
 }
-.knapp-sekundar:hover { background: var(--skog); color: #fff; }
+.knapp-sekundar:hover { background: var(--yta-tonad); }
 
 .liten-text {
   font-size: 0.9rem;
@@ -221,47 +293,100 @@ main {
 /* ---------- Startsidan ---------- */
 
 .hjalte {
-  background: linear-gradient(160deg, var(--skog) 0%, var(--sjo) 100%);
-  color: #fff;
-  border-radius: var(--radie);
-  padding: 28px 20px;
-  margin-bottom: 16px;
+  text-align: center;
+  background: var(--granrad) center bottom 18px / auto 46px repeat-x, var(--yta-tonad);
+  border-radius: 24px;
+  padding: 36px 20px 84px;
+  margin-bottom: 20px;
 }
-.hjalte h1 { color: #fff; }
-.hjalte .ingress { color: rgba(255, 255, 255, 0.9); }
+.hjalte .ingress { margin: 0 auto 24px; }
+.hjalte .liten-text { margin: 12px 0 0; }
 
 .genvagar {
   display: grid;
-  gap: 10px;
-  margin: 16px 0;
+  gap: 12px;
+  margin: 20px 0;
   padding: 0;
   list-style: none;
 }
 .genvagar a {
-  display: block;
-  padding: 16px;
+  position: relative;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 14px;
+  align-items: center;
+  padding: 16px 40px 16px 16px;
   background: var(--yta);
   border: 1px solid var(--kant);
   border-radius: var(--radie);
   box-shadow: var(--skugga);
   color: var(--text);
   text-decoration: none;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.genvagar a::after {
+  content: "›";
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-52%);
+  font-size: 1.6rem;
+  color: var(--text-svag);
+}
+.genvagar a:hover { transform: translateY(-2px); }
+.genvagar .ikon {
+  grid-row: span 2;
+  width: 48px;
+  height: 48px;
+  padding: 12px;
+  border-radius: 14px;
+  background: var(--yta-tonad);
+  color: var(--skog);
 }
 .genvagar strong {
-  display: block;
-  font-family: var(--rubrik-font);
-  font-weight: normal;
-  font-size: 1.15rem;
-  color: var(--skog-mork);
+  font-size: 1.08rem;
+  font-weight: 700;
 }
-.genvagar span { color: var(--text-svag); font-size: 0.95rem; }
+.genvagar span { color: var(--text-svag); font-size: 0.93rem; line-height: 1.4; }
+
+/* ---------- Stugan ---------- */
+
+.faciliteter {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0;
+  display: grid;
+  gap: 8px;
+}
+.faciliteter li {
+  position: relative;
+  padding: 12px 14px 12px 44px;
+  background: var(--yta);
+  border: 1px solid var(--kant);
+  border-radius: var(--radie-liten);
+}
+.faciliteter li::before {
+  content: "✓";
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--yta-tonad);
+  color: var(--skog);
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: center;
+}
 
 /* ---------- Hitta hit ---------- */
 
 .adress {
   font-size: 1.2rem;
   font-weight: 600;
-  margin: 0 0 12px;
+  margin: 0 0 14px;
 }
 
 /* ---------- Info / vanliga frågor ---------- */
@@ -271,14 +396,30 @@ details {
   border: 1px solid var(--kant);
   border-radius: var(--radie);
   margin: 10px 0;
+  box-shadow: var(--skugga);
 }
 summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
   padding: 14px 16px;
-  min-height: 48px;
+  min-height: 52px;
   font-weight: 600;
   cursor: pointer;
+  list-style: none;
 }
-details > :not(summary) { margin: 0 16px 14px; }
+summary::-webkit-details-marker { display: none; }
+summary::after {
+  content: "+";
+  flex: 0 0 auto;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--skog);
+  transition: transform 0.2s;
+}
+details[open] summary::after { transform: rotate(45deg); }
+details > :not(summary) { margin: 0 16px 16px; }
 
 /* ---------- Guiden ---------- */
 
@@ -286,10 +427,8 @@ details > :not(summary) { margin: 0 16px 14px; }
   display: flex;
   gap: 8px;
   overflow-x: auto;
-  padding: 4px 0 10px;
   margin: 0 -16px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 4px 16px 12px;
   scrollbar-width: none;
 }
 .filter::-webkit-scrollbar { display: none; }
@@ -303,12 +442,13 @@ details > :not(summary) { margin: 0 16px 14px; }
   color: var(--text);
   font: inherit;
   font-size: 0.95rem;
+  font-weight: 500;
   cursor: pointer;
 }
 .filter button[aria-pressed="true"] {
   background: var(--skog);
   border-color: var(--skog);
-  color: #fff;
+  color: var(--yta);
 }
 
 #karta {
@@ -317,6 +457,7 @@ details > :not(summary) { margin: 0 16px 14px; }
   max-height: 480px;
   border-radius: var(--radie);
   border: 1px solid var(--kant);
+  box-shadow: var(--skugga);
   background: #e6e2d6;
 }
 
@@ -325,14 +466,14 @@ details > :not(summary) { margin: 0 16px 14px; }
   padding: 0;
   margin: 0;
 }
-.plats h3 { margin-top: 0; }
+.plats h3 { margin-top: 6px; }
 .plats .fakta {
   display: flex;
   flex-wrap: wrap;
   gap: 4px 16px;
   font-size: 0.9rem;
   color: var(--text-svag);
-  margin: 6px 0 12px;
+  margin: 6px 0 14px;
 }
 .plats .knappar {
   display: flex;
@@ -345,15 +486,15 @@ details > :not(summary) { margin: 0 16px 14px; }
   display: inline-block;
   font-size: 0.75rem;
   font-weight: 600;
-  padding: 2px 8px;
+  padding: 3px 10px;
   border-radius: 999px;
-  background: #e7efe9;
+  background: var(--yta-tonad);
   color: var(--skog-mork);
   margin: 0 4px 4px 0;
 }
 .etikett-exempel {
   background: var(--platshallare);
-  color: #7a5d0c;
+  color: var(--platshallare-text);
   border: 1px dashed var(--platshallare-kant);
 }
 
@@ -363,21 +504,21 @@ details > :not(summary) { margin: 0 16px 14px; }
   color: var(--text-svag);
 }
 
-/* Popup i kartan */
-.leaflet-popup-content { font-family: var(--text-font); font-size: 15px; }
+/* Popup i kartan (kartan är alltid ljus) */
+.leaflet-popup-content { font-family: var(--text-font); font-size: 15px; color: #1f2622; }
 .leaflet-popup-content strong { display: block; margin-bottom: 4px; }
-.leaflet-popup-content .knapp { min-height: 40px; padding: 8px 14px; margin-top: 8px; color: #fff; }
+.leaflet-popup-content .knapp { min-height: 40px; padding: 8px 14px; margin-top: 8px; background: #2f5a45; color: #fff; }
 
 /* ---------- Sidfot ---------- */
 
 .sidfot {
-  max-width: 760px;
-  margin: 24px auto 0;
-  padding: 16px;
+  background: var(--yta);
   border-top: 1px solid var(--kant);
   font-size: 0.9rem;
   color: var(--text-svag);
+  text-align: center;
 }
+.sidfot p { max-width: 760px; margin: 0 auto; padding: 18px 16px; }
 
 /* Syns bara för skärmläsare */
 .dold {
@@ -394,33 +535,47 @@ details > :not(summary) { margin: 0 16px 14px; }
   outline-offset: 2px;
 }
 
-/* ---------- Större skärmar ---------- */
+@media (prefers-reduced-motion: reduce) {
+  main { animation: none; }
+  * { transition: none !important; }
+}
+
+/* ---------- Större skärmar: menyn flyttar upp i sidhuvudet ---------- */
 
 @media (min-width: 800px) {
   body { padding-bottom: 0; }
 
-  .sidhuvud { padding: 12px 24px; }
+  .sidhuvud { --huvud-hojd: 68px; padding: 0 max(24px, calc((100% - 1040px) / 2)); }
 
   .huvudmeny {
     position: static;
-    background: var(--skog-mork);
+    flex: 1;
+    background: none;
     border: 0;
+    box-shadow: none;
     padding: 0;
   }
-  .huvudmeny ul { justify-content: center; }
+  .huvudmeny ul { justify-content: center; gap: 4px; }
   .huvudmeny li { flex: 0 0 auto; }
   .huvudmeny a {
-    height: 48px;
-    padding: 0 18px;
+    flex-direction: row;
+    gap: 8px;
+    height: 44px;
+    padding: 0 14px;
+    border-radius: 10px;
     font-size: 0.95rem;
-    color: rgba(255, 255, 255, 0.85);
   }
-  .huvudmeny a[aria-current="page"] {
-    color: #fff;
-    box-shadow: inset 0 -3px 0 #fff;
-  }
+  .huvudmeny a .ikon { width: 20px; height: 20px; padding: 0; background: none !important; }
+  .huvudmeny a:hover { background: var(--bakgrund); color: var(--text); }
+  .huvudmeny a[aria-current="page"] { background: var(--yta-tonad); }
 
+  main { padding-top: 40px; }
+  .hjalte { padding: 64px 40px 96px; background-size: auto 56px, auto; background-position: center bottom 24px, 0 0; }
   .genvagar { grid-template-columns: repeat(3, 1fr); }
+  .genvagar a { grid-template-columns: 1fr; row-gap: 4px; padding: 20px; }
+  .genvagar a::after { display: none; }
+  .genvagar .ikon { grid-row: auto; margin-bottom: 8px; }
+  .faciliteter { grid-template-columns: 1fr 1fr; }
   .bildgalleri { grid-template-columns: repeat(3, 1fr); }
   .knapp-boka { display: inline-flex; width: auto; padding: 16px 40px; }
 }
