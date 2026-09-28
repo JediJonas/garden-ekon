@@ -70,6 +70,7 @@ Sajten finns på: svenska, engelska, tyska. Alla texter ska finnas på alla spr�
 
 ## Arbetssätt
 
+* Pusha **aldrig** direkt till `main`. Lägg alla ändringar på en egen gren och skapa en pull request mot `main`, som jag godkänner innan den läggs in.
 * Gör små, avgränsade ändringar med tydliga commit-meddelanden på svenska.
 * Kontrollera att `data/platser.json` är giltig JSON efter varje ändring.
 * Kontrollera att sidorna fungerar i mobilbredd (cirka 375 px).
