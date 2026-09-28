@@ -1,0 +1,426 @@
+/* Gården Ekön – gemensam stil. Mobilen först: grundstilen gäller små skärmar,
+   @media-reglerna längst ner anpassar för större skärmar. */
+
+:root {
+  --bakgrund: #f6f2e9;
+  --yta: #fffdf8;
+  --text: #2a2f2a;
+  --text-svag: #5d655d;
+  --skog: #2f5140;
+  --skog-mork: #223b2e;
+  --sjo: #3d6b80;
+  --boka: #b4532a;
+  --boka-mork: #93401e;
+  --kant: #ddd5c4;
+  --platshallare: #fff3cf;
+  --platshallare-kant: #c9a43a;
+  --radie: 14px;
+  --skugga: 0 1px 3px rgba(40, 45, 40, 0.12);
+  --nav-hojd: 64px;
+  --rubrik-font: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  --text-font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bakgrund);
+  color: var(--text);
+  font-family: var(--text-font);
+  font-size: 17px;
+  line-height: 1.55;
+  /* plats för bottenmenyn i mobilen */
+  padding-bottom: calc(var(--nav-hojd) + env(safe-area-inset-bottom));
+}
+
+h1, h2, h3 {
+  font-family: var(--rubrik-font);
+  font-weight: normal;
+  line-height: 1.2;
+  color: var(--skog-mork);
+}
+h1 { font-size: 2rem; margin: 0.2em 0 0.4em; }
+h2 { font-size: 1.4rem; margin: 1.6em 0 0.5em; }
+h3 { font-size: 1.15rem; margin: 1.2em 0 0.3em; }
+
+a { color: var(--sjo); }
+
+img { max-width: 100%; height: auto; }
+
+/* ---------- Sidhuvud ---------- */
+
+.sidhuvud {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 16px;
+  background: var(--skog);
+  color: #fff;
+}
+
+.logga {
+  color: #fff;
+  text-decoration: none;
+  font-family: var(--rubrik-font);
+  font-size: 1.25rem;
+}
+
+.sprakvaxlare {
+  display: flex;
+  gap: 4px;
+}
+.sprakvaxlare button {
+  min-width: 44px;
+  min-height: 44px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  background: transparent;
+  color: #fff;
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.sprakvaxlare button[aria-pressed="true"] {
+  background: #fff;
+  color: var(--skog-mork);
+}
+
+/* ---------- Meny: botten i mobilen, i sidhuvudet på stor skärm ---------- */
+
+.huvudmeny {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  background: var(--yta);
+  border-top: 1px solid var(--kant);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.huvudmeny ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.huvudmeny li { flex: 1; }
+.huvudmeny a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--nav-hojd);
+  padding: 0 2px;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 1.2;
+  color: var(--text-svag);
+  text-decoration: none;
+}
+.huvudmeny a[aria-current="page"] {
+  color: var(--skog);
+  font-weight: 700;
+  box-shadow: inset 0 3px 0 var(--skog);
+}
+
+/* ---------- Innehåll ---------- */
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.ingress {
+  font-size: 1.1rem;
+  color: var(--text-svag);
+}
+
+.kort {
+  background: var(--yta);
+  border: 1px solid var(--kant);
+  border-radius: var(--radie);
+  padding: 16px;
+  margin: 12px 0;
+  box-shadow: var(--skugga);
+}
+
+/* Platshållare: text som Jonas ska byta ut. Syns tydligt med flit. */
+.platshallare {
+  background: var(--platshallare);
+  border: 1px dashed var(--platshallare-kant);
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-style: italic;
+}
+
+.bildplats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 4 / 3;
+  background: var(--platshallare);
+  border: 1px dashed var(--platshallare-kant);
+  border-radius: var(--radie);
+  color: var(--text-svag);
+  font-style: italic;
+  text-align: center;
+  padding: 12px;
+}
+.bildgalleri {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+/* ---------- Knappar ---------- */
+
+.knapp {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 12px 20px;
+  border-radius: 12px;
+  border: 0;
+  background: var(--skog);
+  color: #fff;
+  font: inherit;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+.knapp:hover { background: var(--skog-mork); }
+
+.knapp-boka {
+  display: flex;
+  width: 100%;
+  min-height: 60px;
+  font-size: 1.2rem;
+  background: var(--boka);
+  box-shadow: 0 3px 10px rgba(180, 83, 42, 0.3);
+}
+.knapp-boka:hover { background: var(--boka-mork); }
+
+.knapp-sekundar {
+  background: transparent;
+  color: var(--skog);
+  border: 2px solid var(--skog);
+}
+.knapp-sekundar:hover { background: var(--skog); color: #fff; }
+
+.liten-text {
+  font-size: 0.9rem;
+  color: var(--text-svag);
+}
+
+/* ---------- Startsidan ---------- */
+
+.hjalte {
+  background: linear-gradient(160deg, var(--skog) 0%, var(--sjo) 100%);
+  color: #fff;
+  border-radius: var(--radie);
+  padding: 28px 20px;
+  margin-bottom: 16px;
+}
+.hjalte h1 { color: #fff; }
+.hjalte .ingress { color: rgba(255, 255, 255, 0.9); }
+
+.genvagar {
+  display: grid;
+  gap: 10px;
+  margin: 16px 0;
+  padding: 0;
+  list-style: none;
+}
+.genvagar a {
+  display: block;
+  padding: 16px;
+  background: var(--yta);
+  border: 1px solid var(--kant);
+  border-radius: var(--radie);
+  box-shadow: var(--skugga);
+  color: var(--text);
+  text-decoration: none;
+}
+.genvagar strong {
+  display: block;
+  font-family: var(--rubrik-font);
+  font-weight: normal;
+  font-size: 1.15rem;
+  color: var(--skog-mork);
+}
+.genvagar span { color: var(--text-svag); font-size: 0.95rem; }
+
+/* ---------- Hitta hit ---------- */
+
+.adress {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 0 12px;
+}
+
+/* ---------- Info / vanliga frågor ---------- */
+
+details {
+  background: var(--yta);
+  border: 1px solid var(--kant);
+  border-radius: var(--radie);
+  margin: 10px 0;
+}
+summary {
+  padding: 14px 16px;
+  min-height: 48px;
+  font-weight: 600;
+  cursor: pointer;
+}
+details > :not(summary) { margin: 0 16px 14px; }
+
+/* ---------- Guiden ---------- */
+
+.filter {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 4px 0 10px;
+  margin: 0 -16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  scrollbar-width: none;
+}
+.filter::-webkit-scrollbar { display: none; }
+.filter button {
+  flex: 0 0 auto;
+  min-height: 44px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--kant);
+  background: var(--yta);
+  color: var(--text);
+  font: inherit;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+.filter button[aria-pressed="true"] {
+  background: var(--skog);
+  border-color: var(--skog);
+  color: #fff;
+}
+
+#karta {
+  height: 55vh;
+  min-height: 280px;
+  max-height: 480px;
+  border-radius: var(--radie);
+  border: 1px solid var(--kant);
+  background: #e6e2d6;
+}
+
+.platslista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.plats h3 { margin-top: 0; }
+.plats .fakta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  font-size: 0.9rem;
+  color: var(--text-svag);
+  margin: 6px 0 12px;
+}
+.plats .knappar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.plats .knappar .knapp { flex: 1 1 140px; }
+
+.etikett {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #e7efe9;
+  color: var(--skog-mork);
+  margin: 0 4px 4px 0;
+}
+.etikett-exempel {
+  background: var(--platshallare);
+  color: #7a5d0c;
+  border: 1px dashed var(--platshallare-kant);
+}
+
+.meddelande {
+  padding: 16px;
+  text-align: center;
+  color: var(--text-svag);
+}
+
+/* Popup i kartan */
+.leaflet-popup-content { font-family: var(--text-font); font-size: 15px; }
+.leaflet-popup-content strong { display: block; margin-bottom: 4px; }
+.leaflet-popup-content .knapp { min-height: 40px; padding: 8px 14px; margin-top: 8px; color: #fff; }
+
+/* ---------- Sidfot ---------- */
+
+.sidfot {
+  max-width: 760px;
+  margin: 24px auto 0;
+  padding: 16px;
+  border-top: 1px solid var(--kant);
+  font-size: 0.9rem;
+  color: var(--text-svag);
+}
+
+/* Syns bara för skärmläsare */
+.dold {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+:focus-visible {
+  outline: 3px solid var(--sjo);
+  outline-offset: 2px;
+}
+
+/* ---------- Större skärmar ---------- */
+
+@media (min-width: 800px) {
+  body { padding-bottom: 0; }
+
+  .sidhuvud { padding: 12px 24px; }
+
+  .huvudmeny {
+    position: static;
+    background: var(--skog-mork);
+    border: 0;
+    padding: 0;
+  }
+  .huvudmeny ul { justify-content: center; }
+  .huvudmeny li { flex: 0 0 auto; }
+  .huvudmeny a {
+    height: 48px;
+    padding: 0 18px;
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.85);
+  }
+  .huvudmeny a[aria-current="page"] {
+    color: #fff;
+    box-shadow: inset 0 -3px 0 #fff;
+  }
+
+  .genvagar { grid-template-columns: repeat(3, 1fr); }
+  .bildgalleri { grid-template-columns: repeat(3, 1fr); }
+  .knapp-boka { display: inline-flex; width: auto; padding: 16px 40px; }
+}

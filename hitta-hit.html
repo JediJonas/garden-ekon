@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-t="hitta.titel">Hitta hit – Gården Ekön</title>
+  <meta name="theme-color" content="#2f5140">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="sidhuvud">
+    <a class="logga" href="index.html" data-t="sajt.namn">Gården Ekön</a>
+    <div class="sprakvaxlare" role="group" data-t-aria="sprak.val" aria-label="Välj språk">
+      <button type="button" data-sprak="sv" lang="sv" aria-label="Svenska">SV</button>
+      <button type="button" data-sprak="en" lang="en" aria-label="English">EN</button>
+      <button type="button" data-sprak="de" lang="de" aria-label="Deutsch">DE</button>
+    </div>
+  </header>
+
+  <nav class="huvudmeny" data-t-aria="meny.namn" aria-label="Meny">
+    <ul>
+      <li><a href="index.html" data-t="meny.hem">Hem</a></li>
+      <li><a href="stugan.html" data-t="meny.stugan">Stugan</a></li>
+      <li><a href="hitta-hit.html" aria-current="page" data-t="meny.hitta">Hitta hit</a></li>
+      <li><a href="guide.html" data-t="meny.guide">Guide</a></li>
+      <li><a href="info.html" data-t="meny.info">Info</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1 data-t="hitta.rubrik">Hitta hit</h1>
+
+    <section class="kort">
+      <h2 style="margin-top:0" data-t="hitta.adress">Adress</h2>
+      <p class="adress">Ekön 2<br>571 97 Forserum</p>
+      <a class="knapp" href="https://maps.app.goo.gl/dKsF288DYnuQSRUFA" rel="noopener" data-t="hitta.oppna">Öppna i kartappen</a>
+    </section>
+
+    <h2 data-t="hitta.bil">Med bil</h2>
+    <p class="platshallare" data-t="hitta.bil.text">[Platshållare: vägbeskrivning med bil, till exempel från Nässjö eller Jönköping.]</p>
+
+    <h2 data-t="hitta.kollektivt">Med kollektivtrafik</h2>
+    <p class="platshallare" data-t="hitta.kollektivt.text">[Platshållare: närmaste tåg- eller busshållplats och hur man tar sig sista biten.]</p>
+
+    <h2 data-t="hitta.parkering">Parkering</h2>
+    <p class="platshallare" data-t="hitta.parkering.text">[Platshållare: var man parkerar.]</p>
+
+    <h2 data-t="hitta.sista">Sista biten</h2>
+    <p class="platshallare" data-t="hitta.sista.text">[Platshållare: kännetecken att hålla utkik efter, till exempel en brevlåda eller skylt.]</p>
+
+    <p class="liten-text" data-t="hitta.koder">Nyckelkoder och liknande detaljer får du efter bokning.</p>
+  </main>
+
+  <footer class="sidfot">
+    <p><span data-t="sidfot.boka">Bokning sker via Booking.com</span> · <a href="integritet.html" data-t="sidfot.integritet">Integritet</a></p>
+  </footer>
+
+  <script src="js/texter.js"></script>
+  <script src="js/sprak.js"></script>
+</body>
+</html>

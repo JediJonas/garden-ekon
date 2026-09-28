@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-t="stugan.titel">Stugan – Gården Ekön</title>
+  <meta name="theme-color" content="#2f5140">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="sidhuvud">
+    <a class="logga" href="index.html" data-t="sajt.namn">Gården Ekön</a>
+    <div class="sprakvaxlare" role="group" data-t-aria="sprak.val" aria-label="Välj språk">
+      <button type="button" data-sprak="sv" lang="sv" aria-label="Svenska">SV</button>
+      <button type="button" data-sprak="en" lang="en" aria-label="English">EN</button>
+      <button type="button" data-sprak="de" lang="de" aria-label="Deutsch">DE</button>
+    </div>
+  </header>
+
+  <nav class="huvudmeny" data-t-aria="meny.namn" aria-label="Meny">
+    <ul>
+      <li><a href="index.html" data-t="meny.hem">Hem</a></li>
+      <li><a href="stugan.html" aria-current="page" data-t="meny.stugan">Stugan</a></li>
+      <li><a href="hitta-hit.html" data-t="meny.hitta">Hitta hit</a></li>
+      <li><a href="guide.html" data-t="meny.guide">Guide</a></li>
+      <li><a href="info.html" data-t="meny.info">Info</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1 data-t="stugan.rubrik">Om stugan</h1>
+    <p class="platshallare" data-t="stugan.ingress">[Platshållare: beskriv stugan och läget med några meningar.]</p>
+
+    <h2 data-t="stugan.faciliteter">Faciliteter</h2>
+    <p class="platshallare" data-t="stugan.faciliteter.text">[Platshållare: antal bäddar, kök, badrum med mera. Måste stämma med Booking.com.]</p>
+
+    <h2 data-t="stugan.bilder">Bilder</h2>
+    <div class="bildgalleri">
+      <div class="bildplats"><span data-t="stugan.bild">[Bild kommer]</span></div>
+      <div class="bildplats"><span data-t="stugan.bild">[Bild kommer]</span></div>
+      <div class="bildplats"><span data-t="stugan.bild">[Bild kommer]</span></div>
+      <div class="bildplats"><span data-t="stugan.bild">[Bild kommer]</span></div>
+    </div>
+
+    <p><a class="knapp knapp-boka" href="https://www.booking.com/hotel/se/ekon-2.sv.html" rel="noopener" data-t="stugan.boka">Se lediga datum på Booking.com</a></p>
+  </main>
+
+  <footer class="sidfot">
+    <p><span data-t="sidfot.boka">Bokning sker via Booking.com</span> · <a href="integritet.html" data-t="sidfot.integritet">Integritet</a></p>
+  </footer>
+
+  <script src="js/texter.js"></script>
+  <script src="js/sprak.js"></script>
+</body>
+</html>

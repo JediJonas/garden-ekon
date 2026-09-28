@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-t="hem.titel">Gården Ekön – välkommen</title>
+  <meta name="theme-color" content="#2f5140">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="sidhuvud">
+    <a class="logga" href="index.html" data-t="sajt.namn">Gården Ekön</a>
+    <div class="sprakvaxlare" role="group" data-t-aria="sprak.val" aria-label="Välj språk">
+      <button type="button" data-sprak="sv" lang="sv" aria-label="Svenska">SV</button>
+      <button type="button" data-sprak="en" lang="en" aria-label="English">EN</button>
+      <button type="button" data-sprak="de" lang="de" aria-label="Deutsch">DE</button>
+    </div>
+  </header>
+
+  <nav class="huvudmeny" data-t-aria="meny.namn" aria-label="Meny">
+    <ul>
+      <li><a href="index.html" aria-current="page" data-t="meny.hem">Hem</a></li>
+      <li><a href="stugan.html" data-t="meny.stugan">Stugan</a></li>
+      <li><a href="hitta-hit.html" data-t="meny.hitta">Hitta hit</a></li>
+      <li><a href="guide.html" data-t="meny.guide">Guide</a></li>
+      <li><a href="info.html" data-t="meny.info">Info</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="hjalte">
+      <h1 data-t="hem.rubrik">Välkommen till Gården Ekön</h1>
+      <p class="ingress" data-t="hem.ingress">Din guide till stugan i Forserum och allt som finns runt omkring.</p>
+      <a class="knapp knapp-boka" href="https://www.booking.com/hotel/se/ekon-2.sv.html" rel="noopener" data-t="hem.boka">Boka på Booking.com</a>
+    </section>
+    <p class="liten-text" data-t="hem.boka.info">Bokning, priser och lediga datum finns på Booking.com.</p>
+
+    <p class="platshallare" data-t="hem.halsning">[Platshållare: en kort, personlig hälsning från värden.]</p>
+
+    <ul class="genvagar">
+      <li><a href="guide.html"><strong data-t="hem.genvag.guide">Tips i närheten</strong><span data-t="hem.genvag.guide.text">Bad, natur, fika och utflykter på en karta.</span></a></li>
+      <li><a href="hitta-hit.html"><strong data-t="hem.genvag.hitta">Hitta hit</strong><span data-t="hem.genvag.hitta.text">Adress, vägbeskrivning och parkering.</span></a></li>
+      <li><a href="info.html"><strong data-t="hem.genvag.info">Praktisk info</strong><span data-t="hem.genvag.info.text">Incheckning och vanliga frågor.</span></a></li>
+    </ul>
+  </main>
+
+  <footer class="sidfot">
+    <p><span data-t="sidfot.boka">Bokning sker via Booking.com</span> · <a href="integritet.html" data-t="sidfot.integritet">Integritet</a></p>
+  </footer>
+
+  <script src="js/texter.js"></script>
+  <script src="js/sprak.js"></script>
+</body>
+</html>
