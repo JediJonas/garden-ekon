@@ -1,6 +1,16 @@
 /* Gården Ekön – gemensam stil. Mobilen först: grundstilen gäller små skärmar,
    @media-reglerna längst ner anpassar för större skärmar och mörkt läge. */
 
+/* Loggans typsnitt: Dancing Script (SIL Open Font License, se fonts/dancing-script/OFL.txt).
+   Ligger på sajten själv, hämtas inte från någon annan tjänst. */
+@font-face {
+  font-family: "Dancing Script";
+  src: url("../fonts/dancing-script/dancing-script-latin-700-normal.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --bakgrund: #f7f6f2;
   --yta: #ffffff;
@@ -110,9 +120,10 @@ img { max-width: 100%; height: auto; }
 .logga {
   color: var(--skog);
   text-decoration: none;
-  font-size: 1.2rem;
-  font-weight: 800;
-  letter-spacing: -0.02em;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1;
   white-space: nowrap;
 }
 
