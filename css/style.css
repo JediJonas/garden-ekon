@@ -292,6 +292,78 @@ main {
 }
 /* Första bilden (framsidan) visas stor. */
 .bildgalleri a:first-child { grid-column: 1 / -1; }
+/* ---------- Bildvisare (stugsidan) ---------- */
+
+.bildvisare {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: rgba(10, 12, 11, 0.94);
+  color: #fff;
+  /* Svep hanteras av bildvisaren, inte av webbläsaren (t.ex. "bakåt"). */
+  overscroll-behavior: contain;
+  touch-action: pinch-zoom;
+}
+.bildvisare::backdrop { background: rgba(10, 12, 11, 0.94); }
+.bildvisare[open] { display: flex; flex-direction: column; }
+html.bildvisare-oppen { overflow: hidden; overscroll-behavior-x: none; }
+.bildvisare-yta {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 12px 8px;
+}
+.bildvisare-bild {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: var(--radie-liten);
+  user-select: none;
+}
+.bildvisare-info {
+  margin: 0;
+  padding: 8px 16px calc(20px + env(safe-area-inset-bottom));
+  text-align: center;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+.bildvisare-raknare { font-weight: 700; margin-right: 6px; }
+.bildvisare-knapp {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.14);
+  color: #fff;
+  cursor: pointer;
+}
+.bildvisare-knapp:hover { background: rgba(255, 255, 255, 0.26); }
+.bildvisare-knapp svg {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.bildvisare-stang { top: calc(10px + env(safe-area-inset-top)); right: 10px; }
+.bildvisare-foregaende,
+.bildvisare-nasta { top: 50%; transform: translateY(-50%); }
+.bildvisare-foregaende { left: 8px; }
+.bildvisare-nasta { right: 8px; }
+
 .bildtips {
   color: var(--text-svag);
   font-size: 0.95rem;
