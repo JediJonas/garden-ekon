@@ -56,6 +56,10 @@ window.TEXTER = {
     "stugan.bild.fonster-2": "Utsikt mot skogen och grusvägen",
     "stugan.bild.ljus": "Levande ljus på soffbordet",
     "stugan.bild.oppna": "Tryck på en bild för att se den större.",
+    "bildvisare.namn": "Bildvisare",
+    "bildvisare.stang": "Stäng",
+    "bildvisare.foregaende": "Föregående bild",
+    "bildvisare.nasta": "Nästa bild",
     "stugan.boka": "Se lediga datum på Booking.com",
 
     "hitta.titel": "Hitta hit – Gården Ekön",
@@ -176,6 +180,10 @@ window.TEXTER = {
     "stugan.bild.fonster-2": "View of the forest and the gravel road",
     "stugan.bild.ljus": "Candles on the coffee table",
     "stugan.bild.oppna": "Tap a photo to see it larger.",
+    "bildvisare.namn": "Photo viewer",
+    "bildvisare.stang": "Close",
+    "bildvisare.foregaende": "Previous photo",
+    "bildvisare.nasta": "Next photo",
     "stugan.boka": "See available dates on Booking.com",
 
     "hitta.titel": "Getting here – Gården Ekön",
@@ -296,6 +304,10 @@ window.TEXTER = {
     "stugan.bild.fonster-2": "Blick auf den Wald und den Schotterweg",
     "stugan.bild.ljus": "Kerzen auf dem Couchtisch",
     "stugan.bild.oppna": "Tippen Sie auf ein Bild, um es größer zu sehen.",
+    "bildvisare.namn": "Bildbetrachter",
+    "bildvisare.stang": "Schließen",
+    "bildvisare.foregaende": "Vorheriges Bild",
+    "bildvisare.nasta": "Nächstes Bild",
     "stugan.boka": "Freie Termine auf Booking.com ansehen",
 
     "hitta.titel": "Anfahrt – Gården Ekön",

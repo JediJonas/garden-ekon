@@ -67,7 +67,24 @@
     <p><span data-t="sidfot.boka">Bokning sker via Booking.com</span> · <a href="integritet.html" data-t="sidfot.integritet">Integritet</a></p>
   </footer>
 
+  <dialog id="bildvisare" class="bildvisare" data-t-aria="bildvisare.namn" aria-label="Bildvisare">
+    <div class="bildvisare-yta">
+      <img class="bildvisare-bild" src="" alt="">
+    </div>
+    <p class="bildvisare-info"><span class="bildvisare-raknare"></span> <span class="bildvisare-text"></span></p>
+    <button type="button" class="bildvisare-knapp bildvisare-stang" data-t-aria="bildvisare.stang" aria-label="Stäng">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <button type="button" class="bildvisare-knapp bildvisare-foregaende" data-t-aria="bildvisare.foregaende" aria-label="Föregående bild">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+    </button>
+    <button type="button" class="bildvisare-knapp bildvisare-nasta" data-t-aria="bildvisare.nasta" aria-label="Nästa bild">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+    </button>
+  </dialog>
+
   <script src="js/texter.js"></script>
   <script src="js/sprak.js"></script>
+  <script src="js/bildvisare.js"></script>
 </body>
 </html>
