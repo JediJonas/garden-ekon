@@ -256,6 +256,22 @@ main {
   grid-template-columns: 1fr 1fr;
   gap: 10px;
 }
+.bildgalleri a { display: block; }
+.bildgalleri img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--radie);
+}
+/* Första bilden (framsidan) visas stor. */
+.bildgalleri a:first-child { grid-column: 1 / -1; }
+.bildtips {
+  color: var(--text-svag);
+  font-size: 0.95rem;
+  margin-top: -4px;
+}
 
 /* ---------- Knappar ---------- */
 
@@ -588,5 +604,6 @@ details > :not(summary) { margin: 0 16px 16px; }
   .genvagar .ikon { grid-row: auto; margin-bottom: 8px; }
   .faciliteter { grid-template-columns: 1fr 1fr; }
   .bildgalleri { grid-template-columns: repeat(3, 1fr); }
+  .bildgalleri a:first-child { grid-column: span 2; grid-row: span 2; }
   .knapp-boka { display: inline-flex; width: auto; padding: 16px 40px; }
 }
