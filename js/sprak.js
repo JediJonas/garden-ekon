@@ -42,6 +42,9 @@
     (rot || document).querySelectorAll("[data-t-aria]").forEach(function (el) {
       el.setAttribute("aria-label", t(el.getAttribute("data-t-aria")));
     });
+    (rot || document).querySelectorAll("[data-t-alt]").forEach(function (el) {
+      el.setAttribute("alt", t(el.getAttribute("data-t-alt")));
+    });
   }
 
   function valj(sprak) {
