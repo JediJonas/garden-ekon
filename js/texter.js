@@ -29,9 +29,6 @@ window.TEXTER = {
     "hem.genvag.info": "Praktisk info",
     "hem.genvag.info.text": "Incheckning och vanliga frågor.",
     "hem.overrubrik": "Stuga på småländska höglandet",
-    "hem.genvag.guide.las": "Utforska",
-    "hem.genvag.hitta.las": "Visa vägen",
-    "hem.genvag.info.las": "Läs mer",
 
     "stugan.titel": "Stugan – Gården Ekön",
     "stugan.rubrik": "Om stugan",
@@ -152,9 +149,6 @@ window.TEXTER = {
     "hem.genvag.info": "Practical info",
     "hem.genvag.info.text": "Check-in and frequently asked questions.",
     "hem.overrubrik": "Cottage in the Småland highlands",
-    "hem.genvag.guide.las": "Explore",
-    "hem.genvag.hitta.las": "Show the way",
-    "hem.genvag.info.las": "Read more",
 
     "stugan.titel": "The cottage – Gården Ekön",
     "stugan.rubrik": "About the cottage",
@@ -275,9 +269,6 @@ window.TEXTER = {
     "hem.genvag.info": "Praktische Infos",
     "hem.genvag.info.text": "Check-in und häufige Fragen.",
     "hem.overrubrik": "Ferienhaus im småländischen Hochland",
-    "hem.genvag.guide.las": "Entdecken",
-    "hem.genvag.hitta.las": "Weg zeigen",
-    "hem.genvag.info.las": "Mehr lesen",
 
     "stugan.titel": "Das Ferienhaus – Gården Ekön",
     "stugan.rubrik": "Über das Ferienhaus",
