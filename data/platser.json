@@ -52,29 +52,29 @@
     "lastVerified": null
   },
   {
-    "id": "pustaleden-huskvarna",
-    "name": "Pustaleden, Huskvarna",
+    "id": "huskvarnabergen",
+    "name": "Huskvarnabergen, Huskvarna",
     "category": [
       "natur"
     ],
     "description": {
-      "sv": "En kort led på knappt två kilometer längs Huskvarnaån, som forsar fram i en djup ravin. Leden går från Husqvarna fabriksmuseum till Ebbes kraftstation. Lätt att nå med bil eller buss.",
-      "en": "A short trail of just under two kilometres along the Huskvarna River, which rushes through a deep ravine. It runs from the Husqvarna Factory Museum to Ebbe's power station. Easy to reach by car or bus.",
-      "de": "Ein kurzer Weg von knapp zwei Kilometern entlang des Flusses Huskvarnaån, der durch eine tiefe Schlucht rauscht. Er führt vom Husqvarna-Fabrikmuseum zum Kraftwerk Ebbes. Gut mit Auto oder Bus erreichbar."
+      "sv": "Naturreservat på 350 hektar på berget ovanför Huskvarna, med flera leder och utsiktspunkter över Vättern. Här finns ek- och lövskog, och på våren blommar bland annat gulsippor och ramslök. John Bauer-leden och Brunstorpsleden går genom reservatet.",
+      "en": "A 350-hectare nature reserve on the hills above Huskvarna, with several trails and viewpoints over Lake Vättern. There is oak and broadleaf forest, and in spring yellow anemones and wild garlic flower. The John Bauer trail and the Brunstorp trail run through the reserve.",
+      "de": "Ein 350 Hektar großes Naturschutzgebiet auf den Höhen über Huskvarna, mit mehreren Wanderwegen und Aussichtspunkten über den Vättersee. Es gibt Eichen- und Laubwald, im Frühling blühen unter anderem Gelbe Windröschen und Bärlauch. Der John-Bauer-Weg und der Brunstorp-Weg führen durch das Gebiet."
     },
-    "lat": 57.7858,
-    "lng": 14.2836,
+    "lat": 57.82179,
+    "lng": 14.27238,
     "distance": {
-      "sv": "ca 20 min med bil",
-      "en": "approx. 20 min by car",
-      "de": "ca. 20 Min. mit dem Auto"
+      "sv": "ca 25 min med bil",
+      "en": "approx. 25 min by car",
+      "de": "ca. 25 Min. mit dem Auto"
     },
     "season": {
       "sv": "hela året",
       "en": "all year",
       "de": "ganzjährig"
     },
-    "link": "https://jkpg.com/sv/jonkoping-huskvarna/pustaleden/",
+    "link": "https://www.lansstyrelsen.se/jonkoping/besoksmal/naturreservat/huskvarnabergen.html",
     "lastVerified": null
   },
   {
