@@ -56,9 +56,20 @@
     return sprakText[window.Sprak.aktuellt()] || sprakText.sv || sprakText.en || "";
   }
 
+  // "Läs mer"-länken. Den kan vara en adress eller en per språk,
+  // t.ex. { "sv": "…", "en": "…" }. Saknas tyska används engelska.
+  function lankFor(plats) {
+    var l = plats.link;
+    if (typeof l !== "string") {
+      var sprak = window.Sprak.aktuellt();
+      l = l[sprak] || (sprak === "de" && l.en) || l.sv || l.en;
+    }
+    return window.Sprak.lank(l);
+  }
+
   // Öppnar vägbeskrivning i Google Maps (appen om den finns, annars i webbläsaren).
   function vagLank(plats) {
-    return "https://www.google.com/maps/dir/?api=1&destination=" + plats.lat + "," + plats.lng;
+    return window.Sprak.lank("https://www.google.com/maps/dir/?api=1&destination=" + plats.lat + "," + plats.lng);
   }
 
   function skapa(tagg, klass, text) {
@@ -178,7 +189,7 @@
 
       if (plats.link) {
         var mer = skapa("a", "knapp knapp-sekundar", t("guide.mer"));
-        mer.href = plats.link;
+        mer.href = lankFor(plats);
         mer.target = "_blank";
         mer.rel = "noopener";
         knappar.appendChild(mer);

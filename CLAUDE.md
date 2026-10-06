@@ -66,6 +66,13 @@ Varje plats på kartan ska ha en länk "Vägbeskrivning" som öppnar navigeringe
 
 Sajten finns på: svenska, engelska, tyska. Alla texter ska finnas på alla språk. Gästen väljer språk med en enkel växlare.
 
+Länkar till andra webbplatser ska öppnas på det språk gästen valt, när webbplatsen finns på det språket:
+
+* Naturkartan, Booking.com och Google Maps byts automatiskt av `lank()` i `js/sprak.js`. Det gäller alla länkar på sidorna och länkarna i guiden.
+* Lägger du till en länk till en ny webbplats som finns på flera språk: lägg till regeln för den i `lank()` om adressen följer ett mönster, eller ange länken per språk i `data/platser.json` (`"link": { "sv": "…", "en": "…", "de": "…" }`).
+* Finns ingen tysk version men en engelsk, länka till den engelska för tyska gäster. `"link"` behöver då bara `sv` och `en`.
+* Gissa aldrig en språkadress. Kontrollera att den finns, annars behåll den svenska länken.
+
 ## Innehållsregler
 
 * Uppgifter om stugan (antal bäddar, faciliteter, regler) måste stämma med Booking.com-sidan. Hitta aldrig på fakta om stugan.

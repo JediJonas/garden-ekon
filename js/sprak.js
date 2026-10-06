@@ -47,6 +47,33 @@
     });
   }
 
+  // Länkar till andra webbplatser som finns på flera språk öppnas på det
+  // språk gästen valt. Nya sådana webbplatser läggs till här.
+  var BOOKING_SPRAK = { sv: "sv", en: "en-gb", de: "de" };
+
+  function lank(url) {
+    if (!url) return url;
+    // Naturkartan: /sv/…, /en/…, /de/…
+    url = url.replace(/^(https?:\/\/(?:www\.)?naturkartan\.se)\/(?:sv|en|de)(?=\/|$)/,
+      "$1/" + aktuellt);
+    // Booking.com: ….sv.html, ….en-gb.html, ….de.html
+    url = url.replace(/^(https?:\/\/(?:www\.)?booking\.com\/hotel\/[^?#]*?)(?:\.[a-z]{2}(?:-[a-z]{2})?)?\.html/,
+      "$1." + BOOKING_SPRAK[aktuellt] + ".html");
+    // Google Maps: språket anges med hl=
+    if (/^https?:\/\/(?:www\.)?google\.[a-z.]+\/maps/.test(url)) {
+      url = url.replace(/([?&])hl=[^&#]*&?/, "$1").replace(/[?&]$/, "");
+      url += (url.indexOf("?") === -1 ? "?" : "&") + "hl=" + aktuellt;
+    }
+    return url;
+  }
+
+  function sprakaLankar(rot) {
+    (rot || document).querySelectorAll("a[href^='http']").forEach(function (a) {
+      var ny = lank(a.getAttribute("href"));
+      if (ny !== a.getAttribute("href")) a.setAttribute("href", ny);
+    });
+  }
+
   function valj(sprak) {
     if (SPRAK.indexOf(sprak) === -1) return;
     aktuellt = sprak;
@@ -58,6 +85,7 @@
   function visa() {
     document.documentElement.lang = aktuellt;
     oversatt(document);
+    sprakaLankar(document);
     document.querySelectorAll(".sprakvaxlare button").forEach(function (knapp) {
       knapp.setAttribute("aria-pressed", knapp.getAttribute("data-sprak") === aktuellt ? "true" : "false");
     });
@@ -72,6 +100,7 @@
   window.Sprak = {
     t: t,
     oversatt: oversatt,
+    lank: lank,
     aktuellt: function () { return aktuellt; },
     vidByte: function (fn) { lyssnare.push(fn); }
   };
