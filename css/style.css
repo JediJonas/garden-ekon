@@ -148,6 +148,9 @@ img { max-width: 100%; height: auto; }
   font-weight: 400;
   font-size: 2.1rem;
   line-height: 1;
+  /* Rouge Script-E:et ritas lite till vänster om sin egen ruta. Lite luft till vänster
+     flyttar det drygt en pixel åt höger, så att det hamnar mitt i cirkeln. */
+  padding-left: 2.5px;
 }
 .ordmarke {
   font-family: var(--rubrik-font);
