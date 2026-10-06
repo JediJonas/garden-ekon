@@ -292,9 +292,9 @@
       "regnvader"
     ],
     "description": {
-      "sv": "Stort köpcentrum i Jönköping med butiker, restauranger och matbutik under samma tak. Delar av centrumet ligger på en täckt bro över E4:an. Bra en regnig dag.",
-      "en": "A large shopping centre in Jönköping with shops, restaurants and a supermarket under one roof. Part of it sits on a covered bridge over the E4 motorway. Good on a rainy day.",
-      "de": "Großes Einkaufszentrum in Jönköping mit Geschäften, Restaurants und Supermarkt unter einem Dach. Ein Teil liegt auf einer überdachten Brücke über der Autobahn E4. Gut für einen Regentag."
+      "sv": "Stort köpcentrum i Jönköping med butiker, restauranger och matbutik under samma tak. Bra en regnig dag.",
+      "en": "A large shopping centre in Jönköping with shops, restaurants and a supermarket under one roof. Good on a rainy day.",
+      "de": "Großes Einkaufszentrum in Jönköping mit Geschäften, Restaurants und Supermarkt unter einem Dach. Gut für einen Regentag."
     },
     "lat": 57.7730027,
     "lng": 14.2044931,
@@ -309,6 +309,6 @@
       "de": "ganzjährig"
     },
     "link": "https://asecs.se/",
-    "lastVerified": null
+    "lastVerified": "2026-10"
   }
 ]
