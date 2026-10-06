@@ -266,9 +266,9 @@
       "mat-och-fika"
     ],
     "description": {
-      "sv": "Närmaste matbutik, mitt i Forserum.",
-      "en": "The nearest grocery shop, in the centre of Forserum.",
-      "de": "Der nächste Supermarkt, mitten in Forserum."
+      "sv": "Närmaste matbutik, mitt i Forserum. Jönköpingsvägen 2, Forserum.",
+      "en": "The nearest grocery shop, in the centre of Forserum. Jönköpingsvägen 2, Forserum.",
+      "de": "Der nächste Supermarkt, mitten in Forserum. Jönköpingsvägen 2, Forserum."
     },
     "lat": 57.6996488,
     "lng": 14.4748129,
