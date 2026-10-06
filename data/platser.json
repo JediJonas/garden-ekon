@@ -13,9 +13,9 @@
     "lat": 57.7012256,
     "lng": 15.0875062,
     "distance": {
-      "sv": "ca 45 min med bil",
-      "en": "approx. 45 min by car",
-      "de": "ca. 45 Min. mit dem Auto"
+      "sv": "ca 1 tim med bil",
+      "en": "approx. 1 h by car",
+      "de": "ca. 1 Std. mit dem Auto"
     },
     "season": {
       "sv": "hela året",
@@ -23,7 +23,7 @@
       "de": "ganzjährig"
     },
     "link": "https://www.naturkartan.se/sv/hoglandet/skurugata",
-    "lastVerified": null
+    "lastVerified": "2026-10"
   },
   {
     "id": "uvaberget-tenhult",
@@ -39,9 +39,9 @@
     "lat": 57.6836896,
     "lng": 14.3266657,
     "distance": {
-      "sv": "ca 10 min med bil",
-      "en": "approx. 10 min by car",
-      "de": "ca. 10 Min. mit dem Auto"
+      "sv": "ca 15 min med bil",
+      "en": "approx. 15 min by car",
+      "de": "ca. 15 Min. mit dem Auto"
     },
     "season": {
       "sv": "hela året",
@@ -49,7 +49,7 @@
       "de": "ganzjährig"
     },
     "link": "https://www.naturkartan.se/sv/jonkopings-lan/uvaberget-tenhult",
-    "lastVerified": null
+    "lastVerified": "2026-10"
   },
   {
     "id": "huskvarnabergen",
@@ -75,7 +75,7 @@
       "de": "ganzjährig"
     },
     "link": "https://www.lansstyrelsen.se/jonkoping/besoksmal/naturreservat/huskvarnabergen.html",
-    "lastVerified": null
+    "lastVerified": "2026-10"
   },
   {
     "id": "forserums-badplats",
@@ -101,7 +101,7 @@
       "de": "Juni–August"
     },
     "link": "https://nassjo.se/uppleva-och-gora/aktivitet/forserums-badplats.html",
-    "lastVerified": null
+    "lastVerified": "2026-10"
   },
   {
     "id": "uddebobadet",
@@ -127,7 +127,7 @@
       "de": "Juni–August"
     },
     "link": "https://www.jonkoping.se/fritid-kultur--natur/friluftsliv-natur-och-parker/badplatser-friluftsbad/uddebobadet",
-    "lastVerified": null
+    "lastVerified": "2026-10"
   },
   {
     "id": "tenhultsbadet",
@@ -143,9 +143,9 @@
     "lat": 57.6962435,
     "lng": 14.3316531,
     "distance": {
-      "sv": "ca 10 min med bil",
-      "en": "approx. 10 min by car",
-      "de": "ca. 10 Min. mit dem Auto"
+      "sv": "ca 15 min med bil",
+      "en": "approx. 15 min by car",
+      "de": "ca. 15 Min. mit dem Auto"
     },
     "season": {
       "sv": "juni–augusti",
@@ -153,7 +153,7 @@
       "de": "Juni–August"
     },
     "link": "https://www.jonkoping.se/fritid-kultur--natur/friluftsliv-natur-och-parker/badplatser-friluftsbad/tenhultsbadet",
-    "lastVerified": null
+    "lastVerified": "2026-10"
   },
   {
     "id": "astrid-lindgrens-varld",
@@ -169,9 +169,9 @@
     "lat": 57.6741387,
     "lng": 15.8424528,
     "distance": {
-      "sv": "ca 1 tim 45 min med bil",
-      "en": "approx. 1 h 45 min by car",
-      "de": "ca. 1 Std. 45 Min. mit dem Auto"
+      "sv": "ca 1 tim 30 min med bil",
+      "en": "approx. 1 h 30 min by car",
+      "de": "ca. 1 Std. 30 Min. mit dem Auto"
     },
     "season": {
       "sv": "sommar, se parkens webbplats",
@@ -179,7 +179,7 @@
       "de": "Sommer, siehe Website des Parks"
     },
     "link": "https://www.astridlindgrensvarld.se/",
-    "lastVerified": null
+    "lastVerified": "2026-10"
   },
   {
     "id": "high-chaparral",
@@ -195,9 +195,9 @@
     "lat": 57.2628702,
     "lng": 13.8281975,
     "distance": {
-      "sv": "ca 1 tim 15 min med bil",
-      "en": "approx. 1 h 15 min by car",
-      "de": "ca. 1 Std. 15 Min. mit dem Auto"
+      "sv": "ca 1 tim med bil",
+      "en": "approx. 1 h by car",
+      "de": "ca. 1 Std. mit dem Auto"
     },
     "season": {
       "sv": "sommar, se parkens webbplats",
@@ -205,7 +205,7 @@
       "de": "Sommer, siehe Website des Parks"
     },
     "link": "https://www.highchaparral.se/",
-    "lastVerified": null
+    "lastVerified": "2026-10"
   },
   {
     "id": "jonkopings-stadspark",
@@ -231,7 +231,7 @@
       "de": "ganzjährig"
     },
     "link": "https://www.naturkartan.se/en/jonkopings-lan/stadsparken-jonkoping",
-    "lastVerified": null
+    "lastVerified": "2026-10"
   },
   {
     "id": "forserumskrogen",
@@ -257,7 +257,7 @@
       "de": "ganzjährig"
     },
     "link": "https://forserumskrogen.se/",
-    "lastVerified": null
+    "lastVerified": "2026-10"
   },
   {
     "id": "jonkopings-lans-museum",
@@ -270,8 +270,8 @@
       "en": "The county museum in central Jönköping with exhibitions on art, culture and history, including the art of John Bauer. Open workshop for children. Closed on Mondays.",
       "de": "Das Landesmuseum im Zentrum von Jönköping mit Ausstellungen zu Kunst, Kultur und Geschichte, darunter die Kunst von John Bauer. Offene Werkstatt für Kinder. Montags geschlossen."
     },
-    "lat": 57.7801484,
-    "lng": 14.175911,
+    "lat": 57.78034,
+    "lng": 14.176351,
     "distance": {
       "sv": "ca 25 min med bil",
       "en": "approx. 25 min by car",
@@ -283,6 +283,6 @@
       "de": "ganzjährig"
     },
     "link": "https://jonkopingslansmuseum.se/",
-    "lastVerified": null
+    "lastVerified": "2026-10"
   }
 ]
