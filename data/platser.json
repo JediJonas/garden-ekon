@@ -342,7 +342,10 @@
       "en": "all year",
       "de": "ganzjährig"
     },
-    "link": "https://asecs.se/",
+    "link": {
+      "sv": "https://asecs.se/",
+      "en": "https://asecs.se/en"
+    },
     "lastVerified": "2026-10"
   }
 ]
