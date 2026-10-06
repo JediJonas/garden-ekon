@@ -123,7 +123,7 @@ window.TEXTER = {
     "integritet.titel": "Integritet – Gården Ekön",
     "integritet.rubrik": "Integritet",
     "integritet.p1": "Den här sajten använder inga cookies och ingen spårning. Vi samlar inte in några uppgifter om dig.",
-    "integritet.p2": "Ditt val av språk sparas bara i din egen webbläsare, så att sajten minns det nästa gång.",
+    "integritet.p2": "Ditt val av språk och sajtens sidor sparas bara i din egen webbläsare, så att sajten minns språket, laddar snabbare och fungerar även utan täckning.",
     "integritet.p3": "Kartan på guidesidan hämtar kartbilder från OpenStreetMap. Då ser OpenStreetMap din IP-adress, precis som när du besöker vilken webbplats som helst.",
     "integritet.p4": "Bokningsknappen leder till Booking.com, som har sina egna regler för personuppgifter."
   },
@@ -247,7 +247,7 @@ window.TEXTER = {
     "integritet.titel": "Privacy – Gården Ekön",
     "integritet.rubrik": "Privacy",
     "integritet.p1": "This site uses no cookies and no tracking. We do not collect any information about you.",
-    "integritet.p2": "Your language choice is stored only in your own browser, so the site remembers it next time.",
+    "integritet.p2": "Your language choice and the site's pages are stored only in your own browser, so the site remembers your language, loads faster and works even without a signal.",
     "integritet.p3": "The map on the guide page loads map images from OpenStreetMap. OpenStreetMap then sees your IP address, just as when you visit any website.",
     "integritet.p4": "The booking button takes you to Booking.com, which has its own privacy rules."
   },
@@ -371,7 +371,7 @@ window.TEXTER = {
     "integritet.titel": "Datenschutz – Gården Ekön",
     "integritet.rubrik": "Datenschutz",
     "integritet.p1": "Diese Website verwendet keine Cookies und kein Tracking. Wir erheben keine Daten über Sie.",
-    "integritet.p2": "Ihre Sprachwahl wird nur in Ihrem eigenen Browser gespeichert, damit die Website sie beim nächsten Mal kennt.",
+    "integritet.p2": "Ihre Sprachwahl und die Seiten der Website werden nur in Ihrem eigenen Browser gespeichert, damit die Website Ihre Sprache kennt, schneller lädt und auch ohne Empfang funktioniert.",
     "integritet.p3": "Die Karte auf der Tipps-Seite lädt Kartenbilder von OpenStreetMap. Dabei sieht OpenStreetMap Ihre IP-Adresse, wie beim Besuch jeder anderen Website.",
     "integritet.p4": "Die Buchungsschaltfläche führt zu Booking.com, wo eigene Datenschutzregeln gelten."
   }
