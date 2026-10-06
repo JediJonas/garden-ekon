@@ -130,6 +130,10 @@ img { max-width: 100%; height: auto; }
   text-decoration: none;
   white-space: nowrap;
 }
+/* I mörkt läge är loggan vit på alla sidor, som på startsidan */
+@media (prefers-color-scheme: dark) {
+  .logga { color: #fff; }
+}
 .monogram {
   display: grid;
   place-items: center;
