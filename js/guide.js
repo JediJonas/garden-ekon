@@ -16,8 +16,9 @@
   var karta = L.map("karta", { scrollWheelZoom: false, dragging: !pekskarm });
   L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>'
   }).addTo(karta);
+  karta.attributionControl.setPrefix('<a href="https://leafletjs.com" target="_blank" rel="noopener">Leaflet</a>');
   karta.setView([57.70, 14.47], 11);
 
   if (pekskarm) visaTvaFingerTips(document.getElementById("karta"));

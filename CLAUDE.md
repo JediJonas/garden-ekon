@@ -73,6 +73,8 @@ Länkar till andra webbplatser ska öppnas på det språk gästen valt, när web
 * Finns ingen tysk version men en engelsk, länka till den engelska för tyska gäster. `"link"` behöver då bara `sv` och `en`.
 * Gissa aldrig en språkadress. Kontrollera att den finns, annars behåll den svenska länken.
 
+Alla länkar till andra webbplatser ska öppnas i en ny flik (`target="_blank" rel="noopener"`), så att gästen har kvar vår sajt. Det gäller både länkar i HTML-sidorna och länkar som skapas i JavaScript.
+
 ## Innehållsregler
 
 * Uppgifter om stugan (antal bäddar, faciliteter, regler) måste stämma med Booking.com-sidan. Hitta aldrig på fakta om stugan.
