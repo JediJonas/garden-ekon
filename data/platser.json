@@ -208,7 +208,11 @@
       "en": "summer, see the park's website",
       "de": "Sommer, siehe Website des Parks"
     },
-    "link": "https://www.highchaparral.se/",
+    "link": {
+      "sv": "https://www.highchaparral.se/",
+      "en": "https://www.highchaparral.se/en/",
+      "de": "https://www.highchaparral.se/de/"
+    },
     "lastVerified": "2026-10"
   },
   {
