@@ -1,9 +1,10 @@
 /* Gården Ekön – gemensam stil. Mobilen först: grundstilen gäller små skärmar,
    @media-reglerna längst ner anpassar för större skärmar och mörkt läge. */
 
-/* Typsnitt: Dosis för rubriker och logga, Jost för brödtext.
-   Båda har SIL Open Font License (se fonts/*/OFL.txt) och ligger på sajten själv,
+/* Typsnitt: Dosis för rubriker och logga, Rouge Script för E:et i loggan, Jost för brödtext.
+   Alla har SIL Open Font License (se OFL.txt i varje mapp under fonts) och ligger på sajten själv,
    de hämtas inte från någon annan tjänst. */
+@font-face { font-family: "Rouge Script"; src: url("../fonts/rouge-script/rouge-script-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
 @font-face { font-family: "Dosis"; src: url("../fonts/dosis/dosis-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
 @font-face { font-family: "Dosis"; src: url("../fonts/dosis/dosis-latin-800-normal.woff2") format("woff2"); font-weight: 800; font-style: normal; font-display: swap; }
 @font-face { font-family: "Jost"; src: url("../fonts/jost/jost-latin-300-normal.woff2") format("woff2"); font-weight: 300; font-style: normal; font-display: swap; }
@@ -137,10 +138,10 @@ img { max-width: 100%; height: auto; }
   flex: 0 0 auto;
   border: 1.5px solid currentColor;
   border-radius: 50%;
-  font-family: var(--rubrik-font);
-  font-weight: 700;
-  font-size: 0.95rem;
-  letter-spacing: 0.06em;
+  font-family: "Rouge Script", cursive;
+  font-weight: 400;
+  font-size: 2.1rem;
+  line-height: 1;
 }
 .ordmarke {
   font-family: var(--rubrik-font);
