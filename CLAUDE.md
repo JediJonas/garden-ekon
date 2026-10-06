@@ -58,7 +58,7 @@ Varje plats har formatet:
 }
 ```
 
-Kategorier: `natur`, `bad`, `barnfamiljer`, `mat-och-fika`, `kultur`. (`regnvader` är borttagen tills vidare.) Nya kategorier läggs bara till efter att du frågat mig.
+Kategorier: `natur`, `bad`, `barnfamiljer`, `mat-och-fika`, `regnvader`. (`kultur` är ersatt av `regnvader`.) Nya kategorier läggs bara till efter att du frågat mig.
 
 Varje plats på kartan ska ha en länk "Vägbeskrivning" som öppnar navigeringen i gästens mobil.
 

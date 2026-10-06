@@ -102,7 +102,7 @@ window.TEXTER = {
     "kat.bad": "Bad",
     "kat.barnfamiljer": "Barnfamiljer",
     "kat.mat-och-fika": "Mat och fika",
-    "kat.kultur": "Kultur",
+    "kat.regnvader": "Regnväder",
 
     "info.titel": "Praktisk info – Gården Ekön",
     "info.rubrik": "Praktisk information",
@@ -227,7 +227,7 @@ window.TEXTER = {
     "kat.bad": "Swimming",
     "kat.barnfamiljer": "Families",
     "kat.mat-och-fika": "Food & coffee",
-    "kat.kultur": "Culture",
+    "kat.regnvader": "Rainy day",
 
     "info.titel": "Practical info – Gården Ekön",
     "info.rubrik": "Practical information",
@@ -352,7 +352,7 @@ window.TEXTER = {
     "kat.bad": "Baden",
     "kat.barnfamiljer": "Familien",
     "kat.mat-och-fika": "Essen & Kaffee",
-    "kat.kultur": "Kultur",
+    "kat.regnvader": "Regenwetter",
 
     "info.titel": "Praktische Infos – Gården Ekön",
     "info.rubrik": "Praktische Informationen",

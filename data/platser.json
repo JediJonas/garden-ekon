@@ -263,7 +263,7 @@
     "id": "jonkopings-lans-museum",
     "name": "Jönköpings läns museum",
     "category": [
-      "kultur"
+      "regnvader"
     ],
     "description": {
       "sv": "Länsmuseet i centrala Jönköping med utställningar om konst, kultur och historia, bland annat John Bauers konst. Öppen verkstad för barn. Stängt på måndagar.",
@@ -284,5 +284,31 @@
     },
     "link": "https://jonkopingslansmuseum.se/",
     "lastVerified": "2026-10"
+  },
+  {
+    "id": "asecs",
+    "name": "Asecs, Jönköping",
+    "category": [
+      "regnvader"
+    ],
+    "description": {
+      "sv": "Stort köpcentrum i Jönköping med butiker, restauranger och matbutik under samma tak. Delar av centrumet ligger på en täckt bro över E4:an. Bra en regnig dag.",
+      "en": "A large shopping centre in Jönköping with shops, restaurants and a supermarket under one roof. Part of it sits on a covered bridge over the E4 motorway. Good on a rainy day.",
+      "de": "Großes Einkaufszentrum in Jönköping mit Geschäften, Restaurants und Supermarkt unter einem Dach. Ein Teil liegt auf einer überdachten Brücke über der Autobahn E4. Gut für einen Regentag."
+    },
+    "lat": 57.7730027,
+    "lng": 14.2044931,
+    "distance": {
+      "sv": "ca 20 min med bil",
+      "en": "approx. 20 min by car",
+      "de": "ca. 20 Min. mit dem Auto"
+    },
+    "season": {
+      "sv": "hela året",
+      "en": "all year",
+      "de": "ganzjährig"
+    },
+    "link": "https://asecs.se/",
+    "lastVerified": null
   }
 ]
