@@ -157,18 +157,15 @@ img { max-width: 100%; height: auto; }
 .ordmarke {
   font-family: var(--rubrik-font);
   font-weight: 800;
-  font-size: 1.05rem;
-  letter-spacing: 0.14em;
-  line-height: 1.2;
+  /* Namnet fyller hela ytan bredvid ringen, ungefär lika högt som ringen */
+  font-size: 1.45rem;
+  letter-spacing: 0.1em;
+  line-height: 1;
   text-transform: uppercase;
 }
-.ordmarke small {
-  display: block;
-  font-family: var(--text-font);
-  font-weight: 400;
-  font-size: 0.6rem;
-  letter-spacing: 0.3em;
-  opacity: 0.8;
+/* Riktigt smala mobiler: lite mindre namn så att språkknapparna får plats */
+@media (max-width: 359px) {
+  .ordmarke { font-size: 1.1rem; letter-spacing: 0.06em; }
 }
 
 .sprakvaxlare { display: flex; }
