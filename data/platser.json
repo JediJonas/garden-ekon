@@ -178,7 +178,11 @@
       "en": "summer, see the park's website",
       "de": "Sommer, siehe Website des Parks"
     },
-    "link": "https://www.astridlindgrensvarld.se/",
+    "link": {
+      "sv": "https://www.astridlindgrensvarld.se/",
+      "en": "https://www.astridlindgrensvarld.se/en/",
+      "de": "https://www.astridlindgrensvarld.se/de/"
+    },
     "lastVerified": "2026-10"
   },
   {
