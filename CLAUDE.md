@@ -14,6 +14,11 @@ Plats: https://maps.app.goo.gl/dKsF288DYnuQSRUFA
 
 * Turister som ofta använder sajten i mobilen, på språng, i bilen eller vid stugan. **Mobilen först.**
 * Snabb laddning, stora klickytor, enkel navigering med tummen.
+* **Alla ändringar ska vara optimerade för mobil och snabb laddning**, eftersom många gäster surfar via långsamma roamingnät. Det betyder bland annat:
+  * Bilder i lagom storlek för mobilen och i WebP-format (med JPG som reserv). Ladda aldrig in en stor bild där en liten räcker.
+  * Bilder längre ner på sidan laddas först när gästen skrollar dit.
+  * Inga onödiga typsnitt, skript eller filer från andra webbplatser.
+  * Sajten sparas i gästens webbläsare (`sw.js`) så att den öppnas snabbt och fungerar utan täckning. Nya sidor och skript läggs till i listan `GRUND` där.
 * Lugn, personlig känsla som speglar stugan och området. Inte en generisk mall.
 
 ## Teknik

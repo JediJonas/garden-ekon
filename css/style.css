@@ -284,6 +284,7 @@ main {
   gap: 10px;
 }
 .bildgalleri a { display: block; }
+.bildgalleri picture { display: contents; }
 .bildgalleri img {
   display: block;
   width: 100%;
@@ -446,8 +447,13 @@ html.bildvisare-oppen { overflow: hidden; overscroll-behavior-x: none; }
   color: #fff;
   background:
     linear-gradient(180deg, rgba(15, 26, 21, 0.5) 0%, rgba(15, 26, 21, 0) 28%, rgba(15, 26, 21, 0.25) 50%, rgba(15, 26, 21, 0.8) 100%),
-    url("../bilder/stugan/framsida.jpg") 60% center / cover no-repeat,
+    url("../bilder/stugan/framsida-mobil.jpg") 60% center / cover no-repeat,
     #50737e;
+  /* Mobilen får en mindre, stående bild i WebP. Webbläsare som inte förstår
+     image-set() hoppar över raden och använder JPG-bilden ovan. */
+  background-image:
+    linear-gradient(180deg, rgba(15, 26, 21, 0.5) 0%, rgba(15, 26, 21, 0) 28%, rgba(15, 26, 21, 0.25) 50%, rgba(15, 26, 21, 0.8) 100%),
+    image-set(url("../bilder/stugan/framsida-mobil.webp") type("image/webp"), url("../bilder/stugan/framsida-mobil.jpg") type("image/jpeg"));
 }
 .hjalte-text { width: 100%; max-width: 1040px; margin: 0 auto; }
 .hjalte h1 { color: #fff; margin: 0.2em 0 0.6em; font-size: clamp(2.4rem, 11vw, 4.2rem); }
@@ -745,7 +751,16 @@ details > :not(summary) { margin: 0 16px 16px; }
   .startsida .huvudmeny a[aria-current="page"] { color: #fff; }
 
   main { padding-top: 40px; }
-  .hjalte { padding: 120px max(40px, calc((100% - 1040px) / 2)) 72px; background-position: 0 0, center 55%, 0 0; }
+  .hjalte {
+    padding: 120px max(40px, calc((100% - 1040px) / 2)) 72px;
+    background-image:
+      linear-gradient(180deg, rgba(15, 26, 21, 0.5) 0%, rgba(15, 26, 21, 0) 28%, rgba(15, 26, 21, 0.25) 50%, rgba(15, 26, 21, 0.8) 100%),
+      url("../bilder/stugan/framsida.jpg");
+    background-image:
+      linear-gradient(180deg, rgba(15, 26, 21, 0.5) 0%, rgba(15, 26, 21, 0) 28%, rgba(15, 26, 21, 0.25) 50%, rgba(15, 26, 21, 0.8) 100%),
+      image-set(url("../bilder/stugan/framsida.webp") type("image/webp"), url("../bilder/stugan/framsida.jpg") type("image/jpeg"));
+    background-position: 0 0, center 55%;
+  }
   .hjalte-text { margin: 0; max-width: 760px; }
   .genvagar { grid-template-columns: repeat(3, 1fr); }
   .genvagar a { grid-template-columns: 1fr; row-gap: 4px; padding: 20px; }
