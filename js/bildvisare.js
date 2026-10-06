@@ -13,17 +13,26 @@
   var raknare = visare.querySelector(".bildvisare-raknare");
   var aktuell = 0;
 
+  // Stora bilden i WebP (mindre fil) om webbläsaren valde WebP för de små
+  // bilderna, annars JPG.
+  function stor(lank) {
+    var webp = Array.prototype.some.call(galleri.querySelectorAll("img"), function (img) {
+      return /\.webp$/.test(img.currentSrc || "");
+    });
+    return (webp && lank.getAttribute("data-webp")) || lank.getAttribute("href");
+  }
+
   function visa(index) {
     aktuell = (index + lankar.length) % lankar.length;
     var lank = lankar[aktuell];
     var liten = lank.querySelector("img");
-    bild.src = lank.getAttribute("href");
+    bild.src = stor(lank);
     bild.alt = liten ? liten.alt : "";
     text.textContent = bild.alt;
     raknare.textContent = (aktuell + 1) + " / " + lankar.length;
     // Ladda nästa och föregående i förväg så att bläddringen går snabbt.
     [aktuell + 1, aktuell - 1].forEach(function (i) {
-      new Image().src = lankar[(i + lankar.length) % lankar.length].getAttribute("href");
+      new Image().src = stor(lankar[(i + lankar.length) % lankar.length]);
     });
   }
 
