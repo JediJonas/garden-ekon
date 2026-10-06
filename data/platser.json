@@ -260,6 +260,32 @@
     "lastVerified": "2026-10"
   },
   {
+    "id": "coop-forserum",
+    "name": "Coop Forserum",
+    "category": [
+      "mat-och-fika"
+    ],
+    "description": {
+      "sv": "Närmaste matbutik, mitt i Forserum.",
+      "en": "The nearest grocery shop, in the centre of Forserum.",
+      "de": "Der nächste Supermarkt, mitten in Forserum."
+    },
+    "lat": 57.6996488,
+    "lng": 14.4748129,
+    "distance": {
+      "sv": "ca 5 min med bil",
+      "en": "approx. 5 min by car",
+      "de": "ca. 5 Min. mit dem Auto"
+    },
+    "season": {
+      "sv": "hela året",
+      "en": "all year",
+      "de": "ganzjährig"
+    },
+    "link": null,
+    "lastVerified": null
+  },
+  {
     "id": "jonkopings-lans-museum",
     "name": "Jönköpings läns museum",
     "category": [
