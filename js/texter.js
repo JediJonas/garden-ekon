@@ -95,6 +95,7 @@ window.TEXTER = {
     "guide.stugan": "Gården Ekön (ungefärligt läge)",
     "guide.laddar": "Laddar platser …",
     "guide.fel": "Platserna kunde inte laddas. Om du öppnat sidan direkt från datorn behöver den visas via en webbserver.",
+    "guide.tvafingrar": "Använd två fingrar för att flytta kartan",
     "guide.tom": "Inga platser i den här kategorin än.",
 
     "kat.natur": "Natur",
@@ -219,6 +220,7 @@ window.TEXTER = {
     "guide.stugan": "Gården Ekön (approximate location)",
     "guide.laddar": "Loading places …",
     "guide.fel": "The places could not be loaded. If you opened the page directly from your computer, it needs to be served by a web server.",
+    "guide.tvafingrar": "Use two fingers to move the map",
     "guide.tom": "No places in this category yet.",
 
     "kat.natur": "Nature",
@@ -343,6 +345,7 @@ window.TEXTER = {
     "guide.stugan": "Gården Ekön (ungefähre Lage)",
     "guide.laddar": "Orte werden geladen …",
     "guide.fel": "Die Orte konnten nicht geladen werden. Wenn Sie die Seite direkt vom Computer geöffnet haben, muss sie über einen Webserver angezeigt werden.",
+    "guide.tvafingrar": "Verschieben Sie die Karte mit zwei Fingern",
     "guide.tom": "In dieser Kategorie gibt es noch keine Orte.",
 
     "kat.natur": "Natur",
