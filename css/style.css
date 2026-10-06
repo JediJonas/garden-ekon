@@ -638,7 +638,28 @@ details > :not(summary) { margin: 0 16px 16px; }
   border: 1px solid var(--kant);
   box-shadow: var(--skugga);
   background: #e6e2d6;
+  position: relative;
 }
+
+/* Tipsrutan "Använd två fingrar …" som visas över kartan i mobilen */
+.karta-tips {
+  position: absolute;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  text-align: center;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #fff;
+  background: rgba(20, 30, 25, 0.55);
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+.karta-tips.synlig { opacity: 1; }
 
 .platslista {
   list-style: none;

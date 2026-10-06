@@ -5,7 +5,7 @@
 //   uppdateras i bakgrunden till nästa besök.
 // Höj VERSION om listan GRUND ändras.
 
-var VERSION = "1";
+var VERSION = "2";
 var CACHE = "ekon-" + VERSION;
 var VANTA_PA_NATET = 3000; // millisekunder innan den sparade sidan visas
 

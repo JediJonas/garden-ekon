@@ -10,12 +10,36 @@
   var valdKategori = "alla";
   var markorer = {};
 
-  var karta = L.map("karta", { scrollWheelZoom: false });
+  // I mobilen skrollar ett finger sidan och två fingrar flyttar kartan,
+  // så att gästen inte fastnar i kartan när hen skrollar förbi den.
+  var pekskarm = window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
+  var karta = L.map("karta", { scrollWheelZoom: false, dragging: !pekskarm });
   L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19,
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   }).addTo(karta);
   karta.setView([57.70, 14.47], 11);
+
+  if (pekskarm) visaTvaFingerTips(document.getElementById("karta"));
+
+  // Visar en kort ruta "Använd två fingrar …" när gästen drar med ett finger på kartan.
+  function visaTvaFingerTips(kartEl) {
+    var tips = document.createElement("div");
+    tips.className = "karta-tips";
+    tips.setAttribute("aria-hidden", "true");
+    kartEl.appendChild(tips);
+    var timer;
+    kartEl.addEventListener("touchmove", function (e) {
+      if (e.touches.length !== 1) {
+        tips.classList.remove("synlig");
+        return;
+      }
+      tips.textContent = t("guide.tvafingrar");
+      tips.classList.add("synlig");
+      clearTimeout(timer);
+      timer = setTimeout(function () { tips.classList.remove("synlig"); }, 1500);
+    }, { passive: true });
+  }
 
   var platsLager = L.layerGroup().addTo(karta);
   var stuglager = L.layerGroup().addTo(karta);
