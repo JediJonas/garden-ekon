@@ -91,6 +91,7 @@ window.TEXTER = {
     "guide.avstand": "Avstånd",
     "guide.sasong": "Säsong",
     "guide.exempel": "Exempel – ej verifierad",
+    "guide.overifierad": "Ej verifierad",
     "guide.stugan": "Gården Ekön (ungefärligt läge)",
     "guide.laddar": "Laddar platser …",
     "guide.fel": "Platserna kunde inte laddas. Om du öppnat sidan direkt från datorn behöver den visas via en webbserver.",
@@ -101,7 +102,6 @@ window.TEXTER = {
     "kat.barnfamiljer": "Barnfamiljer",
     "kat.mat-och-fika": "Mat och fika",
     "kat.kultur": "Kultur",
-    "kat.regnvader": "Regnväder",
 
     "info.titel": "Praktisk info – Gården Ekön",
     "info.rubrik": "Praktisk information",
@@ -215,6 +215,7 @@ window.TEXTER = {
     "guide.avstand": "Distance",
     "guide.sasong": "Season",
     "guide.exempel": "Example – not verified",
+    "guide.overifierad": "Not verified",
     "guide.stugan": "Gården Ekön (approximate location)",
     "guide.laddar": "Loading places …",
     "guide.fel": "The places could not be loaded. If you opened the page directly from your computer, it needs to be served by a web server.",
@@ -225,7 +226,6 @@ window.TEXTER = {
     "kat.barnfamiljer": "Families",
     "kat.mat-och-fika": "Food & coffee",
     "kat.kultur": "Culture",
-    "kat.regnvader": "Rainy day",
 
     "info.titel": "Practical info – Gården Ekön",
     "info.rubrik": "Practical information",
@@ -339,6 +339,7 @@ window.TEXTER = {
     "guide.avstand": "Entfernung",
     "guide.sasong": "Saison",
     "guide.exempel": "Beispiel – nicht geprüft",
+    "guide.overifierad": "Nicht geprüft",
     "guide.stugan": "Gården Ekön (ungefähre Lage)",
     "guide.laddar": "Orte werden geladen …",
     "guide.fel": "Die Orte konnten nicht geladen werden. Wenn Sie die Seite direkt vom Computer geöffnet haben, muss sie über einen Webserver angezeigt werden.",
@@ -349,7 +350,6 @@ window.TEXTER = {
     "kat.barnfamiljer": "Familien",
     "kat.mat-och-fika": "Essen & Kaffee",
     "kat.kultur": "Kultur",
-    "kat.regnvader": "Regenwetter",
 
     "info.titel": "Praktische Infos – Gården Ekön",
     "info.rubrik": "Praktische Informationen",
