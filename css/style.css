@@ -1,11 +1,10 @@
 /* Gården Ekön – gemensam stil. Mobilen först: grundstilen gäller små skärmar,
    @media-reglerna längst ner anpassar för större skärmar och mörkt läge. */
 
-/* Typsnitt: Dosis för rubriker och logga, Rouge Script för E:et i loggan, Jost för brödtext.
+/* Typsnitt: Dosis för huvudrubriker (h1, h2) och logga, Rouge Script för E:et i loggan, Jost för brödtext.
    Alla har SIL Open Font License (se OFL.txt i varje mapp under fonts) och ligger på sajten själv,
    de hämtas inte från någon annan tjänst. */
 @font-face { font-family: "Rouge Script"; src: url("../fonts/rouge-script/rouge-script-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
-@font-face { font-family: "Dosis"; src: url("../fonts/dosis/dosis-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
 @font-face { font-family: "Dosis"; src: url("../fonts/dosis/dosis-latin-800-normal.woff2") format("woff2"); font-weight: 800; font-style: normal; font-display: swap; }
 @font-face { font-family: "Jost"; src: url("../fonts/jost/jost-latin-300-normal.woff2") format("woff2"); font-weight: 300; font-style: normal; font-display: swap; }
 @font-face { font-family: "Jost"; src: url("../fonts/jost/jost-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
@@ -75,7 +74,8 @@ body {
   padding-bottom: calc(var(--nav-hojd) + env(safe-area-inset-bottom));
 }
 
-h1, h2, h3 {
+/* Dosis används bara för h1 och h2. Mindre rubriker och fetstil skrivs med Jost. */
+h1, h2 {
   font-family: var(--rubrik-font);
   font-weight: 800;
   line-height: 1.15;
@@ -89,7 +89,7 @@ h1 {
   margin: 0.1em 0 0.4em;
 }
 h2 { font-size: 1.5rem; margin: 1.8em 0 0.5em; }
-h3 { font-size: 1.25rem; font-weight: 700; margin: 1.2em 0 0.3em; }
+h3 { font-size: 1.2rem; font-weight: 500; line-height: 1.25; color: var(--text); margin: 1.2em 0 0.3em; }
 
 a { color: var(--sjo); }
 
@@ -424,6 +424,8 @@ html.bildvisare-oppen { overflow: hidden; overscroll-behavior-x: none; }
 .knapp-sekundar:hover { background: var(--yta-tonad); }
 
 .liten-text {
+  font-family: var(--text-font);
+  font-weight: 400;
   font-size: 0.9rem;
   color: var(--text-svag);
 }
@@ -530,9 +532,8 @@ html.bildvisare-oppen { overflow: hidden; overscroll-behavior-x: none; }
   color: var(--skog);
 }
 .genvagar strong {
-  font-family: var(--rubrik-font);
-  font-size: 1.2rem;
-  font-weight: 700;
+  font-size: 1.15rem;
+  font-weight: 500;
 }
 .genvagar span { color: var(--text-svag); font-size: 0.93rem; line-height: 1.4; }
 
@@ -572,7 +573,7 @@ html.bildvisare-oppen { overflow: hidden; overscroll-behavior-x: none; }
 
 .adress {
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 500;
   margin: 0 0 14px;
 }
 
@@ -592,7 +593,7 @@ summary {
   gap: 12px;
   padding: 14px 16px;
   min-height: 52px;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
   list-style: none;
 }
