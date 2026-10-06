@@ -5,7 +5,7 @@
 //   uppdateras i bakgrunden till nästa besök.
 // Höj VERSION om listan GRUND ändras.
 
-var VERSION = "2";
+var VERSION = "3";
 var CACHE = "ekon-" + VERSION;
 var VANTA_PA_NATET = 3000; // millisekunder innan den sparade sidan visas
 
@@ -27,7 +27,6 @@ var GRUND = [
   "js/bildvisare.js",
   "data/platser.json",
   "data/stugan.json",
-  "fonts/dosis/dosis-latin-700-normal.woff2",
   "fonts/dosis/dosis-latin-800-normal.woff2",
   "fonts/jost/jost-latin-300-normal.woff2",
   "fonts/jost/jost-latin-400-normal.woff2",
