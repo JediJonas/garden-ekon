@@ -2,7 +2,7 @@
 // på kartan och i listan under. Filterknapparna styr båda samtidigt.
 
 (function () {
-  var KATEGORIER = ["natur", "bad", "barnfamiljer", "mat-och-fika", "kultur", "regnvader"];
+  var KATEGORIER = ["natur", "bad", "barnfamiljer", "mat-och-fika", "kultur"];
   var t = window.Sprak.t;
 
   var platser = [];
@@ -118,8 +118,10 @@
       li.id = "plats-" + plats.id;
 
       var etiketter = skapa("div");
-      if (plats.exempel || !plats.lastVerified) {
+      if (plats.exempel) {
         etiketter.appendChild(skapa("span", "etikett etikett-exempel", t("guide.exempel")));
+      } else if (!plats.lastVerified) {
+        etiketter.appendChild(skapa("span", "etikett etikett-exempel", t("guide.overifierad")));
       }
       plats.category.forEach(function (kat) {
         etiketter.appendChild(skapa("span", "etikett", t("kat." + kat)));
