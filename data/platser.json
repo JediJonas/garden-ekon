@@ -10,8 +10,8 @@
       "en": "A dramatic rift valley, about one kilometre long, with cliff walls up to 35 metres high in places. It is cool and damp at the bottom, and there are fine views from the top.",
       "de": "Eine eindrucksvolle Felsschlucht, etwa einen Kilometer lang, mit stellenweise 35 Meter hohen Felswänden. Unten ist es kühl und feucht, von oben hat man eine schöne Aussicht."
     },
-    "lat": 57.7046,
-    "lng": 15.0796,
+    "lat": 57.7013584,
+    "lng": 15.0879306,
     "distance": {
       "sv": "ca 45 min med bil",
       "en": "approx. 45 min by car",
@@ -36,8 +36,8 @@
       "en": "Nature reserve with a 45-metre cliff and wide views over Lake Tenhultasjön. The trail runs through mixed forest, with picnic tables and a fireplace. It is not a loop, so you return the same way.",
       "de": "Naturschutzgebiet mit einer 45 Meter hohen Felswand und weitem Blick über den See Tenhultasjön. Der Weg führt durch Mischwald, es gibt Rasttische und eine Feuerstelle. Kein Rundweg, zurück geht es denselben Weg."
     },
-    "lat": 57.6815,
-    "lng": 14.3255,
+    "lat": 57.683679,
+    "lng": 14.3264541,
     "distance": {
       "sv": "ca 10 min med bil",
       "en": "approx. 10 min by car",
@@ -52,29 +52,29 @@
     "lastVerified": null
   },
   {
-    "id": "pustaleden-huskvarna",
-    "name": "Pustaleden, Huskvarna",
+    "id": "huskvarnabergen",
+    "name": "Huskvarnabergen, Huskvarna",
     "category": [
       "natur"
     ],
     "description": {
-      "sv": "En kort led på knappt två kilometer längs Huskvarnaån, som forsar fram i en djup ravin. Leden går från Husqvarna fabriksmuseum till Ebbes kraftstation. Lätt att nå med bil eller buss.",
-      "en": "A short trail of just under two kilometres along the Huskvarna River, which rushes through a deep ravine. It runs from the Husqvarna Factory Museum to Ebbe's power station. Easy to reach by car or bus.",
-      "de": "Ein kurzer Weg von knapp zwei Kilometern entlang des Flusses Huskvarnaån, der durch eine tiefe Schlucht rauscht. Er führt vom Husqvarna-Fabrikmuseum zum Kraftwerk Ebbes. Gut mit Auto oder Bus erreichbar."
+      "sv": "Naturreservat på 350 hektar på berget ovanför Huskvarna, med flera leder och utsiktspunkter över Vättern. Här finns ek- och lövskog, och på våren blommar bland annat gulsippor och ramslök. John Bauer-leden och Brunstorpsleden går genom reservatet.",
+      "en": "A 350-hectare nature reserve on the hills above Huskvarna, with several trails and viewpoints over Lake Vättern. There is oak and broadleaf forest, and in spring yellow anemones and wild garlic flower. The John Bauer trail and the Brunstorp trail run through the reserve.",
+      "de": "Ein 350 Hektar großes Naturschutzgebiet auf den Höhen über Huskvarna, mit mehreren Wanderwegen und Aussichtspunkten über den Vättersee. Es gibt Eichen- und Laubwald, im Frühling blühen unter anderem Gelbe Windröschen und Bärlauch. Der John-Bauer-Weg und der Brunstorp-Weg führen durch das Gebiet."
     },
-    "lat": 57.7858,
-    "lng": 14.2836,
+    "lat": 57.8092525,
+    "lng": 14.2816612,
     "distance": {
-      "sv": "ca 20 min med bil",
-      "en": "approx. 20 min by car",
-      "de": "ca. 20 Min. mit dem Auto"
+      "sv": "ca 25 min med bil",
+      "en": "approx. 25 min by car",
+      "de": "ca. 25 Min. mit dem Auto"
     },
     "season": {
       "sv": "hela året",
       "en": "all year",
       "de": "ganzjährig"
     },
-    "link": "https://jkpg.com/sv/jonkoping-huskvarna/pustaleden/",
+    "link": "https://www.lansstyrelsen.se/jonkoping/besoksmal/naturreservat/huskvarnabergen.html",
     "lastVerified": null
   },
   {
@@ -88,8 +88,8 @@
       "en": "Swimming spot on Lake Storsjön in Forserum, with a lawn to lie on, changing rooms, jetties and a swimming raft. The water is rated excellent quality.",
       "de": "Badestelle am See Storsjön in Forserum, mit Liegewiese, Umkleiden, Stegen und Badeinsel. Die Wasserqualität ist als ausgezeichnet eingestuft."
     },
-    "lat": 57.7127,
-    "lng": 14.4906,
+    "lat": 57.7124682,
+    "lng": 14.4902309,
     "distance": {
       "sv": "ca 10 min med bil",
       "en": "approx. 10 min by car",
@@ -114,8 +114,8 @@
       "en": "Calm, secluded swimming spot with a sandy bottom, lawns, an H-shaped jetty with a diving tower and shallow water inside the jetty. Toilets and a barbecue area during the swimming season.",
       "de": "Ruhige, abgeschiedene Badestelle mit Sandboden, Liegewiesen, einem H-förmigen Steg mit Sprungturm und flachem Wasser innerhalb des Stegs. Toiletten und Grillplatz während der Badesaison."
     },
-    "lat": 57.7621,
-    "lng": 14.4217,
+    "lat": 57.762001,
+    "lng": 14.4209697,
     "distance": {
       "sv": "ca 15 min med bil",
       "en": "approx. 15 min by car",
@@ -140,8 +140,8 @@
       "en": "Public swimming spot on Lake Tenhultasjön, near Tenhult. The water is rated excellent quality. Easy to combine with a walk on Uvaberget.",
       "de": "Öffentliche Badestelle am See Tenhultasjön bei Tenhult. Die Wasserqualität ist als ausgezeichnet eingestuft. Lässt sich gut mit einem Ausflug zum Uvaberget verbinden."
     },
-    "lat": 57.696,
-    "lng": 14.3319,
+    "lat": 57.6963035,
+    "lng": 14.3314581,
     "distance": {
       "sv": "ca 10 min med bil",
       "en": "approx. 10 min by car",
@@ -166,8 +166,8 @@
       "en": "Theme park where you step into the settings of Astrid Lindgren's books, with Pippi Longstocking, Emil and many more. Shows and performances every day in season. A full-day trip.",
       "de": "Themenpark, in dem man die Welt aus Astrid Lindgrens Büchern betritt, mit Pippi Langstrumpf, Michel und vielen anderen. In der Saison täglich Theater und Vorstellungen. Ein Tagesausflug."
     },
-    "lat": 57.6745,
-    "lng": 15.8435,
+    "lat": 57.6743995,
+    "lng": 15.8390107,
     "distance": {
       "sv": "ca 1 tim 45 min med bil",
       "en": "approx. 1 h 45 min by car",
@@ -192,8 +192,8 @@
       "en": "Wild West town in the Småland forest with stunt shows, a steam train, gold panning and a large museum. A full-day trip for the whole family.",
       "de": "Westernstadt im Wald von Småland mit Stuntshows, Dampflok, Goldwaschen und einem großen Museum. Ein Tagesausflug für die ganze Familie."
     },
-    "lat": 57.2633,
-    "lng": 13.8272,
+    "lat": 57.2626839,
+    "lng": 13.8269101,
     "distance": {
       "sv": "ca 1 tim 15 min med bil",
       "en": "approx. 1 h 15 min by car",
@@ -218,8 +218,8 @@
       "en": "A park more than a hundred years old on the hill above Jönköping, with views over Lake Vättern, play areas, animals, nature and history. Free to visit.",
       "de": "Ein über hundert Jahre alter Park auf der Anhöhe über Jönköping, mit Blick auf den Vättersee, Spielplätzen, Tieren, Natur und Geschichte. Eintritt frei."
     },
-    "lat": 57.7822,
-    "lng": 14.1448,
+    "lat": 57.7824744,
+    "lng": 14.1407476,
     "distance": {
       "sv": "ca 25 min med bil",
       "en": "approx. 25 min by car",
@@ -244,8 +244,8 @@
       "en": "Restaurant and bar in the centre of Forserum serving lunch of the day, pizza, kebab, burgers and salads. Eat in or take away. Storgatan 3, Forserum.",
       "de": "Restaurant und Bar mitten in Forserum mit Mittagstisch, Pizza, Kebab, Burgern und Salaten. Vor Ort essen oder mitnehmen. Storgatan 3, Forserum."
     },
-    "lat": 57.6988,
-    "lng": 14.4749,
+    "lat": 57.6987648,
+    "lng": 14.4747065,
     "distance": {
       "sv": "ca 5 min med bil",
       "en": "approx. 5 min by car",
@@ -270,8 +270,8 @@
       "en": "The county museum in central Jönköping with exhibitions on art, culture and history, including the art of John Bauer. Open workshop for children. Closed on Mondays.",
       "de": "Das Landesmuseum im Zentrum von Jönköping mit Ausstellungen zu Kunst, Kultur und Geschichte, darunter die Kunst von John Bauer. Offene Werkstatt für Kinder. Montags geschlossen."
     },
-    "lat": 57.7802,
-    "lng": 14.1769,
+    "lat": 57.7796282,
+    "lng": 14.1755157,
     "distance": {
       "sv": "ca 25 min med bil",
       "en": "approx. 25 min by car",
