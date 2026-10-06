@@ -195,9 +195,9 @@
     "lat": 57.2628702,
     "lng": 13.8281975,
     "distance": {
-      "sv": "ca 1 tim 15 min med bil",
-      "en": "approx. 1 h 15 min by car",
-      "de": "ca. 1 Std. 15 Min. mit dem Auto"
+      "sv": "ca 1 tim med bil",
+      "en": "approx. 1 h by car",
+      "de": "ca. 1 Std. mit dem Auto"
     },
     "season": {
       "sv": "sommar, se parkens webbplats",
