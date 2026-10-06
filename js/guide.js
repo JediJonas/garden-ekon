@@ -56,6 +56,13 @@
     return sprakText[window.Sprak.aktuellt()] || sprakText.sv || sprakText.en || "";
   }
 
+  // Naturkartan finns på svenska, engelska och tyska (/sv, /en, /de).
+  // Länken byts till det språk gästen valt, oavsett vad som står i platser.json.
+  function lankPaSprak(url) {
+    return url.replace(/^(https?:\/\/(?:www\.)?naturkartan\.se)\/(?:sv|en|de)(?=\/|$)/,
+      "$1/" + window.Sprak.aktuellt());
+  }
+
   // Öppnar vägbeskrivning i Google Maps (appen om den finns, annars i webbläsaren).
   function vagLank(plats) {
     return "https://www.google.com/maps/dir/?api=1&destination=" + plats.lat + "," + plats.lng;
@@ -178,7 +185,7 @@
 
       if (plats.link) {
         var mer = skapa("a", "knapp knapp-sekundar", t("guide.mer"));
-        mer.href = plats.link;
+        mer.href = lankPaSprak(plats.link);
         mer.target = "_blank";
         mer.rel = "noopener";
         knappar.appendChild(mer);
