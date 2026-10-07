@@ -78,6 +78,32 @@
     "lastVerified": "2026-10"
   },
   {
+    "id": "norra-kvill",
+    "name": "Norra Kvills nationalpark",
+    "category": [
+      "natur"
+    ],
+    "description": {
+      "sv": "En liten nationalpark med skog som fått stå orörd i över 150 år: mjuka mossmattor, mängder av stenblock, tallar som är över 350 år gamla och granar upp till 35 meter höga. Stigarna leder fram till tjärnarna Lilla och Stora Idgölen, där det finns rastplatser. Terrängen är brant på sina ställen. Kvilleken, en av Europas grövsta ekar, ligger några kilometer bort.",
+      "en": "A small national park with forest left untouched for over 150 years: soft carpets of moss, countless boulders, pines over 350 years old and spruces up to 35 metres tall. The paths lead to the ponds Lilla and Stora Idgölen, where there are resting places. The terrain is steep in places. Kvilleken, one of Europe's thickest oaks, is a few kilometres away.",
+      "de": "Ein kleiner Nationalpark mit Wald, der seit über 150 Jahren unberührt ist: weiche Moosteppiche, unzählige Felsblöcke, über 350 Jahre alte Kiefern und bis zu 35 Meter hohe Fichten. Die Wege führen zu den Waldseen Lilla und Stora Idgölen, wo es Rastplätze gibt. Das Gelände ist stellenweise steil. Die Kvilleken, eine der dicksten Eichen Europas, liegt wenige Kilometer entfernt."
+    },
+    "lat": 57.7572147,
+    "lng": 15.5994993,
+    "distance": {
+      "sv": "ca 1 tim 30 min med bil",
+      "en": "approx. 1 h 30 min by car",
+      "de": "ca. 1 Std. 30 Min. mit dem Auto"
+    },
+    "season": {
+      "sv": "hela året",
+      "en": "all year",
+      "de": "ganzjährig"
+    },
+    "link": "https://www.naturkartan.se/sv/kalmar-lan/norra-kvill-nationalpark",
+    "lastVerified": null
+  },
+  {
     "id": "forserums-badplats",
     "name": "Forserums badplats",
     "category": [
