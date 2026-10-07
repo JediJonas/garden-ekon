@@ -513,7 +513,7 @@ html.bildvisare-oppen { overflow: hidden; overscroll-behavior-x: none; }
   border: 1px solid var(--kant);
   border-radius: 16px;
   box-shadow: var(--skugga);
-  margin: 108px 0 24px;
+  margin: 97px 0 32px; /* lika stort avstånd under som ovanför bilden */
   padding: 0 20px 24px;
   text-align: center;
 }
@@ -848,7 +848,8 @@ details > :not(summary) { margin: 0 16px 16px; }
     display: flex;
     align-items: center;
     gap: 28px;
-    margin-top: 32px;
+    margin-top: 8px;
+    margin-bottom: 48px;
     padding: 28px 32px;
     text-align: left;
   }
