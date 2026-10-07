@@ -717,10 +717,10 @@ details > :not(summary) { margin: 0 16px 16px; }
 
 /* Popup i kartan (kartan är alltid ljus) */
 .leaflet-popup-content { font-family: var(--text-font); font-size: 15px; color: #1f2622; }
-.leaflet-popup-content strong { display: block; margin-bottom: 4px; }
+.leaflet-popup-content strong { display: block; font-size: 18px; line-height: 1.3; margin-bottom: 10px; }
 .leaflet-popup-content .knapp { min-height: 40px; padding: 8px 14px; margin-top: 8px; background: #2f5a45; color: #fff; }
 .leaflet-popup-content .knapp-sekundar { background: transparent; color: #2f5a45; border: 2px solid #2f5a45; }
-.popup-knappar { display: flex; flex-direction: column; }
+.popup-knappar { display: flex; flex-direction: column; min-width: 190px; }
 .popup-knappar .knapp { width: 100%; }
 
 /* Platsen man kom till via "Visa i listan" lyser upp en kort stund */
