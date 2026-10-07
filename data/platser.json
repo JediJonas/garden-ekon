@@ -1,14 +1,14 @@
 [
   {
     "id": "skurugata",
-    "name": "Skurugata, Eksjö",
+    "name": "Skurugata",
     "category": [
       "natur"
     ],
     "description": {
-      "sv": "En dramatisk sprickdal, ungefär en kilometer lång, med klippväggar som på sina ställen är 35 meter höga. Det är svalt och fuktigt i botten, och från ovansidan har du fin utsikt.",
-      "en": "A dramatic rift valley, about one kilometre long, with cliff walls up to 35 metres high in places. It is cool and damp at the bottom, and there are fine views from the top.",
-      "de": "Eine eindrucksvolle Felsschlucht, etwa einen Kilometer lang, mit stellenweise 35 Meter hohen Felswänden. Unten ist es kühl und feucht, von oben hat man eine schöne Aussicht."
+      "sv": "En dramatisk sprickdal utanför Eksjö, ungefär en kilometer lång, med klippväggar som på sina ställen är 35 meter höga. Det är svalt och fuktigt i botten, och från ovansidan har du fin utsikt.",
+      "en": "A dramatic rift valley outside Eksjö, about one kilometre long, with cliff walls up to 35 metres high in places. It is cool and damp at the bottom, and there are fine views from the top.",
+      "de": "Eine eindrucksvolle Felsschlucht bei Eksjö, etwa einen Kilometer lang, mit stellenweise 35 Meter hohen Felswänden. Unten ist es kühl und feucht, von oben hat man eine schöne Aussicht."
     },
     "lat": 57.7012256,
     "lng": 15.0875062,
@@ -27,14 +27,14 @@
   },
   {
     "id": "uvaberget-tenhult",
-    "name": "Uvaberget, Tenhult",
+    "name": "Uvaberget",
     "category": [
       "natur"
     ],
     "description": {
-      "sv": "Naturreservat med en 45 meter hög bergbrant och vid utsikt över Tenhultasjön. Leden går genom blandskog, och det finns rastbord och eldstad. Leden är inte en slinga, så du går samma väg tillbaka.",
-      "en": "Nature reserve with a 45-metre cliff and wide views over Lake Tenhultasjön. The trail runs through mixed forest, with picnic tables and a fireplace. It is not a loop, so you return the same way.",
-      "de": "Naturschutzgebiet mit einer 45 Meter hohen Felswand und weitem Blick über den See Tenhultasjön. Der Weg führt durch Mischwald, es gibt Rasttische und eine Feuerstelle. Kein Rundweg, zurück geht es denselben Weg."
+      "sv": "Naturreservat vid Tenhult med en 45 meter hög bergbrant och vid utsikt över Tenhultasjön. Leden går genom blandskog, och det finns rastbord och eldstad. Leden är inte en slinga, så du går samma väg tillbaka.",
+      "en": "Nature reserve near Tenhult with a 45-metre cliff and wide views over Lake Tenhultasjön. The trail runs through mixed forest, with picnic tables and a fireplace. It is not a loop, so you return the same way.",
+      "de": "Naturschutzgebiet bei Tenhult mit einer 45 Meter hohen Felswand und weitem Blick über den See Tenhultasjön. Der Weg führt durch Mischwald, es gibt Rasttische und eine Feuerstelle. Kein Rundweg, zurück geht es denselben Weg."
     },
     "lat": 57.6836896,
     "lng": 14.3266657,
@@ -53,7 +53,7 @@
   },
   {
     "id": "huskvarnabergen",
-    "name": "Huskvarnabergen, Huskvarna",
+    "name": "Huskvarnabergen",
     "category": [
       "natur"
     ],
@@ -157,14 +157,14 @@
   },
   {
     "id": "uddebobadet",
-    "name": "Uddebobadet, Lekeryd",
+    "name": "Uddebobadet",
     "category": [
       "bad"
     ],
     "description": {
-      "sv": "Lugn och avskild badplats med sandbotten, gräsytor, H-formad brygga med hopptorn och grunt vatten innanför bryggan. Toaletter och grillplats finns under badsäsongen.",
-      "en": "Calm, secluded swimming spot with a sandy bottom, lawns, an H-shaped jetty with a diving tower and shallow water inside the jetty. Toilets and a barbecue area during the swimming season.",
-      "de": "Ruhige, abgeschiedene Badestelle mit Sandboden, Liegewiesen, einem H-förmigen Steg mit Sprungturm und flachem Wasser innerhalb des Stegs. Toiletten und Grillplatz während der Badesaison."
+      "sv": "Lugn och avskild badplats vid Lekeryd med sandbotten, gräsytor, H-formad brygga med hopptorn och grunt vatten innanför bryggan. Toaletter och grillplats finns under badsäsongen.",
+      "en": "Calm, secluded swimming spot near Lekeryd with a sandy bottom, lawns, an H-shaped jetty with a diving tower and shallow water inside the jetty. Toilets and a barbecue area during the swimming season.",
+      "de": "Ruhige, abgeschiedene Badestelle bei Lekeryd mit Sandboden, Liegewiesen, einem H-förmigen Steg mit Sprungturm und flachem Wasser innerhalb des Stegs. Toiletten und Grillplatz während der Badesaison."
     },
     "lat": 57.763229,
     "lng": 14.421484,
@@ -209,7 +209,7 @@
   },
   {
     "id": "astrid-lindgrens-varld",
-    "name": "Astrid Lindgrens Värld, Vimmerby",
+    "name": "Astrid Lindgrens Värld",
     "category": [
       "barnfamiljer"
     ],
@@ -239,7 +239,7 @@
   },
   {
     "id": "high-chaparral",
-    "name": "High Chaparral, Hillerstorp",
+    "name": "High Chaparral",
     "category": [
       "barnfamiljer"
     ],
@@ -373,7 +373,7 @@
   },
   {
     "id": "asecs",
-    "name": "Asecs, Jönköping",
+    "name": "Asecs",
     "category": [
       "regnvader"
     ],
@@ -397,6 +397,94 @@
     "link": {
       "sv": "https://asecs.se/",
       "en": "https://asecs.se/en"
+    },
+    "lastVerified": "2026-10"
+  },
+  {
+    "id": "granna",
+    "name": "Gränna",
+    "category": [
+      "sevardheter"
+    ],
+    "description": {
+      "sv": "Liten trästad vid Vättern, grundad av Per Brahe 1652 och känd för sina polkagrisar. Strosa längs Brahegatan, se polkagriskokning och besök Grenna Museum om Andrées polarexpedition. Ovanför staden ligger ruinen Brahehus med vid utsikt över Vättern. Från hamnen går färjan till Visingsö.",
+      "en": "A small wooden town on Lake Vättern, founded by Per Brahe in 1652 and famous for its polkagris rock candy. Stroll along Brahegatan, watch candy being made and visit Grenna Museum about Andrée's polar expedition. Above the town lies the Brahehus ruin with wide views over Vättern. The ferry to Visingsö leaves from the harbour.",
+      "de": "Kleine Holzhausstadt am Vättersee, 1652 von Per Brahe gegründet und bekannt für ihre Polkagris-Zuckerstangen. Bummeln Sie die Brahegatan entlang, schauen Sie beim Zuckerstangenkochen zu und besuchen Sie das Grenna Museum über Andrées Polarexpedition. Oberhalb der Stadt liegt die Ruine Brahehus mit weitem Blick über den Vättersee. Vom Hafen fährt die Fähre nach Visingsö."
+    },
+    "lat": 58.022716,
+    "lng": 14.4678331,
+    "distance": {
+      "sv": "ca 40 min med bil",
+      "en": "approx. 40 min by car",
+      "de": "ca. 40 Min. mit dem Auto"
+    },
+    "season": {
+      "sv": "hela året",
+      "en": "all year",
+      "de": "ganzjährig"
+    },
+    "link": {
+      "sv": "https://jkpg.com/granna",
+      "en": "https://jkpg.com/en/granna"
+    },
+    "lastVerified": "2026-10"
+  },
+  {
+    "id": "visingso",
+    "name": "Visingsö",
+    "category": [
+      "sevardheter"
+    ],
+    "description": {
+      "sv": "Lummig ö mitt i Vättern som du når med färja från Gränna. Ön är lagom stor för en dag på cykel, och du kan hyra cykel på ön. Här finns slottsruinen Visingsborg, en stor ekskog och badplatser, och du kan åka runt med häst och vagn, så kallat remmalag. Kombinera gärna med ett besök i Gränna.",
+      "en": "A leafy island in the middle of Lake Vättern, reached by ferry from Gränna. The island is just the right size for a day by bike, and bikes can be rented on the island. There is the Visingsborg castle ruin, a large oak forest and swimming spots, and you can tour the island by horse and carriage, known as remmalag. Combine it with a visit to Gränna.",
+      "de": "Grüne Insel mitten im Vättersee, die Sie mit der Fähre von Gränna erreichen. Die Insel ist ideal für einen Tag mit dem Fahrrad, Räder kann man auf der Insel mieten. Es gibt die Schlossruine Visingsborg, einen großen Eichenwald und Badestellen, und Sie können die Insel mit Pferd und Wagen erkunden, dem sogenannten Remmalag. Am besten mit einem Besuch in Gränna verbinden."
+    },
+    "lat": 58.03216,
+    "lng": 14.35165,
+    "distance": {
+      "sv": "ca 40 min med bil till Gränna, sedan färja",
+      "en": "approx. 40 min by car to Gränna, then ferry",
+      "de": "ca. 40 Min. mit dem Auto nach Gränna, dann Fähre"
+    },
+    "season": {
+      "sv": "hela året, mest öppet maj–augusti",
+      "en": "all year, most open May–August",
+      "de": "ganzjährig, das meiste geöffnet Mai–August"
+    },
+    "link": {
+      "sv": "https://jkpg.com/visingso",
+      "en": "https://jkpg.com/en/visingso/"
+    },
+    "lastVerified": "2026-10"
+  },
+  {
+    "id": "rottle-vastana",
+    "name": "Röttle by och Västanå naturreservat",
+    "category": [
+      "sevardheter",
+      "natur"
+    ],
+    "description": {
+      "sv": "Idylliskt litet kvarnsamhälle söder om Gränna, där Röttleån forsar ner mot Vättern. Här finns ett vattenfall, en liten båthamn och två gamla kvarnar från 1600-talet. I Rasmus kvarn mals mjöl under sommarsäsongen. Direkt söderut börjar Västanå naturreservat med ädellövskog och en djup ravin längs ån. Lederna i reservatet är branta på sina ställen.",
+      "en": "An idyllic little mill village south of Gränna, where the Röttle river rushes down towards Lake Vättern. There is a waterfall, a small boat harbour and two old mills from the 1600s. Rasmus Mill grinds flour during the summer season. Just to the south, Västanå nature reserve begins, with broadleaf forest and a deep ravine along the river. The trails in the reserve are steep in places.",
+      "de": "Ein idyllisches kleines Mühlendorf südlich von Gränna, wo der Fluss Röttleån zum Vättersee hinabrauscht. Es gibt einen Wasserfall, einen kleinen Bootshafen und zwei alte Mühlen aus dem 17. Jahrhundert. In der Rasmus-Mühle wird im Sommer Mehl gemahlen. Gleich südlich beginnt das Naturschutzgebiet Västanå mit Laubwald und einer tiefen Schlucht entlang des Flusses. Die Wege im Schutzgebiet sind stellenweise steil."
+    },
+    "lat": 57.998216,
+    "lng": 14.4335728,
+    "distance": {
+      "sv": "ca 40 min med bil",
+      "en": "approx. 40 min by car",
+      "de": "ca. 40 Min. mit dem Auto"
+    },
+    "season": {
+      "sv": "hela året, kvarnen är öppen på sommaren",
+      "en": "all year, the mill is open in summer",
+      "de": "ganzjährig, die Mühle ist im Sommer geöffnet"
+    },
+    "link": {
+      "sv": "https://www.visitsmaland.se/att-gora/rottle-by/",
+      "en": "https://www.visitsmaland.se/en/to-do/rottle-by/"
     },
     "lastVerified": "2026-10"
   }
