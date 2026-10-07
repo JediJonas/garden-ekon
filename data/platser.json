@@ -6,9 +6,9 @@
       "natur"
     ],
     "description": {
-      "sv": "En dramatisk sprickdal utanför Eksjö, ungefär en kilometer lång, med klippväggar som på sina ställen är 35 meter höga. Det är svalt och fuktigt i botten, och från ovansidan har du fin utsikt.",
-      "en": "A dramatic rift valley outside Eksjö, about one kilometre long, with cliff walls up to 35 metres high in places. It is cool and damp at the bottom, and there are fine views from the top.",
-      "de": "Eine eindrucksvolle Felsschlucht bei Eksjö, etwa einen Kilometer lang, mit stellenweise 35 Meter hohen Felswänden. Unten ist es kühl und feucht, von oben hat man eine schöne Aussicht."
+      "sv": "En dramatisk sprickdal utanför Eksjö, ungefär en kilometer lång, med klippväggar som på sina ställen är 35 meter höga. Det är svalt och fuktigt i botten, och från ovansidan har du fin utsikt. Utsiktsplatsen är lätt att nå, men vandringen nere i ravinen kan vara lite krävande.",
+      "en": "A dramatic rift valley outside Eksjö, about one kilometre long, with cliff walls up to 35 metres high in places. It is cool and damp at the bottom, and there are fine views from the top. The viewpoint is easy to reach, but the walk down in the ravine can be a little demanding.",
+      "de": "Eine eindrucksvolle Felsschlucht bei Eksjö, etwa einen Kilometer lang, mit stellenweise 35 Meter hohen Felswänden. Unten ist es kühl und feucht, von oben hat man eine schöne Aussicht. Der Aussichtspunkt ist leicht zu erreichen, die Wanderung unten in der Schlucht kann aber etwas anstrengend sein."
     },
     "lat": 57.7012256,
     "lng": 15.0875062,
@@ -22,7 +22,11 @@
       "en": "all year",
       "de": "ganzjährig"
     },
-    "link": "https://www.naturkartan.se/sv/hoglandet/skurugata",
+    "link": {
+      "sv": "https://www.visitsmaland.se/upptack/skurugata-och-skuruhatt/",
+      "en": "https://www.visitsmaland.se/en/discover/skurugata-and-skuruhatt/",
+      "de": "https://www.visitsmaland.se/de/entdecken/skurugata-und-skuruhatt/"
+    },
     "lastVerified": "2026-10"
   },
   {
@@ -58,9 +62,9 @@
       "natur"
     ],
     "description": {
-      "sv": "Naturreservat på 350 hektar på berget ovanför Huskvarna, med flera leder och utsiktspunkter över Vättern. Här finns ek- och lövskog, och på våren blommar bland annat gulsippor och ramslök. John Bauer-leden och Brunstorpsleden går genom reservatet.",
-      "en": "A 350-hectare nature reserve on the hills above Huskvarna, with several trails and viewpoints over Lake Vättern. There is oak and broadleaf forest, and in spring yellow anemones and wild garlic flower. The John Bauer trail and the Brunstorp trail run through the reserve.",
-      "de": "Ein 350 Hektar großes Naturschutzgebiet auf den Höhen über Huskvarna, mit mehreren Wanderwegen und Aussichtspunkten über den Vättersee. Es gibt Eichen- und Laubwald, im Frühling blühen unter anderem Gelbe Windröschen und Bärlauch. Der John-Bauer-Weg und der Brunstorp-Weg führen durch das Gebiet."
+      "sv": "Naturreservat på 350 hektar på berget ovanför Huskvarna, med flera leder och utsiktspunkter över Vättern. Här finns ek- och lövskog, och på våren blommar bland annat gulsippor och ramslök. Var försiktig, det är brant på sina ställen.",
+      "en": "A 350-hectare nature reserve on the hills above Huskvarna, with several trails and viewpoints over Lake Vättern. There is oak and broadleaf forest, and in spring yellow anemones and wild garlic flower. Take care, it is steep in places.",
+      "de": "Ein 350 Hektar großes Naturschutzgebiet auf den Höhen über Huskvarna, mit mehreren Wanderwegen und Aussichtspunkten über den Vättersee. Es gibt Eichen- und Laubwald, im Frühling blühen unter anderem Gelbe Windröschen und Bärlauch. Vorsicht, es ist stellenweise steil."
     },
     "lat": 57.80915,
     "lng": 14.2821608,
@@ -100,7 +104,11 @@
       "en": "all year",
       "de": "ganzjährig"
     },
-    "link": "https://www.naturkartan.se/sv/kalmar-lan/norra-kvill-nationalpark",
+    "link": {
+      "sv": "https://www.visitsmaland.se/upptack/norra-kvill-nationalpark/",
+      "en": "https://www.visitsmaland.se/en/discover/norra-kvill-national-park/",
+      "de": "https://www.visitsmaland.se/de/entdecken/norra-kvill-nationalpark/"
+    },
     "lastVerified": "2026-10"
   },
   {
@@ -126,7 +134,11 @@
       "en": "all year",
       "de": "ganzjährig"
     },
-    "link": "https://www.naturkartan.se/sv/jonkopings-lan/store-mosse-nationalpark",
+    "link": {
+      "sv": "https://www.visitsmaland.se/upptack/store-mosse/",
+      "en": "https://www.visitsmaland.se/en/discover/store-mosse/",
+      "de": "https://www.visitsmaland.se/de/entdecken/store-mosse/"
+    },
     "lastVerified": "2026-10"
   },
   {
