@@ -18,7 +18,6 @@ window.TEXTER = {
 
     "hem.titel": "Gården Ekön – Välkommen",
     "hem.rubrik": "Välkommen till Gården Ekön",
-    "hem.ingress": "Din guide till stugan i Forserum och allt som finns runt omkring.",
     "hem.boka": "Boka på Booking.com",
     "hem.boka.info": "Bokning, priser och lediga datum finns på Booking.com.",
     "hem.halsning": "Varmt välkommen hit! Vi heter Karin och Jonas och bor granne med stugan. Vi vill att du ska känna dig välkommen och hoppas att du kommer att trivas här. På den här webbplatsen hittar du allt du behöver, oavsett om du planerar din semester eller redan har bokat stugan.",
@@ -164,7 +163,6 @@ window.TEXTER = {
 
     "hem.titel": "Gården Ekön – Welcome",
     "hem.rubrik": "Welcome to Gården Ekön",
-    "hem.ingress": "Your guide to the cottage in Forserum and everything around it.",
     "hem.boka": "Book on Booking.com",
     "hem.boka.info": "Booking, prices and available dates are on Booking.com.",
     "hem.halsning": "A warm welcome! We are Karin and Jonas, and we live next door to the cottage. We want you to feel welcome and hope you will enjoy your time here. On this website you will find everything you need, whether you are planning your holiday or have already booked the cottage.",
@@ -310,7 +308,6 @@ window.TEXTER = {
 
     "hem.titel": "Gården Ekön – Willkommen",
     "hem.rubrik": "Willkommen auf Gården Ekön",
-    "hem.ingress": "Ihr Wegweiser zum Ferienhaus in Forserum und zu allem, was es in der Umgebung gibt.",
     "hem.boka": "Auf Booking.com buchen",
     "hem.boka.info": "Buchung, Preise und freie Termine finden Sie auf Booking.com.",
     "hem.halsning": "Herzlich willkommen! Wir sind Karin und Jonas und wohnen direkt neben dem Ferienhaus. Sie sollen sich bei uns willkommen fühlen, und wir hoffen, dass Sie sich hier wohlfühlen. Auf dieser Website finden Sie alles, was Sie brauchen, ob Sie Ihren Urlaub gerade planen oder das Ferienhaus schon gebucht haben.",
@@ -456,7 +453,6 @@ window.TEXTER = {
 
     "hem.titel": "Gården Ekön – Welkom",
     "hem.rubrik": "Welkom op Gården Ekön",
-    "hem.ingress": "Uw gids voor het huisje in Forserum en alles wat er in de buurt te doen is.",
     "hem.boka": "Boek op Booking.com",
     "hem.boka.info": "Boeken, prijzen en beschikbare data vindt u op Booking.com.",
     "hem.halsning": "Van harte welkom! Wij zijn Karin en Jonas en wonen naast het huisje. We willen dat u zich welkom voelt en hopen dat u het hier naar uw zin zult hebben. Op deze website vindt u alles wat u nodig hebt, of u nu uw vakantie aan het plannen bent of het huisje al hebt geboekt.",
@@ -602,7 +598,6 @@ window.TEXTER = {
 
     "hem.titel": "Gården Ekön – Velkommen",
     "hem.rubrik": "Velkommen til Gården Ekön",
-    "hem.ingress": "Din guide til huset i Forserum og alt det, der er i omegnen.",
     "hem.boka": "Book på Booking.com",
     "hem.boka.info": "Booking, priser og ledige datoer finder du på Booking.com.",
     "hem.halsning": "Hjertelig velkommen! Vi hedder Karin og Jonas og bor lige ved siden af huset. Vi vil gerne have, at du føler dig velkommen, og håber, at du vil trives her. På denne hjemmeside finder du alt, hvad du har brug for, uanset om du er ved at planlægge din ferie eller allerede har booket huset.",
