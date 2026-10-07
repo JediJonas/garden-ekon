@@ -520,6 +520,7 @@ html.bildvisare-oppen { overflow: hidden; overscroll-behavior-x: none; }
   background: var(--text);
 }
 .intro .ingress { margin: 0 auto 16px; font-weight: 300; }
+.intro .halsning { margin: 0 auto 16px; }
 
 .genvagar {
   display: grid;
