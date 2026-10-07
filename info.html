@@ -4,6 +4,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title data-t="info.titel">Praktisk info – Gården Ekön</title>
+  <meta name="description" content="In- och utcheckning, svar på vanliga frågor och hur du når värdarna på Gården Ekön utanför Forserum." data-t-content="info.beskrivning">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Gården Ekön">
+  <meta property="og:title" content="Praktisk info – Gården Ekön">
+  <meta property="og:description" content="In- och utcheckning, svar på vanliga frågor och hur du når värdarna på Gården Ekön utanför Forserum.">
+  <meta property="og:url" content="https://jedijonas.github.io/garden-ekon/info.html">
+  <meta property="og:image" content="https://jedijonas.github.io/garden-ekon/bilder/stugan/framsida-liten.jpg">
+  <meta property="og:image:width" content="800">
+  <meta property="og:image:height" content="600">
+  <meta property="og:locale" content="sv_SE">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#1b211e" media="(prefers-color-scheme: dark)">
   <link rel="preload" href="fonts/dosis/dosis-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
@@ -14,6 +25,7 @@
   <script src="js/offline.js" defer></script>
 </head>
 <body>
+  <a class="hoppa" href="#innehall" data-t="hoppa">Hoppa till innehållet</a>
   <header class="sidhuvud">
     <a class="logga" href="index.html"><span class="monogram" aria-hidden="true">E</span><span class="ordmarke"><span data-t="sajt.namn">Gården Ekön</span></span></a>
     <nav class="huvudmeny" data-t-aria="meny.namn" aria-label="Meny">
@@ -26,8 +38,9 @@
       </ul>
     </nav>
     <div class="sprakmeny">
-      <button type="button" class="sprakknapp" aria-expanded="false" aria-controls="sprakpanel" data-t-aria="sprak.val" aria-label="Välj språk">
+      <button type="button" class="sprakknapp" aria-expanded="false" aria-controls="sprakpanel">
         <svg class="ikon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18"/><path d="M12 3a14 14 0 0 0 0 18"/></svg>
+        <span class="dold" data-t="sprak.val">Välj språk</span>
         <span class="sprakkod">SV</span>
         <svg class="ikon pil" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
       </button>
@@ -41,7 +54,7 @@
     </div>
   </header>
 
-  <main>
+  <main id="innehall" tabindex="-1">
     <h1 data-t="info.rubrik">Praktisk information</h1>
     <p class="ingress" data-t="info.ingress">Här finns svar på det gäster brukar undra över.</p>
 

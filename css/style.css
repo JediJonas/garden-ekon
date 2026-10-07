@@ -48,8 +48,9 @@
     --skog: #7fbf9c;
     --skog-mork: #a8d8bd;
     --sjo: #8cc0d6;
-    --boka: #c9602f;
-    --boka-mork: #b4532a;
+    /* Samma orange som i ljust läge, så att den vita texten får tillräcklig kontrast */
+    --boka: #b4532a;
+    --boka-mork: #93401e;
     --kant: #2c3430;
     --platshallare: #3a3219;
     --platshallare-kant: #9b8230;
@@ -60,7 +61,13 @@
 
 * { box-sizing: border-box; }
 
-html { -webkit-text-size-adjust: 100%; }
+html {
+  -webkit-text-size-adjust: 100%;
+  /* När man flyttar sig med tangentbordet ska det markerade aldrig hamna
+     bakom sidhuvudet eller menyraden längst ner. */
+  scroll-padding-top: calc(var(--huvud-hojd) + 12px);
+  scroll-padding-bottom: calc(var(--nav-hojd) + env(safe-area-inset-bottom) + 12px);
+}
 
 body {
   margin: 0;
@@ -783,6 +790,23 @@ details > :not(summary) { margin: 0 16px 16px; }
 }
 .sidfot p { max-width: 760px; margin: 0 auto; padding: 18px 16px; }
 
+/* "Hoppa till innehållet": syns bara när man använder tangentbord */
+.hoppa {
+  position: absolute;
+  left: 12px;
+  top: -100px;
+  z-index: 2000;
+  padding: 12px 18px;
+  background: var(--yta);
+  color: var(--text);
+  border-radius: var(--radie-liten);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  font-weight: 500;
+}
+.hoppa:focus { top: 12px; }
+/* Dit "Hoppa till innehållet" leder. Får fokus men ingen ram. */
+#innehall:focus { outline: none; }
+
 /* Syns bara för skärmläsare */
 .dold {
   position: absolute;
@@ -798,6 +822,11 @@ details > :not(summary) { margin: 0 16px 16px; }
   outline-offset: 2px;
 }
 
+/* Över fotot på startsidan syns en vit fokusram bättre */
+.startsida .logga:focus-visible,
+.startsida .sprakknapp:focus-visible,
+.hjalte :focus-visible { outline-color: #fff; }
+
 @media (prefers-reduced-motion: reduce) {
   main { animation: none; }
   * { transition: none !important; }
@@ -807,6 +836,7 @@ details > :not(summary) { margin: 0 16px 16px; }
 
 @media (min-width: 800px) {
   body { padding-bottom: 0; }
+  html { scroll-padding-top: 88px; scroll-padding-bottom: 12px; }
 
   .sidhuvud { --huvud-hojd: 76px; padding: 0 max(24px, calc((100% - 1040px) / 2)); }
 
@@ -830,6 +860,7 @@ details > :not(summary) { margin: 0 16px 16px; }
   .huvudmeny a .ikon { display: none; }
   .huvudmeny a:hover { color: var(--text); }
   .startsida .huvudmeny a { color: rgba(255, 255, 255, 0.85); }
+  .startsida .huvudmeny a:focus-visible { outline-color: #fff; }
   .startsida .huvudmeny a:hover,
   .startsida .huvudmeny a[aria-current="page"] { color: #fff; }
 

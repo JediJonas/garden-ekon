@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Alla sidor på alla språk, så att Google hittar dem. Adressen utan
+     ?lang= väljer språk automatiskt (x-default). Byt adressen här
+     och i sidornas <head> när sajten får egen domän. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/?lang=sv</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/?lang=nl</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/?lang=da</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/stugan.html?lang=sv</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/stugan.html"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/stugan.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/stugan.html"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/stugan.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/stugan.html"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/stugan.html?lang=nl</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/stugan.html"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/stugan.html?lang=da</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/stugan.html"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/stugan.html</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/stugan.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/stugan.html"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=sv</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=nl</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=da</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/hitta-hit.html</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/hitta-hit.html"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/guide.html?lang=sv</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/guide.html"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/guide.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/guide.html"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/guide.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/guide.html"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/guide.html?lang=nl</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/guide.html"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/guide.html?lang=da</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/guide.html"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/guide.html</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/guide.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/guide.html"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/info.html?lang=sv</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/info.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/info.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/info.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/info.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/info.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/info.html"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/info.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/info.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/info.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/info.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/info.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/info.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/info.html"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/info.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/info.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/info.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/info.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/info.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/info.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/info.html"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/info.html?lang=nl</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/info.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/info.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/info.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/info.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/info.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/info.html"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/info.html?lang=da</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/info.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/info.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/info.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/info.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/info.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/info.html"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/info.html</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/info.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/info.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/info.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/info.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/info.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/info.html"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/integritet.html?lang=sv</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/integritet.html"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/integritet.html?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/integritet.html"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/integritet.html?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/integritet.html"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/integritet.html?lang=nl</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/integritet.html"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/integritet.html?lang=da</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/integritet.html"/>
+  </url>
+  <url>
+    <loc>https://jedijonas.github.io/garden-ekon/integritet.html</loc>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=sv"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=nl"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://jedijonas.github.io/garden-ekon/integritet.html?lang=da"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jedijonas.github.io/garden-ekon/integritet.html"/>
+  </url>
+</urlset>

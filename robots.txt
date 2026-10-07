@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jedijonas.github.io/garden-ekon/sitemap.xml
