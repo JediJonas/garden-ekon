@@ -14,7 +14,7 @@ window.TEXTER = {
     "meny.guide": "Guide",
     "meny.info": "Info",
     "sidfot.integritet": "Integritet",
-    "sidfot.boka": "Bokning sker via Booking.com",
+    "sidfot.boka": "Bokning sker via",
 
     "hem.titel": "Gården Ekön – välkommen",
     "hem.rubrik": "Välkommen till Gården Ekön",
@@ -158,7 +158,7 @@ window.TEXTER = {
     "meny.guide": "Guide",
     "meny.info": "Info",
     "sidfot.integritet": "Privacy",
-    "sidfot.boka": "Booking is handled by Booking.com",
+    "sidfot.boka": "Booking is handled by",
 
     "hem.titel": "Gården Ekön – welcome",
     "hem.rubrik": "Welcome to Gården Ekön",
@@ -302,7 +302,7 @@ window.TEXTER = {
     "meny.guide": "Tipps",
     "meny.info": "Infos",
     "sidfot.integritet": "Datenschutz",
-    "sidfot.boka": "Die Buchung erfolgt über Booking.com",
+    "sidfot.boka": "Die Buchung erfolgt über",
 
     "hem.titel": "Gården Ekön – willkommen",
     "hem.rubrik": "Willkommen auf Gården Ekön",

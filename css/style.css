@@ -409,6 +409,7 @@ html.bildvisare-oppen { overflow: hidden; overscroll-behavior-x: none; }
   color: #fff;
 }
 .knapp-boka:hover { background: var(--boka-mork); }
+.boka-rad { margin: 32px 0 24px; }
 
 .knapp-sekundar {
   background: transparent;
