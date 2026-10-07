@@ -108,7 +108,21 @@
     lank.href = vagLank(plats);
     lank.target = "_blank";
     lank.rel = "noopener";
-    div.appendChild(lank);
+    var knappar = skapa("div", "popup-knappar");
+    knappar.appendChild(lank);
+
+    // Skrollar ner till platsens text i listan och markerar den en kort stund.
+    var iListan = skapa("button", "knapp knapp-sekundar", t("guide.ilistan"));
+    iListan.type = "button";
+    iListan.addEventListener("click", function () {
+      var li = document.getElementById("plats-" + plats.id);
+      if (!li) return;
+      li.scrollIntoView({ behavior: "smooth", block: "start" });
+      li.classList.add("markerad");
+      setTimeout(function () { li.classList.remove("markerad"); }, 2000);
+    });
+    knappar.appendChild(iListan);
+    div.appendChild(knappar);
     return div;
   }
 
