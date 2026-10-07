@@ -372,8 +372,6 @@ html.bildvisare-oppen { overflow: hidden; overscroll-behavior-x: none; }
 .bildvisare-nasta { right: 8px; }
 
 .bildtips {
-  color: var(--text-svag);
-  font-size: 0.95rem;
   margin-top: -4px;
 }
 
