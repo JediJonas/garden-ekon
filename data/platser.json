@@ -104,7 +104,11 @@
       "en": "all year",
       "de": "ganzjährig"
     },
-    "link": "https://www.naturkartan.se/sv/kalmar-lan/norra-kvill-nationalpark",
+    "link": {
+      "sv": "https://www.visitsmaland.se/upptack/norra-kvill-nationalpark/",
+      "en": "https://www.visitsmaland.se/en/discover/norra-kvill-national-park/",
+      "de": "https://www.visitsmaland.se/de/entdecken/norra-kvill-nationalpark/"
+    },
     "lastVerified": "2026-10"
   },
   {
@@ -130,7 +134,11 @@
       "en": "all year",
       "de": "ganzjährig"
     },
-    "link": "https://www.naturkartan.se/sv/jonkopings-lan/store-mosse-nationalpark",
+    "link": {
+      "sv": "https://www.visitsmaland.se/upptack/store-mosse/",
+      "en": "https://www.visitsmaland.se/en/discover/store-mosse/",
+      "de": "https://www.visitsmaland.se/de/entdecken/store-mosse/"
+    },
     "lastVerified": "2026-10"
   },
   {
