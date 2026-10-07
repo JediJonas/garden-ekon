@@ -213,11 +213,28 @@
     });
   }
 
+  // Restid i minuter, läst ur den svenska texten, t.ex. "ca 1 tim 30 min med bil".
+  // Listan visas med det närmaste först. Platser utan restid hamnar sist.
+  function minuter(plats) {
+    var text = (plats.distance && plats.distance.sv) || "";
+    var tim = text.match(/(\d+)\s*tim/);
+    var min = text.match(/(\d+)\s*min/);
+    if (!tim && !min) return Infinity;
+    return (tim ? +tim[1] * 60 : 0) + (min ? +min[1] : 0);
+  }
+
+  function sorteraEfterRestid(lista) {
+    return lista
+      .map(function (plats, i) { return { plats: plats, i: i, m: minuter(plats) }; })
+      .sort(function (a, b) { return a.m - b.m || a.i - b.i; })
+      .map(function (x) { return x.plats; });
+  }
+
   ritaFilter();
 
   Promise.all([hamta("data/platser.json"), hamta("data/stugan.json").catch(function () { return null; })])
     .then(function (resultat) {
-      platser = resultat[0];
+      platser = sorteraEfterRestid(resultat[0]);
       stugan = resultat[1];
       document.getElementById("exempelvarning").hidden = !platser.some(function (p) { return p.exempel; });
       ritaAllt(true);
