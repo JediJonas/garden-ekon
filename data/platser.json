@@ -106,13 +106,7 @@
   },
   {
     "id": "norra-kvill",
-    "name": {
-      "sv": "Norra Kvill nationalpark",
-      "en": "Norra Kvill National Park",
-      "de": "Nationalpark Norra Kvill",
-      "nl": "Nationaal park Norra Kvill",
-      "da": "Norra Kvill Nationalpark"
-    },
+    "name": "Norra Kvill nationalpark",
     "category": [
       "natur"
     ],
@@ -150,13 +144,7 @@
   },
   {
     "id": "store-mosse",
-    "name": {
-      "sv": "Store Mosse nationalpark",
-      "en": "Store Mosse National Park",
-      "de": "Nationalpark Store Mosse",
-      "nl": "Nationaal park Store Mosse",
-      "da": "Store Mosse Nationalpark"
-    },
+    "name": "Store Mosse nationalpark",
     "category": [
       "natur"
     ],
@@ -194,13 +182,7 @@
   },
   {
     "id": "forserums-badplats",
-    "name": {
-      "sv": "Forserums badplats",
-      "en": "Forserum swimming area",
-      "de": "Badestelle Forserum",
-      "nl": "Zwemplek Forserum",
-      "da": "Forserum badeplads"
-    },
+    "name": "Forserums badplats",
     "category": [
       "bad"
     ],
@@ -264,13 +246,7 @@
   },
   {
     "id": "tenhultsbadet",
-    "name": {
-      "sv": "Tenhults badplats",
-      "en": "Tenhult swimming area",
-      "de": "Badestelle Tenhult",
-      "nl": "Zwemplek Tenhult",
-      "da": "Tenhult badeplads"
-    },
+    "name": "Tenhults badplats",
     "category": [
       "bad"
     ],
@@ -302,13 +278,7 @@
   },
   {
     "id": "astrid-lindgrens-varld",
-    "name": {
-      "sv": "Astrid Lindgrens Värld",
-      "en": "Astrid Lindgren's World",
-      "de": "Astrid Lindgrens Welt",
-      "nl": "Astrid Lindgren's Wereld",
-      "da": "Astrid Lindgrens Verden"
-    },
+    "name": "Astrid Lindgrens Värld",
     "category": [
       "barnfamiljer"
     ],
@@ -380,13 +350,7 @@
   },
   {
     "id": "jonkopings-stadspark",
-    "name": {
-      "sv": "Jönköpings stadspark",
-      "en": "Jönköping City Park",
-      "de": "Stadtpark Jönköping",
-      "nl": "Stadspark Jönköping",
-      "da": "Jönköpings bypark"
-    },
+    "name": "Jönköpings stadspark",
     "category": [
       "barnfamiljer",
       "sevardheter"
@@ -518,13 +482,7 @@
   },
   {
     "id": "jonkopings-lans-museum",
-    "name": {
-      "sv": "Jönköpings läns museum",
-      "en": "Jönköping County Museum",
-      "de": "Provinzmuseum Jönköping",
-      "nl": "Provinciaal museum Jönköping",
-      "da": "Jönköping Amts Museum"
-    },
+    "name": "Jönköpings läns museum",
     "category": [
       "regnvader"
     ],
@@ -670,10 +628,10 @@
     "id": "rottle-vastana",
     "name": {
       "sv": "Röttle by och Västanå naturreservat",
-      "en": "Röttle village and Västanå Nature Reserve",
-      "de": "Dorf Röttle und Naturschutzgebiet Västanå",
-      "nl": "Dorp Röttle en natuurreservaat Västanå",
-      "da": "Röttle landsby og Västanå naturreservat"
+      "en": "Röttle by and Västanå naturreservat",
+      "de": "Röttle by und Västanå naturreservat",
+      "nl": "Röttle by en Västanå naturreservat",
+      "da": "Röttle by og Västanå naturreservat"
     },
     "category": [
       "sevardheter",

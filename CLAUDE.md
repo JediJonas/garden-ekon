@@ -72,7 +72,7 @@ Varje plats har formatet:
 }
 ```
 
-`"name"` är en vanlig text när namnet är ett egennamn som ser likadant ut på alla språk (t.ex. "Skurugata"). Innehåller namnet vanliga ord som behöver översättas (t.ex. "badplats", "nationalpark", "och"), anges det per språk som `"name": { "sv": "…", "en": "…", "de": "…", "nl": "…", "da": "…" }`. Egennamnen behålls som de är.
+`"name"` skrivs på svenska på alla språk, så att gästerna känner igen namnet på skyltar och kan söka på det. Bara småord som "och" översätts; då anges namnet per språk som `"name": { "sv": "…", "en": "…", "de": "…", "nl": "…", "da": "…" }`.
 
 Kategorier: `natur`, `bad`, `barnfamiljer`, `mat-och-fika`, `regnvader`, `sevardheter`. (`kultur` är ersatt av `regnvader`.) Nya kategorier läggs bara till efter att du frågat mig.
 
