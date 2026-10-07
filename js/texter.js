@@ -89,7 +89,7 @@ window.TEXTER = {
     "guide.antal": "{n} platser",
     "guide.antal.en": "1 plats",
     "guide.vag": "Vägbeskrivning",
-    "guide.visa": "Visa på kartan",
+    "guide.visa": "Visa på karta",
     "guide.mer": "Webbplats",
     "guide.avstand": "Avstånd",
     "guide.sasong": "Säsong",
