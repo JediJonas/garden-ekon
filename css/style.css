@@ -716,7 +716,8 @@ details > :not(summary) { margin: 0 16px 16px; }
 .leaflet-popup-content strong { display: block; margin-bottom: 4px; }
 .leaflet-popup-content .knapp { min-height: 40px; padding: 8px 14px; margin-top: 8px; background: #2f5a45; color: #fff; }
 .leaflet-popup-content .knapp-sekundar { background: transparent; color: #2f5a45; border: 2px solid #2f5a45; }
-.popup-knappar { display: flex; flex-wrap: wrap; gap: 0 8px; }
+.popup-knappar { display: flex; flex-direction: column; }
+.popup-knappar .knapp { width: 100%; }
 
 /* Platsen man kom till via "Visa i listan" lyser upp en kort stund */
 .plats { scroll-margin-top: 80px; transition: box-shadow 0.4s; }
