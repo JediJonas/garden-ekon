@@ -781,12 +781,16 @@ details > :not(summary) { margin: 0 16px 16px; }
 
 /* ---------- Sidfot ---------- */
 
-/* Djursiluett längst ner på vissa sidor, precis ovanför sidfoten. Ren dekoration:
-   dold för skärmläsare (aria-hidden) och klickar man på den händer inget. */
+/* Djursiluett längst ner på vissa sidor, stående på sidfotens linje. Den ligger
+   mellan main och sidfoten, så att den hamnar på linjen även på korta sidor.
+   Ren dekoration: dold för skärmläsare (aria-hidden) och går inte att klicka på. */
 .djur {
   display: flex;
   justify-content: flex-end;
-  margin: 40px 0 -32px;
+  width: 100%;
+  max-width: 760px;
+  margin: 8px auto 0;
+  padding: 0 16px;
   color: var(--skog);
   opacity: 0.55;
   pointer-events: none;
