@@ -420,7 +420,8 @@
     "id": "asecs",
     "name": "Asecs",
     "category": [
-      "regnvader"
+      "regnvader",
+      "mat-och-fika"
     ],
     "description": {
       "sv": "Stort köpcentrum i Jönköping med butiker, restauranger och matbutik under samma tak. Bra en regnig dag.",
