@@ -163,31 +163,67 @@ img { max-width: 100%; height: auto; }
   line-height: 1;
   text-transform: uppercase;
 }
-/* Riktigt smala mobiler: lite mindre namn så att språkknapparna får plats */
+/* Riktigt smala mobiler: lite mindre namn så att språkknappen får plats */
 @media (max-width: 359px) {
   .ordmarke { font-size: 1.1rem; letter-spacing: 0.06em; }
 }
 
-.sprakvaxlare { display: flex; }
-.sprakvaxlare button {
-  min-width: 36px;
+/* Språkmeny: en knapp med jordglob och valt språk. Ett tryck öppnar en lista
+   med alla språk, skrivna på sitt eget språk. */
+.sprakmeny { position: relative; flex: 0 0 auto; }
+.sprakknapp {
+  display: flex;
+  align-items: center;
+  gap: 5px;
   min-height: 44px;
-  padding: 0 4px;
-  border: 0;
+  padding: 0 10px;
+  border: 1px solid var(--kant);
+  border-radius: 999px;
   background: transparent;
-  color: var(--text-svag);
+  color: var(--text);
   font: inherit;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   font-weight: 500;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   cursor: pointer;
 }
-.sprakvaxlare button[aria-pressed="true"] {
-  color: var(--text);
-  text-decoration: underline;
-  text-decoration-thickness: 1.5px;
-  text-underline-offset: 6px;
+.sprakknapp .ikon { width: 18px; height: 18px; stroke-width: 1.6; }
+.sprakknapp .pil { width: 14px; height: 14px; stroke-width: 2; transform-box: fill-box; transform-origin: center; }
+.sprakknapp[aria-expanded="true"] .pil { transform: rotate(180deg); }
+.sprakpanel {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 8px);
+  min-width: 210px;
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  background: var(--yta);
+  border-radius: var(--radie);
+  border: 1px solid var(--kant);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.18);
 }
+.sprakpanel[hidden] { display: none; }
+.sprakpanel button {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 48px;
+  padding: 0 14px;
+  border: 0;
+  border-radius: var(--radie-liten);
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  font-size: 1rem;
+  text-align: left;
+  cursor: pointer;
+}
+.sprakpanel .kod { font-size: 0.75rem; letter-spacing: 0.12em; color: var(--text-svag); }
+.sprakpanel button[aria-current="true"] { background: var(--yta-tonad); color: var(--skog); font-weight: 500; }
+.sprakpanel button[aria-current="true"] .kod::before { content: "\2713\00a0\00a0"; color: var(--skog); }
 
 /* ---------- Meny: flikrad längst ner i mobilen, i sidhuvudet på stor skärm ---------- */
 
@@ -439,10 +475,7 @@ html.bildvisare-oppen { overflow: hidden; overscroll-behavior-x: none; }
   box-shadow: none;
 }
 .startsida .logga,
-.startsida .sprakvaxlare button,
-.startsida .sprakvaxlare button[aria-pressed="true"] { color: #fff; }
-.startsida .sprakvaxlare button { opacity: 0.75; }
-.startsida .sprakvaxlare button[aria-pressed="true"] { opacity: 1; }
+.startsida .sprakknapp { color: #fff; border-color: rgba(255, 255, 255, 0.6); }
 
 .hjalte {
   display: flex;

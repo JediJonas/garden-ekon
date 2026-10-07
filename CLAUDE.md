@@ -64,13 +64,13 @@ Varje plats på kartan ska ha en länk "Vägbeskrivning" som öppnar navigeringe
 
 ## Språk
 
-Sajten finns på: svenska, engelska, tyska. Alla texter ska finnas på alla språk. Gästen väljer språk med en enkel växlare.
+Sajten finns på: svenska, engelska, tyska, holländska, danska (`sv`, `en`, `de`, `nl`, `da`). Alla texter ska finnas på alla språk. Gästen väljer språk i språkmenyn (knappen med jordgloben).
 
 Länkar till andra webbplatser ska öppnas på det språk gästen valt, när webbplatsen finns på det språket:
 
 * Naturkartan, Booking.com och Google Maps byts automatiskt av `lank()` i `js/sprak.js`. Det gäller alla länkar på sidorna och länkarna i guiden.
-* Lägger du till en länk till en ny webbplats som finns på flera språk: lägg till regeln för den i `lank()` om adressen följer ett mönster, eller ange länken per språk i `data/platser.json` (`"link": { "sv": "…", "en": "…", "de": "…" }`).
-* Finns ingen tysk version men en engelsk, länka till den engelska för tyska gäster. `"link"` behöver då bara `sv` och `en`.
+* Lägger du till en länk till en ny webbplats som finns på flera språk: lägg till regeln för den i `lank()` om adressen följer ett mönster, eller ange länken per språk i `data/platser.json` (`"link": { "sv": "…", "en": "…", "de": "…", "nl": "…", "da": "…" }`).
+* Finns ingen tysk, holländsk eller dansk version men en engelsk, får de gästerna den engelska automatiskt. `"link"` behöver då bara `sv` och `en`.
 * Gissa aldrig en språkadress. Kontrollera att den finns, annars behåll den svenska länken.
 
 Alla länkar till andra webbplatser ska öppnas i en ny flik (`target="_blank" rel="noopener"`), så att gästen har kvar vår sajt. Det gäller både länkar i HTML-sidorna och länkar som skapas i JavaScript.
