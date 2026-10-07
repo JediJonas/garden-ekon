@@ -161,7 +161,7 @@ window.TEXTER = {
     "sidfot.integritet": "Privacy",
     "sidfot.boka": "Booking is handled by",
 
-    "hem.titel": "Gården Ekön – welcome",
+    "hem.titel": "Gården Ekön – Welcome",
     "hem.rubrik": "Welcome to Gården Ekön",
     "hem.ingress": "Your guide to the cottage in Forserum and everything around it.",
     "hem.boka": "Book on Booking.com",
