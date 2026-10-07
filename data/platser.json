@@ -679,11 +679,11 @@
     "lat": 57.6672264,
     "lng": 14.9683261,
     "distance": {
-      "sv": "ca 1 tim med bil",
-      "en": "approx. 1 h by car",
-      "de": "ca. 1 Std. mit dem Auto",
-      "nl": "ca. 1 uur met de auto",
-      "da": "ca. 1 time i bil"
+      "sv": "ca 30 min med bil",
+      "en": "approx. 30 min by car",
+      "de": "ca. 30 Min. mit dem Auto",
+      "nl": "ca. 30 min met de auto",
+      "da": "ca. 30 min. i bil"
     },
     "season": {
       "sv": "hela året",
