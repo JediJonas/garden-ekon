@@ -16,7 +16,7 @@ window.TEXTER = {
     "sidfot.integritet": "Integritet",
     "sidfot.boka": "Bokning sker via",
 
-    "hem.titel": "Gården Ekön – välkommen",
+    "hem.titel": "Gården Ekön – Välkommen",
     "hem.rubrik": "Välkommen till Gården Ekön",
     "hem.ingress": "Din guide till stugan i Forserum och allt som finns runt omkring.",
     "hem.boka": "Boka på Booking.com",
@@ -161,7 +161,7 @@ window.TEXTER = {
     "sidfot.integritet": "Privacy",
     "sidfot.boka": "Booking is handled by",
 
-    "hem.titel": "Gården Ekön – welcome",
+    "hem.titel": "Gården Ekön – Welcome",
     "hem.rubrik": "Welcome to Gården Ekön",
     "hem.ingress": "Your guide to the cottage in Forserum and everything around it.",
     "hem.boka": "Book on Booking.com",
@@ -306,7 +306,7 @@ window.TEXTER = {
     "sidfot.integritet": "Datenschutz",
     "sidfot.boka": "Die Buchung erfolgt über",
 
-    "hem.titel": "Gården Ekön – willkommen",
+    "hem.titel": "Gården Ekön – Willkommen",
     "hem.rubrik": "Willkommen auf Gården Ekön",
     "hem.ingress": "Ihr Wegweiser zum Ferienhaus in Forserum und zu allem, was es in der Umgebung gibt.",
     "hem.boka": "Auf Booking.com buchen",
