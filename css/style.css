@@ -506,21 +506,31 @@ html.bildvisare-oppen { overflow: hidden; overscroll-behavior-x: none; }
 }
 .hjalte .liten-text { color: rgba(255, 255, 255, 0.9); margin: 12px 0 0; }
 
-.intro {
-  max-width: 38ch;
-  margin: 16px auto 8px;
+/* Hälsningen från värdarna: vitt kort med rund bild. I mobilen hänger
+   bilden över kortets överkant, på datorn står den bredvid texten. */
+.valkomst {
+  background: var(--yta);
+  border: 1px solid var(--kant);
+  border-radius: 16px;
+  box-shadow: var(--skugga);
+  margin: 88px 0 24px;
+  padding: 0 20px 24px;
   text-align: center;
 }
-.intro::before {
-  content: "";
+.valkomst-foto {
   display: block;
-  width: 40px;
-  height: 1px;
-  margin: 0 auto 20px;
-  background: var(--text);
+  width: 140px;
+  height: 140px;
+  margin: -70px auto 16px;
+  border-radius: 50%;
+  border: 3px solid var(--yta);
+  box-shadow: var(--skugga);
+  background: var(--yta-tonad);
+  overflow: hidden;
 }
-.intro .ingress { margin: 0 auto 16px; font-weight: 300; }
-.intro .halsning { margin: 0 auto 16px; }
+.valkomst-foto img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.valkomst-text p { margin: 0; color: var(--text-svag); }
+.valkomst-text .valkomst-namn { margin-top: 12px; font-weight: 500; color: var(--text); }
 
 .genvagar {
   display: grid;
@@ -834,6 +844,15 @@ details > :not(summary) { margin: 0 16px 16px; }
     background-position: 0 0, center 55%;
   }
   .hjalte-text { margin: 0; max-width: 760px; }
+  .valkomst {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-top: 32px;
+    padding: 28px 32px;
+    text-align: left;
+  }
+  .valkomst-foto { flex: 0 0 200px; width: 200px; height: 200px; margin: 0; }
   .genvagar { grid-template-columns: repeat(3, 1fr); }
   .genvagar a { grid-template-columns: 1fr; row-gap: 4px; padding: 20px; }
   .genvagar a::after { display: none; }
