@@ -54,16 +54,18 @@
   function pa(sprakText) {
     if (!sprakText) return "";
     if (typeof sprakText === "string") return sprakText;
-    return sprakText[window.Sprak.aktuellt()] || sprakText.sv || sprakText.en || "";
+    var sprak = window.Sprak.aktuellt();
+    // Saknas texten på valt språk visas engelska (svenska gäster får svenska).
+    return sprakText[sprak] || (sprak !== "sv" && sprakText.en) || sprakText.sv || sprakText.en || "";
   }
 
   // "Läs mer"-länken. Den kan vara en adress eller en per språk,
-  // t.ex. { "sv": "…", "en": "…" }. Saknas tyska används engelska.
+  // t.ex. { "sv": "…", "en": "…" }. Saknas valt språk används engelska.
   function lankFor(plats) {
     var l = plats.link;
     if (typeof l !== "string") {
       var sprak = window.Sprak.aktuellt();
-      l = l[sprak] || (sprak === "de" && l.en) || l.sv || l.en;
+      l = l[sprak] || (sprak !== "sv" && l.en) || l.sv || l.en;
     }
     return window.Sprak.lank(l);
   }
