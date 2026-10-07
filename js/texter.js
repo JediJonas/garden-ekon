@@ -78,7 +78,6 @@ window.TEXTER = {
     "hitta.parkering.text": "Det finns två parkeringsplatser alldeles bredvid stugan.",
     "hitta.sista": "Sista biten",
     "hitta.sista.text": "De sista två kilometerna går på grusväg genom tät granskog. Håll ut, du är snart framme!",
-    "hitta.koder": "Nyckelkoder och liknande detaljer får du efter bokning.",
 
     "guide.titel": "Guide – Gården Ekön",
     "guide.rubrik": "Tips i närheten",
@@ -223,7 +222,6 @@ window.TEXTER = {
     "hitta.parkering.text": "There are two parking spaces right next to the cottage.",
     "hitta.sista": "The last stretch",
     "hitta.sista.text": "The last two kilometres are on a gravel road through dense spruce forest. Hang in there, you are nearly there!",
-    "hitta.koder": "Key codes and similar details are sent to you after booking.",
 
     "guide.titel": "Guide – Gården Ekön",
     "guide.rubrik": "Things to do nearby",
@@ -368,7 +366,6 @@ window.TEXTER = {
     "hitta.parkering.text": "Direkt neben dem Ferienhaus gibt es zwei Parkplätze.",
     "hitta.sista": "Das letzte Stück",
     "hitta.sista.text": "Die letzten zwei Kilometer führen über eine Schotterstraße durch dichten Fichtenwald. Durchhalten, Sie sind gleich da!",
-    "hitta.koder": "Schlüsselcodes und ähnliche Details erhalten Sie nach der Buchung.",
 
     "guide.titel": "Tipps – Gården Ekön",
     "guide.rubrik": "Tipps in der Nähe",
