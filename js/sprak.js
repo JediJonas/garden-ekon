@@ -1,5 +1,7 @@
 // Språkväxlare. Byter alla texter med data-t="nyckel" till valt språk
 // och minns valet i webbläsaren (localStorage, ingen cookie).
+// Språket kan också stå i adressen (t.ex. guide.html?lang=de). Då visas
+// alltid det språket, så att Google kan hitta varje språk på en egen adress.
 
 (function () {
   var SPRAK = ["sv", "en", "de", "nl", "da"];
@@ -14,8 +16,16 @@
     try { localStorage.setItem(NYCKEL, sprak); } catch (e) { /* privat läge m.m. */ }
   }
 
-  // Första besöket: gissa från webbläsarens språk, annars engelska.
+  function iAdressen() {
+    var m = /[?&]lang=([a-z]{2})(?:&|$)/.exec(location.search);
+    return m && SPRAK.indexOf(m[1]) !== -1 ? m[1] : null;
+  }
+
+  // Språk i adressen går först. Annars det sparade valet, och vid första
+  // besöket en gissning från webbläsarens språk, annars engelska.
   function startsprak() {
+    var adress = iAdressen();
+    if (adress) { spara(adress); return adress; }
     var val = sparat();
     if (SPRAK.indexOf(val) !== -1) return val;
     var lista = navigator.languages || [navigator.language || ""];
@@ -44,6 +54,26 @@
     });
     (rot || document).querySelectorAll("[data-t-alt]").forEach(function (el) {
       el.setAttribute("alt", t(el.getAttribute("data-t-alt")));
+    });
+    (rot || document).querySelectorAll("[data-t-content]").forEach(function (el) {
+      el.setAttribute("content", t(el.getAttribute("data-t-content")));
+    });
+  }
+
+  // Lägger valt språk i en adress inom sajten, t.ex. "guide.html#karta"
+  // blir "guide.html?lang=de#karta". Startsidan skrivs som "./".
+  function medSprak(href) {
+    var m = /^([^?#]*)(?:\?[^#]*)?(#.*)?$/.exec(href);
+    var sida = m[1] === "index.html" ? "./" : m[1];
+    return sida + "?lang=" + aktuellt + (m[2] || "");
+  }
+
+  function sprakaInternaLankar(rot) {
+    (rot || document).querySelectorAll("a[href]").forEach(function (a) {
+      var href = a.getAttribute("href");
+      if (!/^(?:[a-z-]+\.html|\.\/)(?:[?#]|$)/.test(href)) return;
+      var ny = medSprak(href);
+      if (ny !== href) a.setAttribute("href", ny);
     });
   }
 
@@ -78,6 +108,11 @@
     if (SPRAK.indexOf(sprak) === -1) return;
     aktuellt = sprak;
     spara(sprak);
+    // Byt adressen utan att ladda om sidan, så att en delad eller sparad
+    // länk öppnas på samma språk.
+    try {
+      history.replaceState(history.state, "", medSprak((location.pathname.split("/").pop() || "./") + location.hash));
+    } catch (e) { /* gamla webbläsare */ }
     visa();
     lyssnare.forEach(function (fn) { fn(sprak); });
   }
@@ -86,6 +121,7 @@
     document.documentElement.lang = aktuellt;
     oversatt(document);
     sprakaLankar(document);
+    sprakaInternaLankar(document);
     document.querySelectorAll(".sprakkod").forEach(function (el) {
       el.textContent = aktuellt.toUpperCase();
     });

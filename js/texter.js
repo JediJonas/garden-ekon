@@ -17,6 +17,7 @@ window.TEXTER = {
     "sidfot.boka": "Bokning sker via",
 
     "hem.titel": "Gården Ekön – Välkommen",
+    "hem.beskrivning": "Renoverad stuga på 44 m² för upp till 4 gäster utanför Forserum, mellan Jönköping och Nässjö på småländska höglandet. Boka via Booking.com.",
     "hem.rubrik": "Välkommen till Gården Ekön",
     "hem.boka": "Boka på Booking.com",
     "hem.boka.info": "Bokning, priser och lediga datum finns på Booking.com.",
@@ -31,6 +32,7 @@ window.TEXTER = {
     "hem.overrubrik": "Stuga på småländska höglandet",
 
     "stugan.titel": "Stugan – Gården Ekön",
+    "stugan.beskrivning": "Om stugan: sovrum med dubbelsäng, våningssäng, fullt utrustat kök, badrum med dusch och uteplats med grill. Plats för upp till 4 gäster.",
     "stugan.rubrik": "Om stugan",
     "stugan.ingress": "En renoverad stuga på 44 m² i en lugn och naturskön miljö på småländska höglandet, utanför Forserum mellan Jönköping och Nässjö. Här har ni hela stugan för er själva. Den passar den lilla familjen som vill njuta några dagar på landet. På baksidan finns en naturträdgård med utemöbler och grill.",
     "stugan.faciliteter": "Faciliteter",
@@ -63,6 +65,7 @@ window.TEXTER = {
     "stugan.boka": "Se lediga datum på Booking.com",
 
     "hitta.titel": "Hitta hit – Gården Ekön",
+    "hitta.beskrivning": "Adress, vägbeskrivning med bil från Malmö, Göteborg och Stockholm, parkering och tips för sista biten till Gården Ekön utanför Forserum.",
     "hitta.rubrik": "Hitta hit",
     "hitta.adress": "Adress",
     "hitta.oppna": "Öppna i kartappen",
@@ -80,6 +83,7 @@ window.TEXTER = {
     "hitta.sista.text": "De sista två kilometerna går på grusväg genom tät granskog. Håll ut, du är snart framme!",
 
     "guide.titel": "Guide – Gården Ekön",
+    "guide.beskrivning": "Tips på bad, natur, fika, sevärdheter och utflykter för regniga dagar runt Forserum, Nässjö och Jönköping, samlade på en karta.",
     "guide.rubrik": "Tips i närheten",
     "guide.ingress": "Välj vad du är intresserad av. Kartan och listan visar samma platser.",
     "guide.exempelvarning": "Just nu visas bara påhittade exempelplatser för att testa kartan.",
@@ -110,6 +114,7 @@ window.TEXTER = {
     "kat.sevardheter": "Sevärdheter",
 
     "info.titel": "Praktisk info – Gården Ekön",
+    "info.beskrivning": "In- och utcheckning, svar på vanliga frågor och hur du når värdarna på Gården Ekön utanför Forserum.",
     "info.rubrik": "Praktisk information",
     "info.ingress": "Här finns svar på det gäster brukar undra över.",
     "info.in": "Incheckning och utcheckning",
@@ -143,6 +148,7 @@ window.TEXTER = {
     "info.kontakt.text": "Vi som är värdar bor alldeles intill stugan, så det är bara att komma och knacka på om ni har frågor eller om något krånglar. Det går också bra att skriva till oss i Booking.com-appen.",
 
     "integritet.titel": "Integritet – Gården Ekön",
+    "integritet.beskrivning": "Gården Ekön använder inga cookies och ingen spårning. Så hanteras ditt språkval och kartan.",
     "integritet.rubrik": "Integritet",
     "integritet.p1": "Den här sajten använder inga cookies och ingen spårning. Vi samlar inte in några uppgifter om dig.",
     "integritet.p2": "Ditt val av språk och sajtens sidor sparas bara i din egen webbläsare, så att sajten minns språket, laddar snabbare och fungerar även utan täckning.",
@@ -163,6 +169,7 @@ window.TEXTER = {
     "sidfot.boka": "Booking is handled by",
 
     "hem.titel": "Gården Ekön – Welcome",
+    "hem.beskrivning": "Renovated 44 m² cottage for up to 4 guests near Forserum, between Jönköping and Nässjö in the Småland highlands. Book via Booking.com.",
     "hem.rubrik": "Welcome to Gården Ekön",
     "hem.boka": "Book on Booking.com",
     "hem.boka.info": "Booking, prices and available dates are on Booking.com.",
@@ -177,6 +184,7 @@ window.TEXTER = {
     "hem.overrubrik": "Cottage in the Småland highlands",
 
     "stugan.titel": "The cottage – Gården Ekön",
+    "stugan.beskrivning": "About the cottage: bedroom with double bed, bunk bed, fully equipped kitchen, bathroom with shower and patio with barbecue. Sleeps up to 4.",
     "stugan.rubrik": "About the cottage",
     "stugan.ingress": "A renovated 44 m² cottage in quiet, beautiful countryside in the Småland highlands, outside Forserum between Jönköping and Nässjö. You have the whole cottage to yourselves. It suits a small family who wants to enjoy a few days in the countryside. Behind the house there is a natural garden with outdoor furniture and a barbecue.",
     "stugan.faciliteter": "Facilities",
@@ -209,6 +217,7 @@ window.TEXTER = {
     "stugan.boka": "See available dates on Booking.com",
 
     "hitta.titel": "Getting here – Gården Ekön",
+    "hitta.beskrivning": "Address, driving directions from Malmö, Gothenburg and Stockholm, parking and tips for the last stretch to Gården Ekön near Forserum.",
     "hitta.rubrik": "Getting here",
     "hitta.adress": "Address",
     "hitta.oppna": "Open in maps app",
@@ -226,6 +235,7 @@ window.TEXTER = {
     "hitta.sista.text": "The last two kilometres are on a gravel road through dense spruce forest. Hang in there, you are nearly there!",
 
     "guide.titel": "Guide – Gården Ekön",
+    "guide.beskrivning": "Tips for swimming, nature, cafés, sights and rainy-day outings around Forserum, Nässjö and Jönköping, all on one map.",
     "guide.rubrik": "Things to do nearby",
     "guide.ingress": "Choose what you are interested in. The map and the list show the same places.",
     "guide.exempelvarning": "For now, only made-up example places are shown, to test the map.",
@@ -256,6 +266,7 @@ window.TEXTER = {
     "kat.sevardheter": "Sights",
 
     "info.titel": "Practical info – Gården Ekön",
+    "info.beskrivning": "Check-in and check-out, answers to common questions and how to reach your hosts at Gården Ekön near Forserum.",
     "info.rubrik": "Practical information",
     "info.ingress": "Answers to the things guests usually wonder about.",
     "info.in": "Check-in and check-out",
@@ -289,6 +300,7 @@ window.TEXTER = {
     "info.kontakt.text": "We, your hosts, live right next to the cottage, so just come and knock on our door if you have any questions or if something is not working. You are also welcome to message us in the Booking.com app.",
 
     "integritet.titel": "Privacy – Gården Ekön",
+    "integritet.beskrivning": "Gården Ekön uses no cookies and no tracking. How your language choice and the map are handled.",
     "integritet.rubrik": "Privacy",
     "integritet.p1": "This site uses no cookies and no tracking. We do not collect any information about you.",
     "integritet.p2": "Your language choice and the site's pages are stored only in your own browser, so the site remembers your language, loads faster and works even without a signal.",
@@ -309,6 +321,7 @@ window.TEXTER = {
     "sidfot.boka": "Die Buchung erfolgt über",
 
     "hem.titel": "Gården Ekön – Willkommen",
+    "hem.beskrivning": "Renoviertes Ferienhaus mit 44 m² für bis zu 4 Gäste bei Forserum, zwischen Jönköping und Nässjö im småländischen Hochland. Buchung über Booking.com.",
     "hem.rubrik": "Willkommen auf Gården Ekön",
     "hem.boka": "Auf Booking.com buchen",
     "hem.boka.info": "Buchung, Preise und freie Termine finden Sie auf Booking.com.",
@@ -323,6 +336,7 @@ window.TEXTER = {
     "hem.overrubrik": "Ferienhaus im småländischen Hochland",
 
     "stugan.titel": "Das Ferienhaus – Gården Ekön",
+    "stugan.beskrivning": "Das Ferienhaus: Schlafzimmer mit Doppelbett, Etagenbett, voll ausgestattete Küche, Bad mit Dusche und Terrasse mit Grill. Für bis zu 4 Gäste.",
     "stugan.rubrik": "Über das Ferienhaus",
     "stugan.ingress": "Ein renoviertes Ferienhaus mit 44 m² in ruhiger, schöner Landschaft im småländischen Hochland, außerhalb von Forserum zwischen Jönköping und Nässjö. Sie haben das ganze Haus für sich. Es eignet sich für die kleine Familie, die ein paar Tage auf dem Land genießen möchte. Hinter dem Haus gibt es einen Naturgarten mit Gartenmöbeln und Grill.",
     "stugan.faciliteter": "Ausstattung",
@@ -355,6 +369,7 @@ window.TEXTER = {
     "stugan.boka": "Freie Termine auf Booking.com ansehen",
 
     "hitta.titel": "Anfahrt – Gården Ekön",
+    "hitta.beskrivning": "Adresse, Anfahrt mit dem Auto ab Malmö, Göteborg und Stockholm, Parken und Tipps für das letzte Stück zum Gården Ekön bei Forserum.",
     "hitta.rubrik": "Anfahrt",
     "hitta.adress": "Adresse",
     "hitta.oppna": "In der Karten-App öffnen",
@@ -372,6 +387,7 @@ window.TEXTER = {
     "hitta.sista.text": "Die letzten zwei Kilometer führen über eine Schotterstraße durch dichten Fichtenwald. Durchhalten, Sie sind gleich da!",
 
     "guide.titel": "Tipps – Gården Ekön",
+    "guide.beskrivning": "Tipps zum Baden, für Natur, Cafés, Sehenswertes und Regentage rund um Forserum, Nässjö und Jönköping, alle auf einer Karte.",
     "guide.rubrik": "Tipps in der Nähe",
     "guide.ingress": "Wählen Sie, was Sie interessiert. Karte und Liste zeigen dieselben Orte.",
     "guide.exempelvarning": "Zurzeit werden nur erfundene Beispielorte angezeigt, um die Karte zu testen.",
@@ -402,6 +418,7 @@ window.TEXTER = {
     "kat.sevardheter": "Sehenswürdigkeiten",
 
     "info.titel": "Praktische Infos – Gården Ekön",
+    "info.beskrivning": "Check-in und Check-out, Antworten auf häufige Fragen und wie Sie Ihre Gastgeber auf Gården Ekön bei Forserum erreichen.",
     "info.rubrik": "Praktische Informationen",
     "info.ingress": "Antworten auf das, was Gäste häufig wissen möchten.",
     "info.in": "Check-in und Check-out",
@@ -435,6 +452,7 @@ window.TEXTER = {
     "info.kontakt.text": "Wir, Ihre Gastgeber, wohnen direkt neben dem Ferienhaus. Klopfen Sie einfach bei uns an, wenn Sie Fragen haben oder etwas nicht funktioniert. Sie können uns auch gerne über die Booking.com-App schreiben.",
 
     "integritet.titel": "Datenschutz – Gården Ekön",
+    "integritet.beskrivning": "Gården Ekön verwendet keine Cookies und kein Tracking. So werden Ihre Sprachwahl und die Karte behandelt.",
     "integritet.rubrik": "Datenschutz",
     "integritet.p1": "Diese Website verwendet keine Cookies und kein Tracking. Wir erheben keine Daten über Sie.",
     "integritet.p2": "Ihre Sprachwahl und die Seiten der Website werden nur in Ihrem eigenen Browser gespeichert, damit die Website Ihre Sprache kennt, schneller lädt und auch ohne Empfang funktioniert.",
@@ -455,6 +473,7 @@ window.TEXTER = {
     "sidfot.boka": "Boeken gaat via",
 
     "hem.titel": "Gården Ekön – Welkom",
+    "hem.beskrivning": "Gerenoveerd vakantiehuisje van 44 m² voor maximaal 4 gasten bij Forserum, tussen Jönköping en Nässjö in de Smålandse hooglanden. Boeken via Booking.com.",
     "hem.rubrik": "Welkom op Gården Ekön",
     "hem.boka": "Boek op Booking.com",
     "hem.boka.info": "Boeken, prijzen en beschikbare data vindt u op Booking.com.",
@@ -469,6 +488,7 @@ window.TEXTER = {
     "hem.overrubrik": "Vakantiehuisje in de Smålandse hooglanden",
 
     "stugan.titel": "Het huisje – Gården Ekön",
+    "stugan.beskrivning": "Het huisje: slaapkamer met tweepersoonsbed, stapelbed, volledig uitgeruste keuken, badkamer met douche en terras met barbecue. Voor maximaal 4 gasten.",
     "stugan.rubrik": "Over het huisje",
     "stugan.ingress": "Een gerenoveerd huisje van 44 m² in een rustige, mooie omgeving in de Smålandse hooglanden, buiten Forserum tussen Jönköping en Nässjö. U hebt het hele huisje voor uzelf. Het is geschikt voor een klein gezin dat een paar dagen van het platteland wil genieten. Achter het huis ligt een natuurtuin met tuinmeubelen en een barbecue.",
     "stugan.faciliteter": "Voorzieningen",
@@ -501,6 +521,7 @@ window.TEXTER = {
     "stugan.boka": "Bekijk beschikbare data op Booking.com",
 
     "hitta.titel": "Route – Gården Ekön",
+    "hitta.beskrivning": "Adres, routebeschrijving met de auto vanuit Malmö, Göteborg en Stockholm, parkeren en tips voor het laatste stuk naar Gården Ekön bij Forserum.",
     "hitta.rubrik": "Route",
     "hitta.adress": "Adres",
     "hitta.oppna": "Openen in kaarten-app",
@@ -518,6 +539,7 @@ window.TEXTER = {
     "hitta.sista.text": "De laatste twee kilometer gaan over een grindweg door dicht sparrenbos. Volhouden, u bent er bijna!",
 
     "guide.titel": "Tips – Gården Ekön",
+    "guide.beskrivning": "Tips voor zwemmen, natuur, koffie en gebak, bezienswaardigheden en regenachtige dagen rond Forserum, Nässjö en Jönköping, op één kaart.",
     "guide.rubrik": "Tips in de buurt",
     "guide.ingress": "Kies waar u in geïnteresseerd bent. De kaart en de lijst tonen dezelfde plekken.",
     "guide.exempelvarning": "Op dit moment worden alleen verzonnen voorbeeldplekken getoond, om de kaart te testen.",
@@ -548,6 +570,7 @@ window.TEXTER = {
     "kat.sevardheter": "Bezienswaardigheden",
 
     "info.titel": "Praktische info – Gården Ekön",
+    "info.beskrivning": "In- en uitchecken, antwoorden op veelgestelde vragen en hoe u de gastheren van Gården Ekön bij Forserum bereikt.",
     "info.rubrik": "Praktische informatie",
     "info.ingress": "Antwoorden op de vragen die gasten meestal hebben.",
     "info.in": "Inchecken en uitchecken",
@@ -581,6 +604,7 @@ window.TEXTER = {
     "info.kontakt.text": "Wij, uw gastheer en gastvrouw, wonen direct naast het huisje. Klop dus gerust bij ons aan als u vragen hebt of als er iets niet werkt. U kunt ons ook een bericht sturen via de Booking.com-app.",
 
     "integritet.titel": "Privacy – Gården Ekön",
+    "integritet.beskrivning": "Gården Ekön gebruikt geen cookies en geen tracking. Zo worden uw taalkeuze en de kaart behandeld.",
     "integritet.rubrik": "Privacy",
     "integritet.p1": "Deze website gebruikt geen cookies en geen tracking. We verzamelen geen gegevens over u.",
     "integritet.p2": "Uw taalkeuze en de pagina's van de website worden alleen in uw eigen browser opgeslagen, zodat de website uw taal onthoudt, sneller laadt en ook zonder bereik werkt.",
@@ -601,6 +625,7 @@ window.TEXTER = {
     "sidfot.boka": "Booking sker via",
 
     "hem.titel": "Gården Ekön – Velkommen",
+    "hem.beskrivning": "Renoveret sommerhus på 44 m² til op til 4 gæster ved Forserum, mellem Jönköping og Nässjö i det smålandske højland. Book via Booking.com.",
     "hem.rubrik": "Velkommen til Gården Ekön",
     "hem.boka": "Book på Booking.com",
     "hem.boka.info": "Booking, priser og ledige datoer finder du på Booking.com.",
@@ -615,6 +640,7 @@ window.TEXTER = {
     "hem.overrubrik": "Sommerhus i det smålandske højland",
 
     "stugan.titel": "Huset – Gården Ekön",
+    "stugan.beskrivning": "Om huset: soveværelse med dobbeltseng, køjeseng, fuldt udstyret køkken, badeværelse med bruser og terrasse med grill. Plads til op til 4 gæster.",
     "stugan.rubrik": "Om huset",
     "stugan.ingress": "Et renoveret hus på 44 m² i rolige og smukke omgivelser i det smålandske højland, uden for Forserum mellem Jönköping og Nässjö. I har hele huset for jer selv. Det passer til den lille familie, der vil nyde et par dage på landet. Bag huset er der en naturhave med havemøbler og grill.",
     "stugan.faciliteter": "Faciliteter",
@@ -647,6 +673,7 @@ window.TEXTER = {
     "stugan.boka": "Se ledige datoer på Booking.com",
 
     "hitta.titel": "Find vej – Gården Ekön",
+    "hitta.beskrivning": "Adresse, kørevejledning fra Malmö, Göteborg og Stockholm, parkering og tips til det sidste stykke vej til Gården Ekön ved Forserum.",
     "hitta.rubrik": "Find vej",
     "hitta.adress": "Adresse",
     "hitta.oppna": "Åbn i kort-appen",
@@ -664,6 +691,7 @@ window.TEXTER = {
     "hitta.sista.text": "De sidste to kilometer går ad en grusvej gennem tæt granskov. Hold ud, I er næsten fremme!",
 
     "guide.titel": "Guide – Gården Ekön",
+    "guide.beskrivning": "Tips til badning, natur, caféer, seværdigheder og regnvejrsdage omkring Forserum, Nässjö og Jönköping, samlet på ét kort.",
     "guide.rubrik": "Tips i nærheden",
     "guide.ingress": "Vælg det, du er interesseret i. Kortet og listen viser de samme steder.",
     "guide.exempelvarning": "Lige nu vises kun opdigtede eksempelsteder, så kortet kan testes.",
@@ -694,6 +722,7 @@ window.TEXTER = {
     "kat.sevardheter": "Seværdigheder",
 
     "info.titel": "Praktisk info – Gården Ekön",
+    "info.beskrivning": "Check-in og check-ud, svar på ofte stillede spørgsmål og hvordan I kontakter værterne på Gården Ekön ved Forserum.",
     "info.rubrik": "Praktisk information",
     "info.ingress": "Svar på det, gæster plejer at undre sig over.",
     "info.in": "Indtjekning og udtjekning",
@@ -727,6 +756,7 @@ window.TEXTER = {
     "info.kontakt.text": "Vi, jeres værter, bor lige ved siden af huset, så bank bare på hos os, hvis I har spørgsmål, eller hvis noget ikke virker. I er også velkomne til at skrive til os i Booking.com-appen.",
 
     "integritet.titel": "Privatliv – Gården Ekön",
+    "integritet.beskrivning": "Gården Ekön bruger ingen cookies og ingen sporing. Sådan håndteres dit sprogvalg og kortet.",
     "integritet.rubrik": "Privatliv",
     "integritet.p1": "Denne hjemmeside bruger ingen cookies og ingen sporing. Vi indsamler ingen oplysninger om dig.",
     "integritet.p2": "Dit sprogvalg og hjemmesidens sider gemmes kun i din egen browser, så hjemmesiden husker dit sprog, indlæses hurtigere og virker selv uden dækning.",
