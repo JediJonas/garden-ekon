@@ -513,15 +513,15 @@ html.bildvisare-oppen { overflow: hidden; overscroll-behavior-x: none; }
   border: 1px solid var(--kant);
   border-radius: 16px;
   box-shadow: var(--skugga);
-  margin: 88px 0 24px;
+  margin: 108px 0 24px;
   padding: 0 20px 24px;
   text-align: center;
 }
 .valkomst-foto {
   display: block;
-  width: 140px;
-  height: 140px;
-  margin: -70px auto 16px;
+  width: 180px;
+  height: 180px;
+  margin: -90px auto 16px;
   border-radius: 50%;
   border: 3px solid var(--yta);
   box-shadow: var(--skugga);
