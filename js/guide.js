@@ -102,8 +102,6 @@
   function popupInnehall(plats) {
     var div = skapa("div");
     div.appendChild(skapa("strong", "", plats.name));
-    div.appendChild(skapa("span", "", pa(plats.distance)));
-    div.appendChild(document.createElement("br"));
     var lank = skapa("a", "knapp", t("guide.vag"));
     lank.href = vagLank(plats);
     lank.target = "_blank";
@@ -111,7 +109,7 @@
     var knappar = skapa("div", "popup-knappar");
     knappar.appendChild(lank);
 
-    // Skrollar ner till platsens text i listan och markerar den en kort stund.
+    // "Visa info": skrollar ner till platsens text i listan och markerar den en kort stund.
     var iListan = skapa("button", "knapp knapp-sekundar", t("guide.ilistan"));
     iListan.type = "button";
     iListan.addEventListener("click", function () {
