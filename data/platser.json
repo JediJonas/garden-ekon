@@ -78,7 +78,10 @@
       "en": "all year",
       "de": "ganzjährig"
     },
-    "link": "https://www.lansstyrelsen.se/jonkoping/besoksmal/naturreservat/huskvarnabergen.html",
+    "link": {
+      "sv": "https://jkpg.com/upplevelser/huskvarnabergen",
+      "en": "https://jkpg.com/en/experiences/huskvarnabergen"
+    },
     "lastVerified": "2026-10"
   },
   {
@@ -303,7 +306,10 @@
       "en": "all year",
       "de": "ganzjährig"
     },
-    "link": "https://www.naturkartan.se/en/jonkopings-lan/stadsparken-jonkoping",
+    "link": {
+      "sv": "https://jkpg.com/upplevelser/jonkopings-stadspark",
+      "en": "https://jkpg.com/en/experiences/jonkoping-city-park"
+    },
     "lastVerified": "2026-10"
   },
   {
