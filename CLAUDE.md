@@ -72,6 +72,8 @@ Varje plats har formatet:
 }
 ```
 
+`"name"` skrivs på svenska på alla språk, så att gästerna känner igen namnet på skyltar och kan söka på det. Bara småord som "och" översätts; då anges namnet per språk som `"name": { "sv": "…", "en": "…", "de": "…", "nl": "…", "da": "…" }`.
+
 Kategorier: `natur`, `bad`, `barnfamiljer`, `mat-och-fika`, `regnvader`, `sevardheter`. (`kultur` är ersatt av `regnvader`.) Nya kategorier läggs bara till efter att du frågat mig.
 
 Varje plats på kartan ska ha en länk "Vägbeskrivning" som öppnar navigeringen i gästens mobil.

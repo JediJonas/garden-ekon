@@ -626,7 +626,13 @@
   },
   {
     "id": "rottle-vastana",
-    "name": "Röttle by och Västanå naturreservat",
+    "name": {
+      "sv": "Röttle by och Västanå naturreservat",
+      "en": "Röttle by and Västanå naturreservat",
+      "de": "Röttle by und Västanå naturreservat",
+      "nl": "Röttle by en Västanå naturreservat",
+      "da": "Röttle by og Västanå naturreservat"
+    },
     "category": [
       "sevardheter",
       "natur"

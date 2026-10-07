@@ -112,7 +112,7 @@
 
   function popupInnehall(plats) {
     var div = skapa("div");
-    div.appendChild(skapa("strong", "", plats.name));
+    div.appendChild(skapa("strong", "", pa(plats.name)));
     var lank = skapa("a", "knapp", t("guide.vag"));
     lank.href = vagLank(plats);
     lank.target = "_blank";
@@ -144,7 +144,7 @@
     markorer = {};
     var lista = synliga();
     lista.forEach(function (plats) {
-      var m = L.marker([plats.lat, plats.lng], { title: plats.name, alt: plats.name })
+      var m = L.marker([plats.lat, plats.lng], { title: pa(plats.name), alt: pa(plats.name) })
         .bindPopup(popupInnehall(plats));
       m.addTo(platsLager);
       markorer[plats.id] = m;
@@ -191,7 +191,7 @@
       });
       li.appendChild(etiketter);
 
-      li.appendChild(skapa("h3", "", plats.name));
+      li.appendChild(skapa("h3", "", pa(plats.name)));
       li.appendChild(skapa("p", "", pa(plats.description)));
 
       var fakta = skapa("div", "fakta");
