@@ -372,8 +372,6 @@ html.bildvisare-oppen { overflow: hidden; overscroll-behavior-x: none; }
 .bildvisare-nasta { right: 8px; }
 
 .bildtips {
-  color: var(--text-svag);
-  font-size: 0.95rem;
   margin-top: -4px;
 }
 
@@ -411,6 +409,7 @@ html.bildvisare-oppen { overflow: hidden; overscroll-behavior-x: none; }
   color: #fff;
 }
 .knapp-boka:hover { background: var(--boka-mork); }
+.boka-rad { margin: 32px 0 24px; }
 
 .knapp-sekundar {
   background: transparent;
