@@ -22,7 +22,11 @@
       "en": "all year",
       "de": "ganzjährig"
     },
-    "link": "https://www.naturkartan.se/sv/hoglandet/skurugata",
+    "link": {
+      "sv": "https://www.visitsmaland.se/upptack/skurugata-och-skuruhatt/",
+      "en": "https://www.visitsmaland.se/en/discover/skurugata-and-skuruhatt/",
+      "de": "https://www.visitsmaland.se/de/entdecken/skurugata-und-skuruhatt/"
+    },
     "lastVerified": "2026-10"
   },
   {
