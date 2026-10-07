@@ -7,7 +7,7 @@
 // så att de måste bytas samtidigt (annars kan en gammal sparad version av
 // ett skript visas en gång ihop med en ny sida).
 
-var VERSION = "7";
+var VERSION = "8";
 var CACHE = "ekon-" + VERSION;
 var VANTA_PA_NATET = 3000; // millisekunder innan den sparade sidan visas
 
