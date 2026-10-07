@@ -72,6 +72,8 @@ Varje plats har formatet:
 }
 ```
 
+`"name"` är en vanlig text när namnet är ett egennamn som ser likadant ut på alla språk (t.ex. "Skurugata"). Innehåller namnet vanliga ord som behöver översättas (t.ex. "badplats", "nationalpark", "och"), anges det per språk som `"name": { "sv": "…", "en": "…", "de": "…", "nl": "…", "da": "…" }`. Egennamnen behålls som de är.
+
 Kategorier: `natur`, `bad`, `barnfamiljer`, `mat-och-fika`, `regnvader`, `sevardheter`. (`kultur` är ersatt av `regnvader`.) Nya kategorier läggs bara till efter att du frågat mig.
 
 Varje plats på kartan ska ha en länk "Vägbeskrivning" som öppnar navigeringen i gästens mobil.
