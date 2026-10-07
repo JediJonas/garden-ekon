@@ -2,7 +2,7 @@
 // på kartan och i listan under. Filterknapparna styr båda samtidigt.
 
 (function () {
-  var KATEGORIER = ["natur", "bad", "barnfamiljer", "mat-och-fika", "regnvader"];
+  var KATEGORIER = ["natur", "bad", "barnfamiljer", "mat-och-fika", "regnvader", "sevardheter"];
   var t = window.Sprak.t;
 
   var platser = [];
