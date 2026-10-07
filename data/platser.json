@@ -1,14 +1,14 @@
 [
   {
     "id": "skurugata",
-    "name": "Skurugata, Eksjö",
+    "name": "Skurugata",
     "category": [
       "natur"
     ],
     "description": {
-      "sv": "En dramatisk sprickdal, ungefär en kilometer lång, med klippväggar som på sina ställen är 35 meter höga. Det är svalt och fuktigt i botten, och från ovansidan har du fin utsikt.",
-      "en": "A dramatic rift valley, about one kilometre long, with cliff walls up to 35 metres high in places. It is cool and damp at the bottom, and there are fine views from the top.",
-      "de": "Eine eindrucksvolle Felsschlucht, etwa einen Kilometer lang, mit stellenweise 35 Meter hohen Felswänden. Unten ist es kühl und feucht, von oben hat man eine schöne Aussicht."
+      "sv": "En dramatisk sprickdal utanför Eksjö, ungefär en kilometer lång, med klippväggar som på sina ställen är 35 meter höga. Det är svalt och fuktigt i botten, och från ovansidan har du fin utsikt.",
+      "en": "A dramatic rift valley outside Eksjö, about one kilometre long, with cliff walls up to 35 metres high in places. It is cool and damp at the bottom, and there are fine views from the top.",
+      "de": "Eine eindrucksvolle Felsschlucht bei Eksjö, etwa einen Kilometer lang, mit stellenweise 35 Meter hohen Felswänden. Unten ist es kühl und feucht, von oben hat man eine schöne Aussicht."
     },
     "lat": 57.7012256,
     "lng": 15.0875062,
@@ -27,14 +27,14 @@
   },
   {
     "id": "uvaberget-tenhult",
-    "name": "Uvaberget, Tenhult",
+    "name": "Uvaberget",
     "category": [
       "natur"
     ],
     "description": {
-      "sv": "Naturreservat med en 45 meter hög bergbrant och vid utsikt över Tenhultasjön. Leden går genom blandskog, och det finns rastbord och eldstad. Leden är inte en slinga, så du går samma väg tillbaka.",
-      "en": "Nature reserve with a 45-metre cliff and wide views over Lake Tenhultasjön. The trail runs through mixed forest, with picnic tables and a fireplace. It is not a loop, so you return the same way.",
-      "de": "Naturschutzgebiet mit einer 45 Meter hohen Felswand und weitem Blick über den See Tenhultasjön. Der Weg führt durch Mischwald, es gibt Rasttische und eine Feuerstelle. Kein Rundweg, zurück geht es denselben Weg."
+      "sv": "Naturreservat vid Tenhult med en 45 meter hög bergbrant och vid utsikt över Tenhultasjön. Leden går genom blandskog, och det finns rastbord och eldstad. Leden är inte en slinga, så du går samma väg tillbaka.",
+      "en": "Nature reserve near Tenhult with a 45-metre cliff and wide views over Lake Tenhultasjön. The trail runs through mixed forest, with picnic tables and a fireplace. It is not a loop, so you return the same way.",
+      "de": "Naturschutzgebiet bei Tenhult mit einer 45 Meter hohen Felswand und weitem Blick über den See Tenhultasjön. Der Weg führt durch Mischwald, es gibt Rasttische und eine Feuerstelle. Kein Rundweg, zurück geht es denselben Weg."
     },
     "lat": 57.6836896,
     "lng": 14.3266657,
@@ -157,14 +157,14 @@
   },
   {
     "id": "uddebobadet",
-    "name": "Uddebobadet, Lekeryd",
+    "name": "Uddebobadet",
     "category": [
       "bad"
     ],
     "description": {
-      "sv": "Lugn och avskild badplats med sandbotten, gräsytor, H-formad brygga med hopptorn och grunt vatten innanför bryggan. Toaletter och grillplats finns under badsäsongen.",
-      "en": "Calm, secluded swimming spot with a sandy bottom, lawns, an H-shaped jetty with a diving tower and shallow water inside the jetty. Toilets and a barbecue area during the swimming season.",
-      "de": "Ruhige, abgeschiedene Badestelle mit Sandboden, Liegewiesen, einem H-förmigen Steg mit Sprungturm und flachem Wasser innerhalb des Stegs. Toiletten und Grillplatz während der Badesaison."
+      "sv": "Lugn och avskild badplats vid Lekeryd med sandbotten, gräsytor, H-formad brygga med hopptorn och grunt vatten innanför bryggan. Toaletter och grillplats finns under badsäsongen.",
+      "en": "Calm, secluded swimming spot near Lekeryd with a sandy bottom, lawns, an H-shaped jetty with a diving tower and shallow water inside the jetty. Toilets and a barbecue area during the swimming season.",
+      "de": "Ruhige, abgeschiedene Badestelle bei Lekeryd mit Sandboden, Liegewiesen, einem H-förmigen Steg mit Sprungturm und flachem Wasser innerhalb des Stegs. Toiletten und Grillplatz während der Badesaison."
     },
     "lat": 57.763229,
     "lng": 14.421484,
@@ -214,9 +214,9 @@
       "barnfamiljer"
     ],
     "description": {
-      "sv": "Temapark där du kliver in i miljöerna från Astrid Lindgrens böcker, med Pippi, Emil och många andra. Teater och föreställningar varje dag under säsongen. En heldagsutflykt.",
-      "en": "Theme park where you step into the settings of Astrid Lindgren's books, with Pippi Longstocking, Emil and many more. Shows and performances every day in season. A full-day trip.",
-      "de": "Themenpark, in dem man die Welt aus Astrid Lindgrens Büchern betritt, mit Pippi Langstrumpf, Michel und vielen anderen. In der Saison täglich Theater und Vorstellungen. Ein Tagesausflug."
+      "sv": "Temapark i Vimmerby där du kliver in i miljöerna från Astrid Lindgrens böcker, med Pippi, Emil och många andra. Teater och föreställningar varje dag under säsongen. En heldagsutflykt.",
+      "en": "Theme park in Vimmerby where you step into the settings of Astrid Lindgren's books, with Pippi Longstocking, Emil and many more. Shows and performances every day in season. A full-day trip.",
+      "de": "Themenpark in Vimmerby, in dem man die Welt aus Astrid Lindgrens Büchern betritt, mit Pippi Langstrumpf, Michel und vielen anderen. In der Saison täglich Theater und Vorstellungen. Ein Tagesausflug."
     },
     "lat": 57.6741387,
     "lng": 15.8424528,
@@ -244,9 +244,9 @@
       "barnfamiljer"
     ],
     "description": {
-      "sv": "Westernstad i småländska skogen med stuntshower, ånglok, guldvaskning och ett stort museum. En heldagsutflykt för hela familjen.",
-      "en": "Wild West town in the Småland forest with stunt shows, a steam train, gold panning and a large museum. A full-day trip for the whole family.",
-      "de": "Westernstadt im Wald von Småland mit Stuntshows, Dampflok, Goldwaschen und einem großen Museum. Ein Tagesausflug für die ganze Familie."
+      "sv": "Westernstad i småländska skogen vid Hillerstorp med stuntshower, ånglok, guldvaskning och ett stort museum. En heldagsutflykt för hela familjen.",
+      "en": "Wild West town in the Småland forest near Hillerstorp with stunt shows, a steam train, gold panning and a large museum. A full-day trip for the whole family.",
+      "de": "Westernstadt im Wald von Småland bei Hillerstorp mit Stuntshows, Dampflok, Goldwaschen und einem großen Museum. Ein Tagesausflug für die ganze Familie."
     },
     "lat": 57.2628702,
     "lng": 13.8281975,
