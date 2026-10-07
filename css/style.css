@@ -682,12 +682,16 @@ details > :not(summary) { margin: 0 16px 16px; }
   color: var(--text-svag);
   margin: 6px 0 14px;
 }
+/* Vägbeskrivning överst i full bredd, övriga knappar två och två under.
+   Samma upplägg på alla språk, oavsett hur långa texterna är. */
 .plats .knappar {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 8px;
 }
-.plats .knappar .knapp { flex: 1 1 140px; }
+.plats .knappar .knapp { padding-left: 8px; padding-right: 8px; letter-spacing: 0.06em; }
+.plats .knappar .knapp:first-child,
+.plats .knappar .knapp:last-child:nth-child(even) { grid-column: 1 / -1; }
 
 .etikett {
   display: inline-block;
