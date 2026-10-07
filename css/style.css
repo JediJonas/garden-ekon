@@ -130,13 +130,10 @@ img { max-width: 100%; height: auto; }
   display: flex;
   align-items: center;
   gap: 10px;
-  color: var(--text);
+  /* Skogsgrön: mörkgrön i ljust läge, ljusgrön i mörkt läge (vit på fotot på startsidan) */
+  color: var(--skog);
   text-decoration: none;
   white-space: nowrap;
-}
-/* Loggan är svart i ljust läge och vit i mörkt läge (vit på fotot på startsidan) */
-@media (prefers-color-scheme: dark) {
-  .logga { color: #fff; }
 }
 .monogram {
   display: grid;
