@@ -271,7 +271,8 @@
     "id": "jonkopings-stadspark",
     "name": "Jönköpings stadspark",
     "category": [
-      "barnfamiljer"
+      "barnfamiljer",
+      "sevardheter"
     ],
     "description": {
       "sv": "Över hundra år gammal park på höjden ovanför Jönköping, med utsikt över Vättern, lek, djur, natur och historia. Gratis att besöka.",
@@ -485,6 +486,36 @@
     "link": {
       "sv": "https://jkpg.com/rottle",
       "en": "https://jkpg.com/en/rottle"
+    },
+    "lastVerified": "2026-10"
+  },
+  {
+    "id": "eksjo",
+    "name": "Eksjö",
+    "category": [
+      "sevardheter"
+    ],
+    "description": {
+      "sv": "En av Europas bäst bevarade trästäder, med över 50 kulturmärkta trähus från fyra århundraden. Promenera på egen hand genom Gamla stan, eller gå en guidad stadsvandring eller med ljudguide. Passar bra att kombinera med Skurugata, som ligger strax utanför staden.",
+      "en": "One of Europe's best-preserved wooden towns, with more than 50 listed wooden buildings from four centuries. Explore the Old Town on your own, on a guided walk or with an audio guide. Easy to combine with Skurugata, just outside the town.",
+      "de": "Eine der am besten erhaltenen Holzstädte Europas, mit über 50 denkmalgeschützten Holzhäusern aus vier Jahrhunderten. Erkunden Sie die Altstadt auf eigene Faust, bei einer Führung oder mit einem Audioguide. Lässt sich gut mit Skurugata kombinieren, die gleich außerhalb der Stadt liegt."
+    },
+    "lat": 57.6672264,
+    "lng": 14.9683261,
+    "distance": {
+      "sv": "ca 1 tim med bil",
+      "en": "approx. 1 h by car",
+      "de": "ca. 1 Std. mit dem Auto"
+    },
+    "season": {
+      "sv": "hela året",
+      "en": "all year",
+      "de": "ganzjährig"
+    },
+    "link": {
+      "sv": "https://www.visitsmaland.se/upptack/besok-den-unika-trastaden-eksjo/",
+      "en": "https://www.visitsmaland.se/en/discover/eksjo/",
+      "de": "https://www.visitsmaland.se/de/entdecken/eksjo-die-einzigartige-holzstadt/"
     },
     "lastVerified": "2026-10"
   }
