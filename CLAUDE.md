@@ -80,6 +80,8 @@ Varje plats på kartan ska ha en länk "Vägbeskrivning" som öppnar navigeringe
 
 Sajten finns på: svenska, engelska, tyska, holländska, danska (`sv`, `en`, `de`, `nl`, `da`). Alla texter ska finnas på alla språk. Gästen väljer språk i språkmenyn (knappen med jordgloben).
 
+Varje språk har en egen adress, t.ex. `guide.html?lang=de`, så att sökmotorer kan hitta alla språk. Länkar mellan sajtens sidor får språket automatiskt (`js/sprak.js`). Varje sida har en sidbeskrivning för sökresultaten (`<sida>.beskrivning` i `js/texter.js`). Läggs en ny sida till ska den också in i `sitemap.xml` på alla språk. Sajtens fullständiga adress står i `sitemap.xml`, `robots.txt` och sidornas `<head>` och byts där om sajten får en egen domän.
+
 Länkar till andra webbplatser ska öppnas på det språk gästen valt, när webbplatsen finns på det språket:
 
 * Naturkartan, Booking.com och Google Maps byts automatiskt av `lank()` i `js/sprak.js`. Det gäller alla länkar på sidorna och länkarna i guiden.
