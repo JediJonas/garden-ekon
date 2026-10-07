@@ -28,6 +28,7 @@
   <script src="js/offline.js" defer></script>
 </head>
 <body>
+  <a class="hoppa" href="#innehall" data-t="hoppa">Hoppa till innehållet</a>
   <header class="sidhuvud">
     <a class="logga" href="index.html"><span class="monogram" aria-hidden="true">E</span><span class="ordmarke"><span data-t="sajt.namn">Gården Ekön</span></span></a>
     <nav class="huvudmeny" data-t-aria="meny.namn" aria-label="Meny">
@@ -40,8 +41,9 @@
       </ul>
     </nav>
     <div class="sprakmeny">
-      <button type="button" class="sprakknapp" aria-expanded="false" aria-controls="sprakpanel" data-t-aria="sprak.val" aria-label="Välj språk">
+      <button type="button" class="sprakknapp" aria-expanded="false" aria-controls="sprakpanel">
         <svg class="ikon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18"/><path d="M12 3a14 14 0 0 0 0 18"/></svg>
+        <span class="dold" data-t="sprak.val">Välj språk</span>
         <span class="sprakkod">SV</span>
         <svg class="ikon pil" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
       </button>
@@ -55,7 +57,7 @@
     </div>
   </header>
 
-  <main>
+  <main id="innehall" tabindex="-1">
     <h1 data-t="guide.rubrik">Tips i närheten</h1>
     <p class="ingress" data-t="guide.ingress">Välj vad du är intresserad av. Kartan och listan visar samma platser.</p>
     <p class="platshallare" id="exempelvarning" hidden data-t="guide.exempelvarning">Just nu visas bara påhittade exempelplatser för att testa kartan.</p>
@@ -65,7 +67,7 @@
     <div id="karta"></div>
 
     <h2><span data-t="guide.lista">Platser</span> <span class="liten-text" id="antal" aria-live="polite"></span></h2>
-    <p class="meddelande" id="meddelande" data-t="guide.laddar">Laddar platser …</p>
+    <p class="meddelande" id="meddelande" aria-live="polite" data-t="guide.laddar">Laddar platser …</p>
     <ul class="platslista" id="platslista"></ul>
   </main>
 

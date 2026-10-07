@@ -21,6 +21,20 @@ Plats: https://maps.app.goo.gl/dKsF288DYnuQSRUFA
   * Sajten sparas i gästens webbläsare (`sw.js`) så att den öppnas snabbt och fungerar utan täckning. Nya sidor och skript läggs till i listan `GRUND` där.
 * Lugn, personlig känsla som speglar stugan och området. Inte en generisk mall.
 
+## Tillgänglighet
+
+* Sajten ska uppfylla **WCAG 2.2 nivå AA**. Alla ändringar ska ta hänsyn till det, även om lagen inte kräver det för en privat stugsajt.
+* Vad sajten uppfyller, krav för krav, står i `TILLGANGLIGHET.md`. Uppdatera den filen när en ändring påverkar något krav.
+* Det betyder bland annat:
+  * Textkontrast minst 4,5:1 (3:1 för stor text, ikoner och knappkanter), i både ljust och mörkt läge.
+  * Allt ska gå att använda med tangentbord, med synlig fokusram. Fokus får inte försvinna eller hamna bakom sidhuvudet eller menyraden.
+  * Bilder har beskrivande alt-text på alla språk. Rent dekorativa bilder har tom alt-text.
+  * Knappar och länkar har tydliga namn, även för skärmläsare (`aria-label` översätts med `data-t-aria`).
+  * Klickytor minst 24 × 24 px, helst 44 × 44 px.
+  * Inget innehåll som bara finns på kartan: allt ska också finnas i listan.
+  * Rörelse stängs av när gästen valt "minska rörelse".
+* Kör ett automatiskt test (t.ex. axe) och prova med tangentbord i mobilbredd innan en pull request skapas.
+
 ## Teknik
 
 * Statisk sajt: HTML, CSS och vanilla JavaScript. **Inga ramverk och inget byggsteg.**

@@ -104,6 +104,20 @@
     });
   }
 
+  // Länkar som öppnas i en ny flik får en dold text, "(öppnas i ny flik)",
+  // som bara skärmläsare läser upp.
+  function nyFlik(rot) {
+    (rot || document).querySelectorAll("a[target='_blank']").forEach(function (a) {
+      var dold = a.querySelector(".ny-flik");
+      if (!dold) {
+        dold = document.createElement("span");
+        dold.className = "dold ny-flik";
+        a.appendChild(dold);
+      }
+      dold.textContent = " (" + t("ny.flik") + ")";
+    });
+  }
+
   function valj(sprak) {
     if (SPRAK.indexOf(sprak) === -1) return;
     aktuellt = sprak;
@@ -122,6 +136,7 @@
     oversatt(document);
     sprakaLankar(document);
     sprakaInternaLankar(document);
+    nyFlik(document);
     document.querySelectorAll(".sprakkod").forEach(function (el) {
       el.textContent = aktuellt.toUpperCase();
     });
@@ -165,6 +180,7 @@
     t: t,
     oversatt: oversatt,
     lank: lank,
+    nyFlik: nyFlik,
     aktuellt: function () { return aktuellt; },
     vidByte: function (fn) { lyssnare.push(fn); }
   };
