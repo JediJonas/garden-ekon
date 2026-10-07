@@ -15,6 +15,7 @@
   <script src="js/offline.js" defer></script>
 </head>
 <body>
+  <a class="hoppa" href="#innehall" data-t="hoppa">Hoppa till innehållet</a>
   <header class="sidhuvud">
     <a class="logga" href="index.html"><span class="monogram" aria-hidden="true">E</span><span class="ordmarke"><span data-t="sajt.namn">Gården Ekön</span></span></a>
     <nav class="huvudmeny" data-t-aria="meny.namn" aria-label="Meny">
@@ -27,8 +28,9 @@
       </ul>
     </nav>
     <div class="sprakmeny">
-      <button type="button" class="sprakknapp" aria-expanded="false" aria-controls="sprakpanel" data-t-aria="sprak.val" aria-label="Välj språk">
+      <button type="button" class="sprakknapp" aria-expanded="false" aria-controls="sprakpanel">
         <svg class="ikon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18"/><path d="M12 3a14 14 0 0 0 0 18"/></svg>
+        <span class="dold" data-t="sprak.val">Välj språk</span>
         <span class="sprakkod">SV</span>
         <svg class="ikon pil" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
       </button>
@@ -42,7 +44,7 @@
     </div>
   </header>
 
-  <main>
+  <main id="innehall" tabindex="-1">
     <h1 data-t="stugan.rubrik">Om stugan</h1>
     <p class="ingress" data-t="stugan.ingress">En renoverad stuga på 44 m² i en lugn och naturskön miljö på småländska höglandet, utanför Forserum mellan Jönköping och Nässjö. Här har ni hela stugan för er själva. Den passar den lilla familjen som vill njuta några dagar på landet. På baksidan finns en naturträdgård med utemöbler och grill.</p>
 

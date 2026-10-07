@@ -13,6 +13,8 @@
   // I mobilen skrollar ett finger sidan och två fingrar flyttar kartan,
   // så att gästen inte fastnar i kartan när hen skrollar förbi den.
   var pekskarm = window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
+  // Mjuk skrollning, utom för den som valt "minska rörelse" i mobilen.
+  var skroll = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
   var karta = L.map("karta", { scrollWheelZoom: false, dragging: !pekskarm });
   L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19,
@@ -20,6 +22,7 @@
   }).addTo(karta);
   karta.attributionControl.setPrefix('<a href="https://leafletjs.com" target="_blank" rel="noopener">Leaflet</a>');
   karta.setView([57.70, 14.47], 11);
+  window.Sprak.nyFlik(document.getElementById("karta"));
 
   if (pekskarm) visaTvaFingerTips(document.getElementById("karta"));
 
@@ -93,9 +96,15 @@
       var knapp = skapa("button", "", kat === "alla" ? t("guide.alla") : t("kat." + kat));
       knapp.type = "button";
       knapp.setAttribute("aria-pressed", kat === valdKategori ? "true" : "false");
+      // Bara markeringen byts, knapparna ritas inte om. Då stannar fokus
+      // kvar på knappen för den som använder tangentbord.
       knapp.addEventListener("click", function () {
         valdKategori = kat;
-        ritaAllt(true);
+        filterEl.querySelectorAll("button").forEach(function (b) {
+          b.setAttribute("aria-pressed", b === knapp ? "true" : "false");
+        });
+        ritaKarta(true);
+        ritaLista();
       });
       filterEl.appendChild(knapp);
     });
@@ -117,12 +126,16 @@
     iListan.addEventListener("click", function () {
       var li = document.getElementById("plats-" + plats.id);
       if (!li) return;
-      li.scrollIntoView({ behavior: "smooth", block: "start" });
+      li.scrollIntoView({ behavior: skroll, block: "start" });
+      // Fokus följer med, så att skärmläsaren läser platsens text.
+      li.tabIndex = -1;
+      li.focus({ preventScroll: true });
       li.classList.add("markerad");
       setTimeout(function () { li.classList.remove("markerad"); }, 2000);
     });
     knappar.appendChild(iListan);
     div.appendChild(knappar);
+    window.Sprak.nyFlik(div);
     return div;
   }
 
@@ -197,8 +210,14 @@
       visa.type = "button";
       visa.addEventListener("click", function () {
         karta.setView([plats.lat, plats.lng], 14);
-        if (markorer[plats.id]) markorer[plats.id].openPopup();
-        document.getElementById("karta").scrollIntoView({ behavior: "smooth", block: "center" });
+        document.getElementById("karta").scrollIntoView({ behavior: skroll, block: "center" });
+        // Fokus flyttar till kartrutan, så att skärmläsaren hänger med.
+        var m = markorer[plats.id];
+        if (m) {
+          m.openPopup();
+          var forsta = m.getPopup().getElement().querySelector(".popup-knappar .knapp");
+          if (forsta) forsta.focus({ preventScroll: true });
+        }
       });
       knappar.appendChild(visa);
 
@@ -212,6 +231,7 @@
       li.appendChild(knappar);
       listaEl.appendChild(li);
     });
+    window.Sprak.nyFlik(listaEl);
   }
 
   function ritaAllt(anpassaVy) {
