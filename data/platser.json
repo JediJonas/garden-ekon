@@ -104,6 +104,32 @@
     "lastVerified": null
   },
   {
+    "id": "store-mosse",
+    "name": "Store Mosse nationalpark",
+    "category": [
+      "natur"
+    ],
+    "description": {
+      "sv": "Sydsveriges största orörda högmosse, nästan 8 000 hektar myr, sjöar och skog. Spänger leder ut över mossen, och från fågeltornet kan du se många fåglar. Vid naturum finns utställning, och Trollstigen är en kort slinga för barnfamiljer. Den som vill gå längre kan ta rundan kring sjön Kävsjön, ca 12 km.",
+      "en": "The largest untouched raised bog in southern Sweden, almost 8,000 hectares of mire, lakes and forest. Boardwalks lead out across the bog, and the bird tower offers good birdwatching. The naturum visitor centre has an exhibition, and Trollstigen is a short trail for families. For a longer walk, follow the loop around Lake Kävsjön, about 12 km.",
+      "de": "Das größte unberührte Hochmoor Südschwedens, fast 8.000 Hektar Moor, Seen und Wald. Holzstege führen hinaus aufs Moor, und vom Vogelturm aus lassen sich viele Vögel beobachten. Im Naturum gibt es eine Ausstellung, und Trollstigen ist ein kurzer Weg für Familien. Wer weiter wandern möchte, nimmt die Runde um den See Kävsjön, ca. 12 km."
+    },
+    "lat": 57.2999982,
+    "lng": 13.9298207,
+    "distance": {
+      "sv": "ca 1 tim med bil",
+      "en": "approx. 1 h by car",
+      "de": "ca. 1 Std. mit dem Auto"
+    },
+    "season": {
+      "sv": "hela året",
+      "en": "all year",
+      "de": "ganzjährig"
+    },
+    "link": "https://www.naturkartan.se/sv/jonkopings-lan/store-mosse-nationalpark",
+    "lastVerified": null
+  },
+  {
     "id": "forserums-badplats",
     "name": "Forserums badplats",
     "category": [
