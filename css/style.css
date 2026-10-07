@@ -715,6 +715,12 @@ details > :not(summary) { margin: 0 16px 16px; }
 .leaflet-popup-content { font-family: var(--text-font); font-size: 15px; color: #1f2622; }
 .leaflet-popup-content strong { display: block; margin-bottom: 4px; }
 .leaflet-popup-content .knapp { min-height: 40px; padding: 8px 14px; margin-top: 8px; background: #2f5a45; color: #fff; }
+.leaflet-popup-content .knapp-sekundar { background: transparent; color: #2f5a45; border: 2px solid #2f5a45; }
+.popup-knappar { display: flex; flex-wrap: wrap; gap: 0 8px; }
+
+/* Platsen man kom till via "Visa i listan" lyser upp en kort stund */
+.plats { scroll-margin-top: 80px; transition: box-shadow 0.4s; }
+.plats.markerad { box-shadow: 0 0 0 3px var(--skog); }
 
 /* ---------- Sidfot ---------- */
 
