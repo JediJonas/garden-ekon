@@ -3,9 +3,11 @@
 //   Är nätet långsamt eller borta visas den sparade versionen i stället.
 // - Bilder, typsnitt, CSS och skript visas direkt från det sparade och
 //   uppdateras i bakgrunden till nästa besök.
-// Höj VERSION om listan GRUND ändras.
+// Höj VERSION om listan GRUND ändras, eller när sidorna och skripten ändras
+// så att de måste bytas samtidigt (annars kan en gammal sparad version av
+// ett skript visas en gång ihop med en ny sida).
 
-var VERSION = "3";
+var VERSION = "4";
 var CACHE = "ekon-" + VERSION;
 var VANTA_PA_NATET = 3000; // millisekunder innan den sparade sidan visas
 

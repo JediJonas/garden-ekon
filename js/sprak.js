@@ -2,7 +2,7 @@
 // och minns valet i webbläsaren (localStorage, ingen cookie).
 
 (function () {
-  var SPRAK = ["sv", "en", "de"];
+  var SPRAK = ["sv", "en", "de", "nl", "da"];
   var NYCKEL = "sprak";
   var lyssnare = [];
 
@@ -21,7 +21,7 @@
     var lista = navigator.languages || [navigator.language || ""];
     for (var i = 0; i < lista.length; i++) {
       var kod = String(lista[i]).slice(0, 2).toLowerCase();
-      if (kod === "nb" || kod === "nn" || kod === "no" || kod === "da") kod = "sv";
+      if (kod === "nb" || kod === "nn" || kod === "no") kod = "sv";
       if (SPRAK.indexOf(kod) !== -1) return kod;
     }
     return "en";
@@ -49,14 +49,14 @@
 
   // Länkar till andra webbplatser som finns på flera språk öppnas på det
   // språk gästen valt. Nya sådana webbplatser läggs till här.
-  var BOOKING_SPRAK = { sv: "sv", en: "en-gb", de: "de" };
+  var BOOKING_SPRAK = { sv: "sv", en: "en-gb", de: "de", nl: "nl", da: "da" };
 
   function lank(url) {
     if (!url) return url;
-    // Naturkartan: /sv/…, /en/…, /de/…
-    url = url.replace(/^(https?:\/\/(?:www\.)?naturkartan\.se)\/(?:sv|en|de)(?=\/|$)/,
+    // Naturkartan: /sv/…, /en/…, /de/…, /nl/…, /da/…
+    url = url.replace(/^(https?:\/\/(?:www\.)?naturkartan\.se)\/(?:sv|en|de|nl|da)(?=\/|$)/,
       "$1/" + aktuellt);
-    // Booking.com: ….sv.html, ….en-gb.html, ….de.html
+    // Booking.com: ….sv.html, ….en-gb.html, ….de.html, ….nl.html, ….da.html
     url = url.replace(/^(https?:\/\/(?:www\.)?booking\.com\/hotel\/[^?#]*?)(?:\.[a-z]{2}(?:-[a-z]{2})?)?\.html/,
       "$1." + BOOKING_SPRAK[aktuellt] + ".html");
     // Google Maps: språket anges med hl=
@@ -86,14 +86,42 @@
     document.documentElement.lang = aktuellt;
     oversatt(document);
     sprakaLankar(document);
-    document.querySelectorAll(".sprakvaxlare button").forEach(function (knapp) {
-      knapp.setAttribute("aria-pressed", knapp.getAttribute("data-sprak") === aktuellt ? "true" : "false");
+    document.querySelectorAll(".sprakkod").forEach(function (el) {
+      el.textContent = aktuellt.toUpperCase();
+    });
+    document.querySelectorAll(".sprakpanel button").forEach(function (knapp) {
+      if (knapp.getAttribute("data-sprak") === aktuellt) knapp.setAttribute("aria-current", "true");
+      else knapp.removeAttribute("aria-current");
     });
   }
 
-  document.querySelectorAll(".sprakvaxlare button").forEach(function (knapp) {
-    knapp.addEventListener("click", function () { valj(knapp.getAttribute("data-sprak")); });
-  });
+  // Språkmenyn: knappen öppnar och stänger listan. Den stängs också när
+  // gästen väljer ett språk, trycker utanför eller trycker Esc.
+  var meny = document.querySelector(".sprakmeny");
+  if (meny) {
+    var knapp = meny.querySelector(".sprakknapp");
+    var panel = meny.querySelector(".sprakpanel");
+
+    var oppna = function (ja) {
+      panel.hidden = !ja;
+      knapp.setAttribute("aria-expanded", ja ? "true" : "false");
+    };
+
+    knapp.addEventListener("click", function () { oppna(panel.hidden); });
+    panel.querySelectorAll("button").forEach(function (val) {
+      val.addEventListener("click", function () {
+        valj(val.getAttribute("data-sprak"));
+        oppna(false);
+        knapp.focus();
+      });
+    });
+    document.addEventListener("click", function (e) {
+      if (!panel.hidden && !meny.contains(e.target)) oppna(false);
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && !panel.hidden) { oppna(false); knapp.focus(); }
+    });
+  }
 
   visa();
 
