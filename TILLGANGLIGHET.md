@@ -3,7 +3,7 @@
 Mål: **WCAG 2.2 nivå AA** (se regeln i `CLAUDE.md`).
 
 Senast granskad: **oktober 2026**, alla sex sidor i mobilbredd (375 px) och på dator, i ljust och mörkt läge.
-Så granskades sajten: automatiskt test med axe (WCAG 2.2 A och AA), test med tangentbord, och beräkning av färgkontraster.
+Så granskades sajten: automatiskt test med axe (WCAG 2.2 A och AA), HTML-validering med W3C:s validator, Lighthouse, test med tangentbord, och beräkning av färgkontraster. axe och HTML-valideringen körs också automatiskt för varje pull request (`.github/workflows/kontroll.yml`).
 
 Uppdatera den här filen när en ändring påverkar något av kraven nedan.
 
@@ -25,7 +25,7 @@ Förklaring: ✅ uppfyllt · ➖ ej aktuellt (sajten har inget sådant innehåll
 |---|---|---|---|
 | 1.1.1 Icke-textuellt innehåll | A | ✅ | Alla bilder har beskrivande alt-text på alla fem språk. Ikoner bredvid text är dolda för skärmläsare. Kartmarkörerna har platsens namn. |
 | 1.2.1–1.2.5 Ljud och video | A/AA | ➖ | Sajten har inget ljud eller video. |
-| 1.3.1 Information och relationer | A | ✅ | Rubriker, listor, meny (`nav`), huvudinnehåll (`main`) och frågor (`details`) är rätt uppmärkta. |
+| 1.3.1 Information och relationer | A | ✅ | Rubriker, listor, meny (`nav`), huvudinnehåll (`main`, på startsidan även fotot och huvudrubriken) och frågor (`details`) är rätt uppmärkta. Sidornas HTML validerar utan fel i W3C:s validator. |
 | 1.3.2 Meningsfull ordningsföljd | A | ✅ | Ordningen i koden följer den ordning man läser sidan. |
 | 1.3.3 Sensoriska egenskaper | A | ✅ | Instruktioner hänvisar inte bara till form, färg eller plats på skärmen. |
 | 1.3.4 Visningsriktning | AA | ✅ | Sajten fungerar både stående och liggande. |
@@ -89,5 +89,4 @@ Förklaring: ✅ uppfyllt · ➖ ej aktuellt (sajten har inget sådant innehåll
 
 * **Kartbilderna** kommer från OpenStreetMap och kan inte göras tillgängliga av oss. All information finns därför också i listan under kartan.
 * **Booking.com** och andra webbplatser vi länkar till ansvarar själva för sin tillgänglighet.
-* **Fotot överst på startsidan** ligger utanför sidans uppmärkta områden. Det är en rekommendation från testverktyget, inte ett WCAG-krav.
 * Granskningen är gjord med verktyg och tangentbord. Den är inte testad av personer med funktionsnedsättning eller med alla skärmläsare.
