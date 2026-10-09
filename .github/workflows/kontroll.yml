@@ -1,0 +1,45 @@
+# Automatisk kvalitetskontroll av sajten. Körs för varje pull request mot
+# main och kan också startas för hand under fliken Actions på GitHub.
+# Kontrollerar att platsdatan är giltig JSON, att HTML-koden validerar,
+# att länkarna mellan sidorna fungerar och att sidorna klarar
+# tillgänglighetstestet axe (WCAG 2.2 AA).
+name: Kvalitetskontroll
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  kontroll:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Installera testverktyg
+        run: |
+          npm install --no-save vnu-jar@24.10.17 linkinator@6 playwright@1.48 @axe-core/playwright@4.10
+          npx playwright install --with-deps chromium
+
+      - name: Platsdatan är giltig JSON
+        run: |
+          for f in data/*.json; do python3 -m json.tool "$f" > /dev/null && echo "$f ok"; done
+
+      - name: HTML-validering (W3C:s validator)
+        run: java -jar node_modules/vnu-jar/build/dist/vnu.jar --errors-only *.html
+
+      - name: Starta sajten lokalt
+        run: python3 -m http.server 8000 > /dev/null 2>&1 &
+
+      - name: Länkar mellan sidorna
+        run: npx linkinator http://localhost:8000/ --recurse --skip "^(?!http://localhost)"
+
+      - name: Tillgänglighet (axe)
+        run: node .github/kontroll/axe.mjs
