@@ -87,7 +87,7 @@ Varje språk har en egen adress, t.ex. `guide.html?lang=de`, så att sökmotorer
 
 Länkar till andra webbplatser ska öppnas på det språk gästen valt, när webbplatsen finns på det språket:
 
-* Naturkartan, Booking.com, Google Maps och claude.com byts automatiskt av `lank()` i `js/sprak.js`. Det gäller alla länkar på sidorna och länkarna i guiden.
+* Naturkartan, Booking.com och Google Maps byts automatiskt av `lank()` i `js/sprak.js`. Det gäller alla länkar på sidorna och länkarna i guiden.
 * Lägger du till en länk till en ny webbplats som finns på flera språk: lägg till regeln för den i `lank()` om adressen följer ett mönster, eller ange länken per språk i `data/platser.json` (`"link": { "sv": "…", "en": "…", "de": "…", "nl": "…", "da": "…" }`).
 * Finns ingen tysk, holländsk eller dansk version men en engelsk, får de gästerna den engelska automatiskt. `"link"` behöver då bara `sv` och `en`.
 * Gissa aldrig en språkadress. Kontrollera att den finns, annars behåll den svenska länken.

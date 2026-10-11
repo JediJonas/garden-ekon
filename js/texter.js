@@ -182,10 +182,7 @@ window.TEXTER = {
     "om.t.tillg": "WCAG 2.2 nivå AA",
     "om.t.test.namn": "Tester",
     "om.t.test": "GitHub Actions med W3C:s HTML-validator, länkkontroll och axe",
-    "om.rubrik": "Om sajten",
-    "om.lankar.rubrik": "Läs mer",
-    "om.lank.claude": "Claude Code från Anthropic",
-    "om.lank.kod": "Sajtens källkod på GitHub"
+    "om.rubrik": "Om sajten"
   },
 
   en: {
@@ -366,10 +363,7 @@ window.TEXTER = {
     "om.t.tillg": "WCAG 2.2 level AA",
     "om.t.test.namn": "Testing",
     "om.t.test": "GitHub Actions with the W3C HTML validator, link checking and axe",
-    "om.rubrik": "About this site",
-    "om.lankar.rubrik": "Read more",
-    "om.lank.claude": "Claude Code by Anthropic",
-    "om.lank.kod": "The site's source code on GitHub"
+    "om.rubrik": "About this site"
   },
 
   de: {
@@ -550,10 +544,7 @@ window.TEXTER = {
     "om.t.tillg": "WCAG 2.2 Stufe AA",
     "om.t.test.namn": "Tests",
     "om.t.test": "GitHub Actions mit dem HTML-Validator des W3C, Linkprüfung und axe",
-    "om.rubrik": "Über diese Website",
-    "om.lankar.rubrik": "Mehr erfahren",
-    "om.lank.claude": "Claude Code von Anthropic",
-    "om.lank.kod": "Der Quellcode der Website auf GitHub"
+    "om.rubrik": "Über diese Website"
   },
 
   nl: {
@@ -734,10 +725,7 @@ window.TEXTER = {
     "om.t.tillg": "WCAG 2.2 niveau AA",
     "om.t.test.namn": "Tests",
     "om.t.test": "GitHub Actions met de HTML-validator van het W3C, linkcontrole en axe",
-    "om.rubrik": "Over deze website",
-    "om.lankar.rubrik": "Meer lezen",
-    "om.lank.claude": "Claude Code van Anthropic",
-    "om.lank.kod": "De broncode van de website op GitHub"
+    "om.rubrik": "Over deze website"
   },
 
   da: {
@@ -918,9 +906,6 @@ window.TEXTER = {
     "om.t.tillg": "WCAG 2.2 niveau AA",
     "om.t.test.namn": "Test",
     "om.t.test": "GitHub Actions med W3C's HTML-validator, linktjek og axe",
-    "om.rubrik": "Om hjemmesiden",
-    "om.lankar.rubrik": "Læs mere",
-    "om.lank.claude": "Claude Code fra Anthropic",
-    "om.lank.kod": "Hjemmesidens kildekode på GitHub"
+    "om.rubrik": "Om hjemmesiden"
   }
 };

@@ -817,9 +817,7 @@ details > :not(summary) { margin: 0 16px 16px; }
 }
 .sidfot p { max-width: 760px; margin: 0 auto; padding: 18px 16px; }
 
-/* Länklista (sidan Om sajten): varje länk minst 44 px hög klickyta */
-.lanklista { padding-left: 1.2em; }
-.lanklista a { display: inline-block; padding: 10px 0; }
+/* Tekniklistan på sidan Om sajten */
 .tekniker { padding-left: 1.2em; }
 .tekniker li { margin: 0.5em 0; }
 
