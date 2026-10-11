@@ -1,9 +1,10 @@
-# Automatisk kvalitetskontroll av sajten. Körs för varje pull request mot
+# Webbkvalitet: automatisk kvalitetskontroll av sajten (samma namn som
+# ägarens regel för webbprojekt). Körs för varje pull request mot
 # main och kan också startas för hand under fliken Actions på GitHub.
 # Kontrollerar att platsdatan är giltig JSON, att HTML-koden validerar,
 # att länkarna mellan sidorna fungerar och att sidorna klarar
 # tillgänglighetstestet axe (WCAG 2.2 AA).
-name: Kvalitetskontroll
+name: Webbkvalitet
 
 on:
   pull_request:
@@ -14,7 +15,7 @@ permissions:
   contents: read
 
 jobs:
-  kontroll:
+  webbkvalitet:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -42,4 +43,4 @@ jobs:
         run: npx linkinator http://localhost:8000/ --recurse --skip "^(?!http://localhost)"
 
       - name: Tillgänglighet (axe)
-        run: node .github/kontroll/axe.mjs
+        run: node .github/webbkvalitet/axe.mjs
