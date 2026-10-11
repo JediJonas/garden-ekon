@@ -3,7 +3,7 @@
 Mål: **WCAG 2.2 nivå AA** (se regeln i `CLAUDE.md`).
 
 Senast granskad: **oktober 2026**, alla sex sidor i mobilbredd (375 px) och på dator, i ljust och mörkt läge.
-Så granskades sajten: automatiskt test med axe (WCAG 2.2 A och AA), HTML-validering med W3C:s validator, Lighthouse, test med tangentbord, och beräkning av färgkontraster. axe och HTML-valideringen körs också automatiskt för varje pull request (`.github/workflows/kontroll.yml`).
+Så granskades sajten: automatiskt test med axe (WCAG 2.2 A och AA), HTML-validering med W3C:s validator, Lighthouse, test med tangentbord, och beräkning av färgkontraster. axe och HTML-valideringen körs också automatiskt för varje pull request (`.github/workflows/webbkvalitet.yml`).
 
 Uppdatera den här filen när en ändring påverkar något av kraven nedan.
 

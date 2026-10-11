@@ -1,6 +1,6 @@
 // Tillgänglighetstest med axe (WCAG 2.2 A och AA) av alla sidor, i
 // mobilbredd, i ljust och mörkt läge och på alla språk. Avslutar med fel
-// om något hittas. Körs av .github/workflows/kontroll.yml.
+// om något hittas. Körs av .github/workflows/webbkvalitet.yml.
 import { chromium } from "playwright";
 import { AxeBuilder } from "@axe-core/playwright";
 
