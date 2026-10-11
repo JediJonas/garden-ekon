@@ -484,6 +484,17 @@ html.bildvisare-oppen { overflow: hidden; overscroll-behavior-x: none; }
 .startsida .logga,
 .startsida .sprakknapp { color: #fff; border-color: rgba(255, 255, 255, 0.6); }
 
+/* Startsidan: fotot ligger överst i main och går kant i kant. Resten av
+   innehållet får samma bredd som main har på andra sidor. */
+.startsida main { max-width: none; padding: 0; animation: none; }
+.startsida-innehall {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px 16px 32px;
+  animation: tona-in 0.3s ease;
+}
+
 .hjalte {
   display: flex;
   flex-direction: column;
@@ -844,7 +855,7 @@ details > :not(summary) { margin: 0 16px 16px; }
 .hjalte :focus-visible { outline-color: #fff; }
 
 @media (prefers-reduced-motion: reduce) {
-  main { animation: none; }
+  main, .startsida-innehall { animation: none; }
   * { transition: none !important; }
 }
 
@@ -881,6 +892,8 @@ details > :not(summary) { margin: 0 16px 16px; }
   .startsida .huvudmeny a[aria-current="page"] { color: #fff; }
 
   main { padding-top: 40px; }
+  .startsida main { padding-top: 0; }
+  .startsida-innehall { padding-top: 40px; }
   .hjalte {
     padding: 120px max(40px, calc((100% - 1040px) / 2)) 72px;
     background-image:
