@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title data-t="om.titel">Om sajten – Gården Ekön</title>
-  <meta name="description" content="Så är sajten för Gården Ekön byggd: med AI-assistenten Claude, som vanliga HTML-sidor på GitHub Pages och med varje ändring godkänd av oss." data-t-content="om.beskrivning">
+  <meta name="description" content="Tekniken bakom sajten för Gården Ekön: byggd med Claude, HTML, CSS och JavaScript på GitHub Pages, Leaflet och OpenStreetMap, service worker och WCAG 2.2 AA." data-t-content="om.beskrivning">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Gården Ekön">
   <meta property="og:title" content="Om sajten – Gården Ekön">
-  <meta property="og:description" content="Så är sajten för Gården Ekön byggd: med AI-assistenten Claude, som vanliga HTML-sidor på GitHub Pages och med varje ändring godkänd av oss.">
+  <meta property="og:description" content="Tekniken bakom sajten för Gården Ekön: byggd med Claude, HTML, CSS och JavaScript på GitHub Pages, Leaflet och OpenStreetMap, service worker och WCAG 2.2 AA.">
   <meta property="og:url" content="https://jedijonas.github.io/garden-ekon/om-sajten.html">
   <meta property="og:image" content="https://jedijonas.github.io/garden-ekon/bilder/stugan/framsida-liten.jpg">
   <meta property="og:image:width" content="800">
@@ -56,17 +56,21 @@
 
   <main id="innehall" tabindex="-1">
     <h1 data-t="om.rubrik">Om sajten</h1>
-    <p data-t="om.ingress">Den här sajten har vi byggt tillsammans med Claude, en AI-assistent från företaget Anthropic. Vi berättar vad vi vill ha, och Claude skriver koden.</p>
+    <p data-t="om.ingress">Sajten är byggd med Claude, en AI-assistent från Anthropic, i verktyget Claude Code.</p>
 
-    <h2 data-t="om.hur.rubrik">Så går det till</h2>
-    <p data-t="om.hur.p1">När något ska ändras, till exempel ett nytt tips i guiden eller en tydligare vägbeskrivning, skriver vi till Claude på vanlig svenska. Claude arbetar i verktyget Claude Code, direkt i sajtens kod.</p>
-    <p data-t="om.hur.p2">Varje ändring blir ett förslag (en så kallad pull request på GitHub). Vi läser förslaget och godkänner det innan det syns på sajten. Inget publiceras utan att vi har sagt ja.</p>
-    <p data-t="om.hur.p3">Innan vi godkänner ett förslag kontrolleras det automatiskt: att koden är korrekt, att länkarna mellan sidorna fungerar och att sidorna går att använda med tangentbord och skärmläsare.</p>
-
-    <h2 data-t="om.teknik.rubrik">Tekniken</h2>
-    <p data-t="om.teknik.p1">Sajten består av vanliga HTML-sidor med CSS och lite JavaScript, utan ramverk. Den ligger på GitHub Pages och uppdateras automatiskt när en ändring har godkänts.</p>
-    <p data-t="om.teknik.p2">Kartan i guiden visas med Leaflet och kartbilder från OpenStreetMap. Alla tips finns samlade i en enda datafil, så det är lätt att lägga till nya.</p>
-    <p data-t="om.teknik.p3">Sidorna är gjorda för mobilen och laddar snabbt även på långsamma nät. De sparas i din webbläsare, så sajten fungerar även utan täckning. Sajten finns på fem språk, är byggd för att uppfylla tillgänglighetskraven i WCAG 2.2 nivå AA och använder inga cookies och ingen spårning.</p>
+    <h2 data-t="om.tekniker.rubrik">Tekniker</h2>
+    <ul class="tekniker">
+      <li><strong data-t="om.t.kod.namn">Kod</strong>: <span data-t="om.t.kod">HTML, CSS och JavaScript, utan ramverk och utan byggsteg</span></li>
+      <li><strong data-t="om.t.vard.namn">Webbhotell</strong>: <span data-t="om.t.vard">GitHub Pages</span></li>
+      <li><strong data-t="om.t.karta.namn">Karta</strong>: <span data-t="om.t.karta">Leaflet med kartbilder från OpenStreetMap</span></li>
+      <li><strong data-t="om.t.data.namn">Data</strong>: <span data-t="om.t.data">alla tips och kartpunkter i en JSON-fil</span></li>
+      <li><strong data-t="om.t.offline.namn">Offline</strong>: <span data-t="om.t.offline">service worker som sparar sidorna i webbläsaren</span></li>
+      <li><strong data-t="om.t.bilder.namn">Bilder</strong>: <span data-t="om.t.bilder">WebP i flera storlekar med JPG som reserv, lazy loading</span></li>
+      <li><strong data-t="om.t.typsnitt.namn">Typsnitt</strong>: <span data-t="om.t.typsnitt">Dosis och Jost, lagrade på sajten (WOFF2)</span></li>
+      <li><strong data-t="om.t.sprak.namn">Språk</strong>: <span data-t="om.t.sprak">fem språk med egen adress per språk (?lang=)</span></li>
+      <li><strong data-t="om.t.tillg.namn">Tillgänglighet</strong>: <span data-t="om.t.tillg">WCAG 2.2 nivå AA</span></li>
+      <li><strong data-t="om.t.test.namn">Tester</strong>: <span data-t="om.t.test">GitHub Actions med W3C:s HTML-validator, länkkontroll och axe</span></li>
+    </ul>
 
     <h2 data-t="om.lankar.rubrik">Läs mer</h2>
     <ul class="lanklista">
