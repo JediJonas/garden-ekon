@@ -94,6 +94,9 @@
       url = url.replace(/([?&])hl=[^&#]*&?/, "$1").replace(/[?&]$/, "");
       url += (url.indexOf("?") === -1 ? "?" : "&") + "hl=" + aktuellt;
     }
+    // Claude (claude.com): bara tysk version (/de/…), övriga får engelska.
+    url = url.replace(/^(https?:\/\/claude\.com)\/(?:de\/)?/,
+      "$1/" + (aktuellt === "de" ? "de/" : ""));
     return url;
   }
 

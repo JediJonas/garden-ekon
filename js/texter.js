@@ -17,6 +17,7 @@ window.TEXTER = {
     "meny.info": "Info",
     "sidfot.integritet": "Integritet",
     "sidfot.boka": "Bokning sker via",
+    "sidfot.om": "Om sajten",
 
     "hem.titel": "Gården Ekön – Välkommen",
     "hem.beskrivning": "Renoverad stuga på 44 m² för upp till 4 gäster utanför Forserum, mellan Jönköping och Nässjö på småländska höglandet. Boka via Booking.com.",
@@ -155,7 +156,23 @@ window.TEXTER = {
     "integritet.p1": "Den här sajten använder inga cookies och ingen spårning. Vi samlar inte in några uppgifter om dig.",
     "integritet.p2": "Ditt val av språk och sajtens sidor sparas bara i din egen webbläsare, så att sajten minns språket, laddar snabbare och fungerar även utan täckning.",
     "integritet.p3": "Kartan på guidesidan hämtar kartbilder från OpenStreetMap. Då ser OpenStreetMap din IP-adress, precis som när du besöker vilken webbplats som helst.",
-    "integritet.p4": "Bokningsknappen leder till Booking.com, som har sina egna regler för personuppgifter."
+    "integritet.p4": "Bokningsknappen leder till Booking.com, som har sina egna regler för personuppgifter.",
+
+    "om.titel": "Om sajten – Gården Ekön",
+    "om.beskrivning": "Så är sajten för Gården Ekön byggd: med AI-assistenten Claude, som vanliga HTML-sidor på GitHub Pages och med varje ändring godkänd av oss.",
+    "om.rubrik": "Om sajten",
+    "om.ingress": "Den här sajten har vi byggt tillsammans med Claude, en AI-assistent från företaget Anthropic. Vi berättar vad vi vill ha, och Claude skriver koden.",
+    "om.hur.rubrik": "Så går det till",
+    "om.hur.p1": "När något ska ändras, till exempel ett nytt tips i guiden eller en tydligare vägbeskrivning, skriver vi till Claude på vanlig svenska. Claude arbetar i verktyget Claude Code, direkt i sajtens kod.",
+    "om.hur.p2": "Varje ändring blir ett förslag (en så kallad pull request på GitHub). Vi läser förslaget och godkänner det innan det syns på sajten. Inget publiceras utan att vi har sagt ja.",
+    "om.hur.p3": "Innan vi godkänner ett förslag kontrolleras det automatiskt: att koden är korrekt, att länkarna mellan sidorna fungerar och att sidorna går att använda med tangentbord och skärmläsare.",
+    "om.teknik.rubrik": "Tekniken",
+    "om.teknik.p1": "Sajten består av vanliga HTML-sidor med CSS och lite JavaScript, utan ramverk. Den ligger på GitHub Pages och uppdateras automatiskt när en ändring har godkänts.",
+    "om.teknik.p2": "Kartan i guiden visas med Leaflet och kartbilder från OpenStreetMap. Alla tips finns samlade i en enda datafil, så det är lätt att lägga till nya.",
+    "om.teknik.p3": "Sidorna är gjorda för mobilen och laddar snabbt även på långsamma nät. De sparas i din webbläsare, så sajten fungerar även utan täckning. Sajten finns på fem språk, är byggd för att uppfylla tillgänglighetskraven i WCAG 2.2 nivå AA och använder inga cookies och ingen spårning.",
+    "om.lankar.rubrik": "Läs mer",
+    "om.lank.claude": "Claude Code från Anthropic",
+    "om.lank.kod": "Sajtens källkod på GitHub"
   },
 
   en: {
@@ -171,6 +188,7 @@ window.TEXTER = {
     "meny.info": "Info",
     "sidfot.integritet": "Privacy",
     "sidfot.boka": "Booking is handled by",
+    "sidfot.om": "About this site",
 
     "hem.titel": "Gården Ekön – Welcome",
     "hem.beskrivning": "Renovated 44 m² cottage for up to 4 guests near Forserum, between Jönköping and Nässjö in the Småland highlands. Book via Booking.com.",
@@ -309,7 +327,23 @@ window.TEXTER = {
     "integritet.p1": "This site uses no cookies and no tracking. We do not collect any information about you.",
     "integritet.p2": "Your language choice and the site's pages are stored only in your own browser, so the site remembers your language, loads faster and works even without a signal.",
     "integritet.p3": "The map on the guide page loads map images from OpenStreetMap. OpenStreetMap then sees your IP address, just as when you visit any website.",
-    "integritet.p4": "The booking button takes you to Booking.com, which has its own privacy rules."
+    "integritet.p4": "The booking button takes you to Booking.com, which has its own privacy rules.",
+
+    "om.titel": "About this site – Gården Ekön",
+    "om.beskrivning": "How the Gården Ekön website is built: with the AI assistant Claude, as plain HTML pages on GitHub Pages, and with every change approved by us.",
+    "om.rubrik": "About this site",
+    "om.ingress": "We built this site together with Claude, an AI assistant from the company Anthropic. We describe what we want, and Claude writes the code.",
+    "om.hur.rubrik": "How it works",
+    "om.hur.p1": "When something needs changing, such as a new tip in the guide or clearer directions, we write to Claude in plain Swedish. Claude works in a tool called Claude Code, directly in the site's code.",
+    "om.hur.p2": "Every change becomes a proposal (a so-called pull request on GitHub). We read the proposal and approve it before it appears on the site. Nothing is published until we have said yes.",
+    "om.hur.p3": "Before we approve a proposal, it is checked automatically: that the code is correct, that the links between pages work and that the pages can be used with a keyboard and a screen reader.",
+    "om.teknik.rubrik": "The technology",
+    "om.teknik.p1": "The site consists of plain HTML pages with CSS and a little JavaScript, without frameworks. It is hosted on GitHub Pages and updates automatically when a change has been approved.",
+    "om.teknik.p2": "The map in the guide uses Leaflet with map images from OpenStreetMap. All tips are kept in a single data file, so it is easy to add new ones.",
+    "om.teknik.p3": "The pages are made for mobile phones and load quickly even on slow networks. They are stored in your browser, so the site works even without a signal. The site is available in five languages, is built to meet the accessibility requirements of WCAG 2.2 level AA, and uses no cookies and no tracking.",
+    "om.lankar.rubrik": "Read more",
+    "om.lank.claude": "Claude Code by Anthropic",
+    "om.lank.kod": "The site's source code on GitHub"
   },
 
   de: {
@@ -325,6 +359,7 @@ window.TEXTER = {
     "meny.info": "Infos",
     "sidfot.integritet": "Datenschutz",
     "sidfot.boka": "Die Buchung erfolgt über",
+    "sidfot.om": "Über diese Website",
 
     "hem.titel": "Gården Ekön – Willkommen",
     "hem.beskrivning": "Renoviertes Ferienhaus mit 44 m² für bis zu 4 Gäste bei Forserum, zwischen Jönköping und Nässjö im småländischen Hochland. Buchung über Booking.com.",
@@ -463,7 +498,23 @@ window.TEXTER = {
     "integritet.p1": "Diese Website verwendet keine Cookies und kein Tracking. Wir erheben keine Daten über Sie.",
     "integritet.p2": "Ihre Sprachwahl und die Seiten der Website werden nur in Ihrem eigenen Browser gespeichert, damit die Website Ihre Sprache kennt, schneller lädt und auch ohne Empfang funktioniert.",
     "integritet.p3": "Die Karte auf der Tipps-Seite lädt Kartenbilder von OpenStreetMap. Dabei sieht OpenStreetMap Ihre IP-Adresse, wie beim Besuch jeder anderen Website.",
-    "integritet.p4": "Die Buchungsschaltfläche führt zu Booking.com, wo eigene Datenschutzregeln gelten."
+    "integritet.p4": "Die Buchungsschaltfläche führt zu Booking.com, wo eigene Datenschutzregeln gelten.",
+
+    "om.titel": "Über diese Website – Gården Ekön",
+    "om.beskrivning": "So ist die Website von Gården Ekön gebaut: mit dem KI-Assistenten Claude, als einfache HTML-Seiten auf GitHub Pages und mit jeder Änderung von uns freigegeben.",
+    "om.rubrik": "Über diese Website",
+    "om.ingress": "Diese Website haben wir zusammen mit Claude gebaut, einem KI-Assistenten des Unternehmens Anthropic. Wir sagen, was wir möchten, und Claude schreibt den Code.",
+    "om.hur.rubrik": "So funktioniert es",
+    "om.hur.p1": "Wenn sich etwas ändern soll, etwa ein neuer Tipp auf der Tipps-Seite oder eine klarere Wegbeschreibung, schreiben wir Claude auf ganz normalem Schwedisch. Claude arbeitet mit dem Werkzeug Claude Code direkt im Code der Website.",
+    "om.hur.p2": "Jede Änderung wird zu einem Vorschlag (einem sogenannten Pull Request auf GitHub). Wir lesen den Vorschlag und geben ihn frei, bevor er auf der Website erscheint. Nichts wird veröffentlicht, ohne dass wir Ja gesagt haben.",
+    "om.hur.p3": "Bevor wir einen Vorschlag freigeben, wird er automatisch geprüft: ob der Code korrekt ist, ob die Links zwischen den Seiten funktionieren und ob sich die Seiten mit Tastatur und Screenreader bedienen lassen.",
+    "om.teknik.rubrik": "Die Technik",
+    "om.teknik.p1": "Die Website besteht aus einfachen HTML-Seiten mit CSS und etwas JavaScript, ohne Frameworks. Sie liegt auf GitHub Pages und wird automatisch aktualisiert, sobald eine Änderung freigegeben ist.",
+    "om.teknik.p2": "Die Karte auf der Tipps-Seite nutzt Leaflet und Kartenbilder von OpenStreetMap. Alle Tipps stehen in einer einzigen Datendatei, sodass sich leicht neue hinzufügen lassen.",
+    "om.teknik.p3": "Die Seiten sind für das Handy gemacht und laden auch in langsamen Netzen schnell. Sie werden in Ihrem Browser gespeichert, sodass die Website auch ohne Empfang funktioniert. Die Website gibt es in fünf Sprachen, sie ist darauf ausgelegt, die Barrierefreiheitsanforderungen der WCAG 2.2 Stufe AA zu erfüllen, und sie verwendet keine Cookies und kein Tracking.",
+    "om.lankar.rubrik": "Mehr erfahren",
+    "om.lank.claude": "Claude Code von Anthropic",
+    "om.lank.kod": "Der Quellcode der Website auf GitHub"
   },
 
   nl: {
@@ -479,6 +530,7 @@ window.TEXTER = {
     "meny.info": "Info",
     "sidfot.integritet": "Privacy",
     "sidfot.boka": "Boeken gaat via",
+    "sidfot.om": "Over deze website",
 
     "hem.titel": "Gården Ekön – Welkom",
     "hem.beskrivning": "Gerenoveerd vakantiehuisje van 44 m² voor maximaal 4 gasten bij Forserum, tussen Jönköping en Nässjö in de Smålandse hooglanden. Boeken via Booking.com.",
@@ -617,7 +669,23 @@ window.TEXTER = {
     "integritet.p1": "Deze website gebruikt geen cookies en geen tracking. We verzamelen geen gegevens over u.",
     "integritet.p2": "Uw taalkeuze en de pagina's van de website worden alleen in uw eigen browser opgeslagen, zodat de website uw taal onthoudt, sneller laadt en ook zonder bereik werkt.",
     "integritet.p3": "De kaart op de tipspagina laadt kaartafbeeldingen van OpenStreetMap. OpenStreetMap ziet daarbij uw IP-adres, net als bij het bezoeken van elke andere website.",
-    "integritet.p4": "De boekknop brengt u naar Booking.com, dat zijn eigen privacyregels heeft."
+    "integritet.p4": "De boekknop brengt u naar Booking.com, dat zijn eigen privacyregels heeft.",
+
+    "om.titel": "Over deze website – Gården Ekön",
+    "om.beskrivning": "Zo is de website van Gården Ekön gemaakt: met de AI-assistent Claude, als gewone HTML-pagina's op GitHub Pages en met elke wijziging door ons goedgekeurd.",
+    "om.rubrik": "Over deze website",
+    "om.ingress": "We hebben deze website samen met Claude gemaakt, een AI-assistent van het bedrijf Anthropic. Wij vertellen wat we willen, en Claude schrijft de code.",
+    "om.hur.rubrik": "Zo werkt het",
+    "om.hur.p1": "Als er iets moet veranderen, bijvoorbeeld een nieuwe tip in de gids of een duidelijkere routebeschrijving, schrijven we Claude in gewoon Zweeds. Claude werkt met het programma Claude Code, rechtstreeks in de code van de website.",
+    "om.hur.p2": "Elke wijziging wordt een voorstel (een zogenaamde pull request op GitHub). We lezen het voorstel en keuren het goed voordat het op de website verschijnt. Er wordt niets gepubliceerd zonder dat wij ja hebben gezegd.",
+    "om.hur.p3": "Voordat we een voorstel goedkeuren, wordt het automatisch gecontroleerd: of de code klopt, of de links tussen de pagina's werken en of de pagina's met toetsenbord en schermlezer te gebruiken zijn.",
+    "om.teknik.rubrik": "De techniek",
+    "om.teknik.p1": "De website bestaat uit gewone HTML-pagina's met CSS en een beetje JavaScript, zonder frameworks. Hij staat op GitHub Pages en wordt automatisch bijgewerkt zodra een wijziging is goedgekeurd.",
+    "om.teknik.p2": "De kaart in de gids gebruikt Leaflet en kaartafbeeldingen van OpenStreetMap. Alle tips staan in één gegevensbestand, zodat er makkelijk nieuwe bij kunnen.",
+    "om.teknik.p3": "De pagina's zijn gemaakt voor de mobiel en laden snel, ook op trage netwerken. Ze worden in uw browser opgeslagen, zodat de website ook zonder bereik werkt. De website is er in vijf talen, is gebouwd om te voldoen aan de toegankelijkheidseisen van WCAG 2.2 niveau AA en gebruikt geen cookies en geen tracking.",
+    "om.lankar.rubrik": "Meer lezen",
+    "om.lank.claude": "Claude Code van Anthropic",
+    "om.lank.kod": "De broncode van de website op GitHub"
   },
 
   da: {
@@ -633,6 +701,7 @@ window.TEXTER = {
     "meny.info": "Info",
     "sidfot.integritet": "Privatliv",
     "sidfot.boka": "Booking sker via",
+    "sidfot.om": "Om hjemmesiden",
 
     "hem.titel": "Gården Ekön – Velkommen",
     "hem.beskrivning": "Renoveret sommerhus på 44 m² til op til 4 gæster ved Forserum, mellem Jönköping og Nässjö i det smålandske højland. Book via Booking.com.",
@@ -771,6 +840,22 @@ window.TEXTER = {
     "integritet.p1": "Denne hjemmeside bruger ingen cookies og ingen sporing. Vi indsamler ingen oplysninger om dig.",
     "integritet.p2": "Dit sprogvalg og hjemmesidens sider gemmes kun i din egen browser, så hjemmesiden husker dit sprog, indlæses hurtigere og virker selv uden dækning.",
     "integritet.p3": "Kortet på guidesiden henter kortbilleder fra OpenStreetMap. OpenStreetMap ser derved din IP-adresse, ligesom når du besøger enhver anden hjemmeside.",
-    "integritet.p4": "Bookingknappen fører dig til Booking.com, som har sine egne regler om privatliv."
+    "integritet.p4": "Bookingknappen fører dig til Booking.com, som har sine egne regler om privatliv.",
+
+    "om.titel": "Om hjemmesiden – Gården Ekön",
+    "om.beskrivning": "Sådan er hjemmesiden for Gården Ekön lavet: med AI-assistenten Claude, som almindelige HTML-sider på GitHub Pages og med hver ændring godkendt af os.",
+    "om.rubrik": "Om hjemmesiden",
+    "om.ingress": "Vi har lavet denne hjemmeside sammen med Claude, en AI-assistent fra virksomheden Anthropic. Vi fortæller, hvad vi gerne vil have, og Claude skriver koden.",
+    "om.hur.rubrik": "Sådan foregår det",
+    "om.hur.p1": "Når noget skal ændres, for eksempel et nyt tip i guiden eller en tydeligere vejvisning, skriver vi til Claude på almindeligt svensk. Claude arbejder i værktøjet Claude Code, direkte i hjemmesidens kode.",
+    "om.hur.p2": "Hver ændring bliver til et forslag (en såkaldt pull request på GitHub). Vi læser forslaget og godkender det, før det kommer på hjemmesiden. Intet bliver offentliggjort, uden at vi har sagt ja.",
+    "om.hur.p3": "Før vi godkender et forslag, bliver det tjekket automatisk: at koden er korrekt, at linkene mellem siderne virker, og at siderne kan bruges med tastatur og skærmlæser.",
+    "om.teknik.rubrik": "Teknikken",
+    "om.teknik.p1": "Hjemmesiden består af almindelige HTML-sider med CSS og lidt JavaScript, uden frameworks. Den ligger på GitHub Pages og opdateres automatisk, når en ændring er godkendt.",
+    "om.teknik.p2": "Kortet i guiden bruger Leaflet og kortbilleder fra OpenStreetMap. Alle tips ligger samlet i én datafil, så det er nemt at tilføje nye.",
+    "om.teknik.p3": "Siderne er lavet til mobilen og indlæses hurtigt, også på langsomme net. De gemmes i din browser, så hjemmesiden virker selv uden dækning. Hjemmesiden findes på fem sprog, er bygget til at opfylde tilgængelighedskravene i WCAG 2.2 niveau AA og bruger ingen cookies og ingen sporing.",
+    "om.lankar.rubrik": "Læs mere",
+    "om.lank.claude": "Claude Code fra Anthropic",
+    "om.lank.kod": "Hjemmesidens kildekode på GitHub"
   }
 };

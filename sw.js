@@ -7,7 +7,7 @@
 // så att de måste bytas samtidigt (annars kan en gammal sparad version av
 // ett skript visas en gång ihop med en ny sida).
 
-var VERSION = "13";
+var VERSION = "14";
 var CACHE = "ekon-" + VERSION;
 var VANTA_PA_NATET = 3000; // millisekunder innan den sparade sidan visas
 
@@ -21,6 +21,7 @@ var GRUND = [
   "guide.html",
   "info.html",
   "integritet.html",
+  "om-sajten.html",
   "css/style.css",
   "js/texter.js",
   "js/sprak.js",
