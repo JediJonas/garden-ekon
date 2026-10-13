@@ -5,7 +5,7 @@ import { chromium } from "playwright";
 import { AxeBuilder } from "@axe-core/playwright";
 
 const bas = process.env.BAS || "http://localhost:8000";
-const sidor = ["index", "stugan", "hitta-hit", "guide", "info", "integritet"];
+const sidor = ["index", "stugan", "hitta-hit", "guide", "info", "integritet", "om-sajten"];
 const sprak = ["sv", "en", "de", "nl", "da"];
 // Kartmarkörer som ligger tätt omlott har samma funktion i listan under
 // kartan (undantaget för likvärdig funktion i 2.5.8), se TILLGANGLIGHET.md.

@@ -829,6 +829,10 @@ details > :not(summary) { margin: 0 16px 16px; }
 }
 .sidfot p { max-width: 760px; margin: 0 auto; padding: 18px 16px; }
 
+/* Tekniklistan på sidan Om sajten */
+.tekniker { padding-left: 1.2em; }
+.tekniker li { margin: 0.5em 0; }
+
 /* "Hoppa till innehållet": syns bara när man använder tangentbord */
 .hoppa {
   position: absolute;

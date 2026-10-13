@@ -50,6 +50,7 @@ Plats: https://maps.app.goo.gl/dKsF288DYnuQSRUFA
 * `guide.html` – tipsguide med karta och filtrering efter intresse
 * `info.html` – praktisk information och vanliga frågor
 * `integritet.html` – kort integritetsinformation
+* `om-sajten.html` – om hur sajten är byggd (med Claude) och tekniken bakom
 
 ## Platsdata
 

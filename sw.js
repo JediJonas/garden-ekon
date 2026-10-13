@@ -21,6 +21,7 @@ var GRUND = [
   "guide.html",
   "info.html",
   "integritet.html",
+  "om-sajten.html",
   "css/style.css",
   "js/texter.js",
   "js/sprak.js",

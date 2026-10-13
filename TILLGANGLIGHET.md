@@ -54,7 +54,7 @@ Förklaring: ✅ uppfyllt · ➖ ej aktuellt (sajten har inget sådant innehåll
 | 2.4.2 Sidtitlar | A | ✅ | Varje sida har en egen titel på valt språk. |
 | 2.4.3 Fokusordning | A | ✅ | Fokus följer sidans ordning. Fokus stannar på filterknappen man valt, och "Visa på kartan" och "Visa info" flyttar fokus dit gästen skickas. |
 | 2.4.4 Länkars syfte (i sammanhang) | A | ✅ | Länktexter som "Läs mer" står i samma kort som platsens namn. |
-| 2.4.5 Flera sätt | AA | ✅ | Menyn på varje sida leder till alla sidor. Startsidan har genvägar och sidfoten länkar till integritetssidan. |
+| 2.4.5 Flera sätt | AA | ✅ | Menyn på varje sida leder till alla sidor. Startsidan har genvägar och sidfoten länkar till integritetssidan och sidan Om sajten. |
 | 2.4.6 Rubriker och etiketter | AA | ✅ | Rubrikerna beskriver innehållet. |
 | 2.4.7 Synligt fokus | AA | ✅ | Tydlig fokusram (3 px) på allt som går att klicka på. |
 | 2.4.11 Fokus inte dolt | AA | ✅ | Sidan lämnar plats för sidhuvudet och menyraden längst ner, så det markerade aldrig hamnar bakom dem. |
