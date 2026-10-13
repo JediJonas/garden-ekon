@@ -523,6 +523,16 @@ html.bildvisare-oppen { overflow: hidden; overscroll-behavior-x: none; }
   text-transform: uppercase;
 }
 .hjalte .liten-text { color: rgba(255, 255, 255, 0.9); margin: 12px 0 0; }
+/* Knapp till stugsidan under bokningsknappen: vit kant på det mörka fotot. */
+.knapp-hjalte {
+  display: flex;
+  width: 100%;
+  margin-top: 12px;
+  background: rgba(15, 26, 21, 0.35);
+  color: #fff;
+  border: 2px solid #fff;
+}
+.knapp-hjalte:hover { background: rgba(15, 26, 21, 0.6); }
 
 /* Hälsningen från värdarna: vitt kort med rund bild. I mobilen hänger
    bilden över kortets överkant, på datorn står den bredvid texten. */
@@ -700,9 +710,11 @@ details > :not(summary) { margin: 0 16px 16px; }
   color: var(--yta);
 }
 
+/* I mobilen är kartan lägre, så att början av listan syns under den. */
 #karta {
-  height: 55vh;
-  min-height: 280px;
+  height: 34vh;
+  height: 34svh;
+  min-height: 240px;
   max-height: 480px;
   border-radius: var(--radie);
   border: 1px solid var(--kant);
@@ -923,4 +935,6 @@ details > :not(summary) { margin: 0 16px 16px; }
   .bildgalleri { grid-template-columns: repeat(3, 1fr); }
   .bildgalleri a:first-child { grid-column: span 2; grid-row: span 2; }
   .knapp-boka { display: inline-flex; width: auto; padding: 16px 40px; }
+  #karta { height: 55vh; min-height: 280px; }
+  .knapp-hjalte { display: inline-flex; width: auto; min-height: 56px; margin: 0 0 0 12px; padding: 14px 32px; vertical-align: top; }
 }
